@@ -1,0 +1,527 @@
+/**
+ * Appcelerator Titanium
+ * this is a generated file - DO NOT EDIT
+ */
+
+"back" = "Back";
+"tap_to_load_more" = "Tap to load more...";
+"no_more_to_load" = "No more to load...";
+"scroll_error" = "scroll error";
+"pull_to_refresh" = "Pull to refresh";
+"release_to_refresh" = "Release to refresh";
+"updating" = "Updating ...";
+"login" = "Login";
+"name" = "Name";
+"firstname" = "First name";
+"lastname" = "Last name";
+"email" = "Email";
+"currency" = "Currency";
+"company_number" = "Co. number";
+"phone" = "Phone";
+"done" = "Done";
+"password" = "Password";
+"confirm" = "Confirm";
+"not_right_pass" = "That's not the right password.";
+"try_again_or_rquest" = "Please try again or request a new one.";
+"signup" = "Sign up";
+"new_password" = "New Password";
+"reset_password" = "Reset password";
+"blocked" = "Your account has been blocked,
+for more information ";
+"contact_administrator" = "contact administrator";
+"try_again" = "Try again";
+"signin" = "Login";
+"I_agree_with" = "I agree with";
+"terms_of_use" = "terms of use";
+"create_account" = "Sign up";
+"facebook_signin" = "Facebook";
+"message" = "Message";
+"company_name" = "Company name";
+"use_current_location" = "Use my current location";
+"tap_to_delete_image" = "Tap on image to delete it";
+"send" = "Send";
+"what_add" = "Add new deal/advert";
+"add_new_advert" = "Add new advert";
+"add_advert" = "New advert";
+"add_deal" = "New deal";
+"new_deal" = "Adding new deal";
+"please_login_title" = "Please Login";
+"please_login" = "Only logged users can add deals";
+"please_login_price" = "Only logged users can send price offers";
+"please_login_barter" = "Only logged users can send barter offers";
+"please_login_notifications" = "Only logged users can use notifications";
+"option_upgrade" = "You need to upgrade your membership for reports";
+"offers_upgrade" = "You need to upgrade your membership to Gold - Private for counter-offers and barters.";
+"complaint_sended" = "Thank you. Your complaint will be forward to supplier";
+"tab_home" = "Home";
+"tab_add" = "Add";
+"tab_account" = "Account";
+"tab_how_to_use" = "How To Use";
+"tab_appreciation" = "Appreciation";
+"tab_about_us" = "About Us";
+"tab_contact_us" = "Contact Us";
+"tab_share" = "Share App";
+"tab_investors" = "Investors";
+"tab_signin" = "Sign up/Log in";
+"version" = "Version";
+"win_home" = "Home";
+"win_account" = "Account";
+"win_add_advert" = "New Advert";
+"win_add_deal" = "New Deal";
+"win_new_product" = "Add New Product";
+"win_appreciation" = "Appreciation";
+"win_find" = "What are you looking for?";
+"win_how_to_use" = "How to use";
+"win_about_us" = "About Us";
+"win_contact_us" = "Contact Us";
+"win_add_complaint" = "New complaint";
+"wib_share" = "Share App";
+"notifications" = "Notifications";
+"answer" = "Messages";
+"tryAgain" = "Try again";
+"choose_category" = "Choose category";
+"deals_in_a_location" = "Deals in a location";
+"all_companies_in_location" = "All companies in location";
+"all_companies" = "All companies";
+"voucher_successfull_get" = "Your vocher number is";
+"send_to" = "Send to";
+"voucher_code" = "Voucher code";
+"my_voucher_code" = "My voucher code";
+"contact_us" = "Contact Us";
+"about_us" = "About Us";
+"investors_text" = "We are looking for investors in order to grow and evolve. If you are interested, please contact us through \"contact us\".";
+"text_appreciation" = "If we helped you to promote yourself and to do business, we will be appreciate your appreciation! 
+Thank you!
+AtadClub team";
+"categories" = "Categories";
+"select_category" = "Select";
+"title" = "Title";
+"image" = "Image";
+"images" = "Images";
+"allDealsFromSupplier" = "All deals from supplier";
+"similardeals" = "Similar deals";
+"getVauchers" = "Get Vauchers";
+"deals" = "Deals";
+"_new" = "New";
+"declined" = "Declined";
+"accepted" = "Accepted";
+"decline" = "Decline";
+"accept" = "Accept";
+"state" = "State";
+"category" = "Category";
+"supplier" = "Supplier";
+"rateDeal" = "Rate Deal";
+"dealtype" = "Deal type";
+"rating" = "Rating";
+"companies" = "Companies";
+"advert" = "Advert";
+"offer" = "Offer";
+"from" = "From";
+"to" = "To";
+"shouldSignin" = "You should sign in first to use account.";
+"orSignup" = "If you have account, please sign in.";
+"orSignin" = "If you have account, plese sign in.";
+"newSignUp" = "Create your account.";
+"no_email" = "Email address is required.";
+"invalid_email" = "Invalid email format.";
+"no_password" = "Password is required.";
+"not_signed" = "Email or password are wrong.";
+"not_updated" = "Can't update. Please correct errors.";
+"no_message" = "Please enter you message.";
+"no_first_name" = "First name is required.";
+"no_last_name" = "Last name is required.";
+"no_confirm" = "Password confirm is required.";
+"passwords_not_match" = "Passwords do not match.";
+"can_not_create_account" = "Can't create account. Email is in use.";
+"password_is_too_simple" = "The password need to be 6 or more signs with numbers and letters.";
+"no_description" = "Description is required.";
+"no_renew_days" = "Renew days is required.";
+"no_deal_types" = "Deal type is required.";
+"no_start_date" = "Start date is required.";
+"date_to_require" = "End date is required.";
+"date_from_require" = "Start date is required.";
+"date_equals" = "Start date cannot be greater than end date.";
+"user_not_exist" = "User not found.";
+"user_not_active" = "User has been blocked.";
+"reset_sended" = "Please check your email! We've sent you an email that will allow you to reset your password quickly and easily.";
+"no_currency" = "Currency is required.";
+"no_about" = "About is required.";
+"no_working_hours" = "Working hours is required.";
+"no_terms" = "Terms is required.";
+"invalid_number" = "Company number need to be 5 or more signs.";
+"hours_start" = "Starting Hour";
+"hours_finish" = "Ending Hour";
+"no_title" = "Title is required.";
+"no_price" = "Price is required.";
+"no_address" = "Address is required.";
+"invalid_price" = "Please enter a valid price.";
+"no_phone" = "Phone number is required.";
+"invalid_phone" = "Please enter a valid phone number.";
+"no_company_name" = "Company name is required.";
+"no_name" = "Name is required.";
+"no_number" = "Company number is required.";
+"edit_profile" = "Edit my profile";
+"add_company" = "Add my company info";
+"edit_company" = "Edit my company info";
+"products" = "Products";
+"contact_supplier" = "Chat with supplier";
+"my_adverts" = "My adverts";
+"my_answers" = "Messages";
+"buy_banner" = "Buy banner";
+"buy_advertisement" = "Buy advertisement";
+"reports" = "Reports";
+"my_deals" = "My deals";
+"my_products" = "My products";
+"my_offers" = "My offers";
+"stats" = "Statistics";
+"complains" = "Complaints";
+"complain" = "Complaint";
+"complaint" = "Complaint";
+"complaints" = "Complaints";
+"logout" = "Logout";
+"price" = "Price";
+"deal_price" = "Deal price";
+"description" = "Description";
+"about_the_deal" = "About";
+"contactInfo" = "Contact info";
+"vouchers" = "Vouchers";
+"picture" = "Picture";
+"yes" = "Yes";
+"no" = "No";
+"add" = "Add";
+"update" = "Update";
+"map" = "Map";
+"list" = "List";
+"adverts" = "Adverts";
+"start_date" = "Start date";
+"finish_date" = "Finish date";
+"vacancy" = "Vacancy ";
+"start_time" = "Start time";
+"end_time" = "End time";
+"work_time" = "Work time";
+"active" = "Active";
+"not_active" = "Inactive";
+"notyfication_settings_updated" = "Your notifications settings was successfully updated";
+"network_off_line" = "Your device is now offline. Turn on network to continue.";
+"offer_sent" = "You offer was successfully sent.";
+"cancel" = "Cancel";
+"no_connection" = "No internet connection, please try again later.";
+"error_send_message" = "Server unavailable, trying to reconnect and send last message again.";
+"chat_server_unavailable" = "Your internet signal is weak, you may experience chat problems with suppliers";
+"internet_weak" = "Your internet signal is weak.";
+"new_message" = "You have new message";
+"chat" = "Chat";
+"barter_offer" = "Barter offer";
+"barter_image" = "Barter image";
+"_15_min" = "15 min";
+"_30_min" = "30 min";
+"_45_min" = "45 min";
+"_1_hour" = "1 hour";
+"_2_hour" = "2 hours";
+"_3_hour" = "3 hours";
+"_4_hour" = "4 hours";
+"_5_hour" = "5 hours";
+"new_deals" = "New deals";
+"all_deals" = "All deals";
+"please_select_category" = "Please select category";
+"add_image_from_gallery" = "Gallery";
+"add_image_from_camera" = "Camera";
+"delete_image" = "Delete";
+"sort_by" = "Sort by";
+"distance" = "Distance";
+"my_price_offer" = "My price offer";
+"my_barter_offer" = "My barter offer";
+"send_my_price_offer" = "Send my price offer";
+"send_my_barter_offer" = "Send my barter offer";
+"advert_title" = "Title";
+"advert_price" = "Price";
+"advert_description" = "Description";
+"add_advert_button" = "Add advert";
+"update_advert_button" = "Update";
+"delete_advert_button" = "Delete";
+"delete_advert_title" = "Advert will be deleted permanently!";
+"delete_advert_message" = "Are you sure to delete it?";
+"add_product_button" = "Add product";
+"update_product_button" = "Update product";
+"delete_product_button" = "Delete product";
+"delete_product_title" = "Product will be deleted permanently!";
+"delete_product_message" = "Are you sure to delete it?";
+"add_advert_description_label" = "Descriptoin";
+"deal_renew" = "Auto renew";
+"deal_is_active_during" = "Deal is active during 
+part of the day";
+"use_vouchers" = "Limit with vouchers (optional)";
+"show_help_durning" = "When you want to do a deal only in certain hours, you can enable this button by moving it to \"on\" position and then you can choose the hours the promotion will be active";
+"show_help_renew" = "In general, the deal can be active for 24 hours. If you want a deal/promotion to run more than 24 hours, you can automatically renew the deal validity up to 30 days";
+"show_help_vouchers" = "By enabling this option, you will be able to control how many people will be able to get your deal. You can choose how many vouchers as you want and people will come and show you the voucher before getting your deal. You can see your vouchers in \"my account\"";
+"add_deal_button" = "Add deal";
+"update_deal_button" = "Update deal";
+"delete_deal_button" = "Delete deal";
+"delete_deal_title" = "Deal will be deleted permanently!";
+"delete_deal_message" = "Are you sure to delete it?";
+"up_click_for_company" = "If you are registered business, please click here";
+"about_company" = "About";
+"working_hours" = "Working 
+hours";
+"terms_company" = "Terms";
+"company_logo" = "Logo";
+"company_updated_label" = "You company info was successfully updated!";
+"period" = "Period";
+"type" = "Type";
+"for_" = "For";
+"hours" = "Hours";
+"signup_or_signin_title" = "You need to sign in";
+"signup_or_signin_message" = "To perform this action you should be signed up";
+"should_be_company_title" = "You should be signed as company";
+"should_be_company_message" = "This service available for business use only";
+"address" = "Address";
+"xhr_error" = "Network error";
+"json_error" = "Network error";
+"err_geo_device_turned_off" = "Your GPS device has turned off.";
+"err_geo_running_services_disallowed" = "Geo service disallowed. Please try allow on device settings.";
+"err_geo_system_services_disallowed" = "Geo servise disallowed. Please try allow on device settings.";
+"err_geo_location_unknown" = "Could not check you position.";
+"err_geo_access_denied" = "Could not check you position.";
+"err_geo_network_error" = "Network error";
+"err_geo_failure_detect_heading" = "failure detect headling&nbsp;";
+"err_geo_region_monitoring_access_denied" = "Could not check you position.";
+"err_geo_region_monitoring_access_failure" = "Could not check you position.";
+"err_geo_region_monitoring_setup_delayed" = "Could not check you position.";
+"INVALID_REQUEST" = "Can't check you address.";
+"MAX_ELEMENTS_EXCEEDED" = "Can't check you address.";
+"OVER_QUERY_LIMIT" = "No GPS connection.";
+"REQUEST_DENIED" = "Can't check your address.";
+"UNKNOWN_ERROR" = "Can't check you address.";
+"avdvert_added_label" = "You advert was successfully added!";
+"avdvert_added_title" = "Advert added";
+"avdvert_updated_label" = "Your advert was successfully updated!";
+"avdvert_updated_title" = "Advert updated";
+"deal_added_label" = "Your deal was successfully added!";
+"deal_added_title" = "Deal added";
+"deal_updated_label" = "Your deal was successfully updated!";
+"deal_updated_title" = "Deal updated";
+"add_another_advert" = "Do you want to add another advert";
+"view_my_adverts" = "View my adverts";
+"category_label" = "Category";
+"distance_label" = "Distance";
+"find_button" = "Search";
+"search_result" = "Search result";
+"back_to_search_result" = "Back to search result";
+"about_you_advert_subject" = "About your advert ...";
+"about_you_advert_message" = "Hello, %@!";
+"about_you_offer_subject" = "About your offer ...";
+"about_you_offer_message" = "Hello, %@!";
+"server_not_authorized" = "You're not authorized";
+"server_invalid_data" = "Please correct errors and try again.";
+"server_email_used" = "Email already taken. Please try another.";
+"server_login_password_not_found" = "Email password pair no found.";
+"_button" = "";
+"success_contact_us" = "You message was successfully sent and will be answered soon.";
+"no_adverts_found" = "No adverts found";
+"no_adverts_in_subcategories" = "Adverts not found in selected categories. Do you want to view other categories?";
+"no_adverts_in_you_location" = "Adverts not found on you location. Do you want to view other nearest adverts?";
+"advert_added" = "You advert was successfully added. You can review it on Account tab, My adverts window";
+"advert_updated" = "Your advert was successfully updated.";
+"ok" = "Ok";
+"select_all" = "All";
+"black_list" = "Black List";
+"block_supplier" = "Would you like to block this supplier?";
+"my_black_list" = "My black list";
+"strip" = "Strip";
+"pop_up" = "Pop up";
+"notify_type" = "Type of notification";
+"product_added_label" = "Your product was successfully added";
+"product_updated_label" = "Your product was successfully updated";
+"sms" = "SMS";
+"email_share" = "Email";
+"facebook" = "Facebook";
+"twitter" = "Twitter";
+"google" = "Google";
+"share_text" = "Hello all. 
+Check this new neighborhood consumer club. 
+Very recommended!
+	";
+"subject" = "Subject";
+"bug_report" = "Bug report";
+"investment" = "Investment";
+"features_suggestion" = "Features suggestion";
+"improvement_suggestion" = "Improvement suggestion";
+"affiliate_request" = "Affiliate request";
+"blocked_account" = "Blocked account";
+"other" = "Other";
+"upgrade" = "Upgrade";
+"silver" = "Silver";
+"gold" = "Gold";
+"silver_deals" = "Silver deals";
+"gold_deals" = "Gold deals";
+"gold_adverts" = "Gold adverts";
+"silver_business" = "Silver membership - Business";
+"gold_business" = "Gold membership - Business";
+"gold_private" = "Gold membership - private";
+"upgrade_account" = "Upgrade account";
+"to_DATE" = "to";
+"buing_silver_month" = "Congratulation! You bought silver membership for business for a month";
+"buing_silver_year" = "Congratulation! You bought silver membership for business for a year";
+"buing_gold_private_month" = "Congratulation! You bought gold membership for private for a month";
+"buing_gold_private_year" = "Congratulation! You bought gold membership for private for a year";
+"buing_gold_business_month" = "Congratulation! You bought gold membership for business for a month";
+"buing_gold_business_year" = "Congratulation! You bought gold membership for business for a year";
+"description_silver" = "Allow you to do up to 3 deals at the same time, up to 10 products in your profile, search preference, up to 8 auto renew your deals and all categories";
+"description_goldBusiness" = "Unlimited deals at the same time, unlimited products in your profile, first search preference, up to 30 days auto renew your deals, use all categories and get efficiency reports on your deals";
+"description_goldPrivate" = "Unlimited adverts running at the same time, can send counter offer and barters with no limits, first search preference for your adverts and you can use all categories";
+"country" = "Country";
+"city" = "City";
+"street" = "Street";
+"house" = "House";
+"country_require" = "Country is required";
+"city_require" = "City is required";
+"image_require" = "Image is required";
+"request_send" = "Thank you! We will contact you soon.";
+"buy_banner_text" = "Here you can purchase the banner that is uploading when every user open the app. The banner is location base and everybody within 2KM from your business will be expose to the banner.
+If there will be more than 1 banner in a location, the banners will appear randomly.
+send us your banner and location and we will send you a quotation.";
+"address_not_found" = "Address not found";
+"location_service_disable" = "Location service disable";
+"complaint_requited" = "Complaint is required";
+"chat_open_error" = "Something is wrong! Try later";
+"spam" = "It is spam";
+"not_relevant" = "The deal is not relevant";
+"misleading" = "Misleading information";
+"not_real" = "It is not a real business";
+"registration_success" = "Thank you for registering!";
+"thanks" = "Thank's";
+"limit" = "Your membership is limited to ";
+"limit_deals" = "deals";
+"limit_adverts" = "adverts";
+"limit_products" = "products";
+"upgrade_membership" = "Upgrade membership";
+"save_item" = "Save images...";
+"maxRenew_part1" = "This renew interval available for ";
+"maxRenew_separator" = " and ";
+"maxRenew_part2" = " business membership only.";
+"choose_deals" = "Please choose deals";
+"send_to_email" = "Send to e-mail";
+"best_deals" = "Best Deals";
+"report_sended" = "Report was sent to your E-mail";
+"only_register_company" = "Only register companies are allowed to use this function! Are you registered company?";
+"settings" = "Settings";
+"profile_save" = "Your profile was successfully updated";
+"cant_write_themselves" = "You shouldn't write messages to themselves";
+"isTap" = "Tap to load more...";
+"isDone" = "No more to load...";
+"isError" = "Tap to try again...";
+"can_add_product" = "You can now add your products here.";
+"error_loading_image" = "Error loading image";
+"default_search" = "My default search";
+"block" = "Block";
+"photo" = "Add photo";
+"edit" = "Edit";
+"enter_address" = "Enter address";
+"thank_you" = "Thank you!";
+"deal_rating" = "Deal rating";
+"what_looking" = "What are you looking for?";
+"distance_wheel" = "Distance";
+"advert_phone" = "Phone";
+"seller" = "Seller";
+"support" = "Support us";
+"terms" = "Terms of use";
+"terms_not_argee" = "In order to use our services, you must agree to terms of use.";
+"terms_text" = "מבוא
+ג. אטד אחזקות בע\"מ (\"החברה\") היא הבעלים והמפעילה של אפליקציית Atad club. 
+השימוש באפליקציה כפופה להסכמתך המקדמית לתנאי השימוש כפי שיפורטו להלן בתקנון זה (\"תקנון השימוש\"). על כן נבקשך לקרוא בעיון את תקנון השימוש טרם שימושך באפליקציה 
+
+בשימושך באפליקציה את/ה מסכים/ה להיות קשור ולפעול על פי התנאים המפורטים בתקנון השימוש ומאשר בזאת כי קראת והינך מסכים/ה לתנאים אלו. אם אינך מסכים/ה באופן מלא לכל התנאים המפורטים בתקנון השימוש, אנא הפסק/י מיד כל שימוש נוסף באפליקציה.
+ויתור והגבלת אחריות
+המידע, התכנים והשירותים (ביחד \"השירותים\") המוצעים לך באפליקציה מוצעים AS IS והחברה, מנהליה, בעלי מניותיה, בעלי שליטה בה, חברות הקשורות אליה ומי מטעמם של כל אלו (להלן יחד עם החברה: \"הקבוצה\") לא יישאו בכל אחריות להתאמתם לצרכיך ו/או למטרותיך. 
+
+כל האמור, המתפרסם מעת לעת באפליקציה הינו בבחינת המלצה בלבד ואין בהם כדי לחייב את הקבוצה ו/או להטיל עליה אחריות מכל מין וסוג שהוא ביחס לפעולות המשתמשים בהסתמך על אותו פרסום ועל בסיסו. 
+הקבוצה אינה אחראית בכל צורה שהיא לשימוש ו/או התוכן המפורסם באתרים אליהם מפנה האפליקציה ו/או פרסומות באפליקציה. כל שימוש באתרים אלו יעשה על אחריותך הבלעדית. 
+
+הקבוצה לא תהא אחראית, בכל מקרה ועל פי תיאוריה משפטית כלשהי (לרבות נזיקית, חוזית, עשיית עושר וכדומה), כלפיך ו/או כלפי כל אדם אחר, במישרין ובעקיפין, לכל נזק ישיר או עקיף, הנובעים משימוש באפליקציה ו/או בשירותים ו/או בשל חוסר יכולת לעשות שימוש באפליקציה ו/או בשירותים ו/או מאי תקינותה של האפליקציה ו/או בשל אובדן מידע ו/או נזק למכשיר הנייד שלך ו/או למידע המאוחסן במכשיר הנייד שלך ו/או נזק הנובע ממחיקה מלאה או חלקית של המידע המאוחסן ולכל נזק אחר שהוא בין אם הנזק צפוי ובין אם שאינו צפוי, והינך מצהיר/ה בזאת כי את/ה אחראי/ת באופן בלעדי לכל שימוש אשר את/ה עושה באפליקציה ו/או בשירותים בין אם בתשלום ובין אם ללא תשלום.
+נהלי הרשמה ומסירת מידע אישי
+במסגרת השימוש באפליקציה הדורשת מסירת מידע אישי (כדוגמת הלוחות השונים) תתבקש/י לספק מספר נתונים אישיים כדוגמת: שם מלא, מספר טלפון, כתובת דואר אלקטרוני, ועוד. נתונים אלה יועברו ויישמרו במאגר המידע של החברה, ולא ניתן יהיה למוחקם. יודגש כי מסירת הנתונים הנ\"ל על ידך אינה מחויבת על פי חוק, אולם, ללא מסירת הנתונים המוגדרים באפליקציה כ\"חובה\", לא תוכל להשתמש בשירותים המוצעים באפליקציה, כדוגמת פרסום בלוח המכירות של האפליקציה, יצירת מבצעים וכדומה.
+מדיניות ניהול מודעות באפליקציה
+החברה רשאית לבטל/לשנות/לערוך כל מודעה באפליקציה, לפי שיקול דעתה. 
+החברה שומרת לעצמה את הזכות לא לאשר נוסח של מודעה שאינו ראוי ו/או אינו עומד בסטנדרטים של האפליקציה. 
+בהתאם לתקנון השימוש כל אדם רשאי להכניס מודעה אחת בלבד באותו עניין, לערוך ולשנות אותה בכל עת. 
+לא יכניס המשתמש למודעה לינק/קישור לאתר אינטרנט אחר או כתובת אינטרנט בין בכתב ובין בתוך תמונה. פרסום של מספר טלפון יעשה אך ורק בתוך שדות יצירת הקשר ולא בטקסט חופשי.
+אופן השימוש של החברה במידע
+שימושך באפליקציה, כמו גם שימושם של משתמשים אחרים, עשוי להביא לאיסוף מידע ונתונים אודות סוג הפעילות אותה ביצעת באפליקציה כדוגמת פרסום בלוחות המכירות המופיעים באפליקציה, דירוגך של מבצעים מסוימים וכדומה. 
+
+מידע זה, כמו גם המידע האישי לגביך (\"המידע\") - ככל שתמסור כזה - יישמר במאגר הנתונים של החברה. החברה מתחייבת בזאת לעשות שימוש במידע הנ\"ל בכפוף להוראות כל דין. 
+השימוש במידע שייאסף על ידי החברה , ככל שייאסף, ייוחד בין היתר להתאמה אישית של פרסומות, קבלת/שליחת דואר אלקטרוני / SMS, להביא לידיעתך על מבצעים חדשים שעשויים לעניין אותך וכדומה.
+העברת מידע למפרסמים וצדדים שלישיים אחרים
+במסגרת פעילות החברה והאפליקציה ייתכן והחברה תעביר מעת לעת מידע ממאגר נתוניה לרבות מודעות המתפרסמות באפליקציה ופרטי מפרסמי מודעות באפליקציה (כולל מידע מזהה כדוגמת שם וטלפון) למפרסמים שונים ו/או לצדדים שלישיים אחרים. מובהר בזאת, כי אישור משתמש / מפרסם מודעה באפליקציה את תנאי תקנון השימוש מהווה הסכמתו אף להעברת מידע זה כאמור למפרסמים ו/או לצדדים שלישיים אחרים, ולא תהיה למשתמש / מפרסם טענה ו/או דרישה כלפי הקבוצה כהגדרתה לעיל(לרבות החברה) עקב כך.
+אבטחת מידע
+החברה מאבטחת את המידע המצוי באפליקציה וברשת מחשביה ככל שהיא נוגעת להפעלת האפליקציה, במערכות מתקדמות. על אף המאמצים והמשאבים המושקעים בכך, החברה אינה יכולה להתחייב בפני המשתמשים לכך שלא תתאפשר חדירה לא חוקית למאגרי המידע הכלולים באפליקציה וברשת המחשבים.
+זכויות יוצרים וקניין רוחני
+החברה הינה בעלת זכויות היוצרים והקניין הרוחני באפליקציה, באופן בלעדי. במסגרת זכויות היוצרים והקניין הרוחני נכללים, בין היתר, עיצובו הגראפי של האפליקציה, מבנה האפליקציה, מרכיביה הצורניים והמהותיים של האפליקציה, הטקסטים המופיעים בה, הפרסומים, מודעות המפורסמות באפליקציה וכן קבצים ויישומים מכל מין וסוג שהוא. 
+
+חל איסור מוחלט על העתקה, הפצה, הצגה, פרסום או העברה של הנ\"ל או חלק מהם, לרבות כל מודעה המפורסמת באפליקציה (בין בלוח המכירות של האפליקציה ובין בכל מקום אחר באפליקציה), אלא אם ניתנה לכך הסכמת החברה מראש ובכתב. 
+
+השימוש באפליקציה ופרסום מודעות
+למרות שהחברה עושה את מירב המאמצים להתאים את האפליקציה לכל משתמש באופן האופטימאלי ביותר הרי שהאפליקציה הינה אפליקציה המיועדת לציבור בכללותו וכל המידע המובא בה - לרבות לוחות המודעות - עומד לרשות ציבור המשתמשים כמות שהוא. מעת לעת, מטעמי עיצוב ונוחות – הפנייה באפליקציה הינה בלשון נקבה או זכר אולם מתייחסת תמיד גם למין השני. 
+
+השימוש באפליקציה - על כל מגוון שירותיה - הינו על אחריותך בלבד. 
+
+השימוש באפליקציה מוגבל לפרסום מודעה בנוגע לנכס/מוצר/שירות/מבצע שמפרסם/ת המודעה מבקש/ת למכור, לעיון קהל המתעניינים באותן מודעות, ולפניה למפרסם המודעות בשל עניין של הפונה בנכס/מוצר/שירות/מבצע שפרסם/ה. אין להשתמש באפליקציה למטרה אחרת מהמטרות הנ\"ל, וכל שימוש באפליקציה למטרה זרה כאמור אסור בהחלט. 
+
+מובהר כי כלל השירותים השונים באפליקציה מוצעים למשתמשי האפליקציה בהתאם לתנאים הקבועים על ידי החברה והגישה והשימוש בהם מותנים בעמידה בתנאי הסף אשר ייקבעו על ידי החברה. החברה שומרת את הזכות שלא לאשר את השימוש בשירותים המוצעים על ידה עקב אי עמידה בתנאים אלו, וזאת על פי שיקול דעתה המוחלט. 
+
+הינך מצהיר/ה ומתחייב/ת שלא לאסוף נתונים מהאפליקציה בכל צורה שהיא. כל שימוש אחר, לרבות פניה למפרסם המודעה שלא על מנת להתעניין ברכישת/שכירת הנכס/המוצר/השירות שפורסם, יהווה משום שימוש בניגוד לתנאי תקנון השימוש, על כל המשתמע מכך, והחברה שומרת לעצמה הזכות לתבוע בגינו פיצוי מתאים. 
+
+מבלי לגרוע מהאמור לעיל הנך מצהיר ומתחייב:
+•	שלא להעתיק ו/או לשכפל ו/או לעדכן ו/או לשנות ו/או להפיץ ו/או לפרסם ברבים כל תוכן המצוי באפליקציה.
+•	שלא לבצע כל פעולה אשר תייצר ו/או אשר עלולה לייצר עומס על מערכות ושרתי האפליקציה.
+•	שלא לבצע כל פעולה המתערבת ו/או המפריעה (ו/או אשר מנסה להתערב ו/או להפריע) בדרך הפעולה הרגילה של האפליקציה והשירותים.
+•	שלא לעקוף או לנסות לעקוף כל אמצעי טכנולוגי הקיים באפליקציה ו/או במערכות הקשורות אליה אשר תפקידו למנוע אלו מן הפעילויות האסורות תחת תקנון השימוש.
+מובהר בזאת, כי האפליקציה מהווה פלטפורמת פרסום למשתמשים והחברה אינה אחראית על תוכן המודעות המתפרסמות במסגרתו. יחד עם זאת נהלי החברה אוסרים פרסום של מודעות שנושאיהן אינם חוקיים ו/או פוגעניים. למען הסר ספק יובהר בזאת כי אין לפרסם באפליקציה מודעות למכירת/שיווק/השכרת/אספקת/פרסום/הפצת מוצרים ושירותים המנוגדים לחוק. החברה לא תישא בכל אחריות נזיקית או פלילית כתוצאה מפרסום מודעה כאמור או היענות לה. החברה אף שומרת על זכותה לפנות במקרה הצורך לרשויות אכיפת החוק על מנת למנוע המשך פרסום של מוצרים/שירותים כאמור בתקנון השימוש תוך חשיפת פרטי המפרסם. 
+
+מבלי לפגוע מכלליות האמור לעיל הינך מתחייב שלא לפרסם ו/או להזין לאפליקציה אחד או יותר מן התכנים הבאים:
+•	כל חומר הפוגע או מפר זכויות קנייניות של אחרים או מסלף זכויות ו/או תכנים של צדדים שלישיים
+•	כל חומר פורנוגראפי או בעל אופי מיני בוטה, המפר הוראות כל דין או עלול לפגוע ברגשות הציבור.
+•	כל חומר הנוגע לקטינים שלא התקבלה הסכמה של האפוטרופוסים החוקיים ומזהה אותם כקטינים או כולל את פרטיהם האישיים או מענם ודרכי ההתקשרות עימם.
+•	כל מידע בטחוני רגיש, או מידע אחר אשר מטבעו רגיש.
+•	כל חומר בלתי-חוקי, או חומר המעודד, תומך, מסייע, מספק הוראות לביצוע או מנחה בביצוע מעשה המהווה עבירה פלילית לפי דיני מדינת ישראל. כל חומר המהווה לשון הרע (הוצאת דיבה) על אדם.
+•	כל חומר החושף את פרטיו האישיים או האינטימיים של אדם (לרבות שמו), מבלי שהוא עצמו מסר אותו ו/או חומר הפוגע בפרטיותו ו/או בצנעת אישיותו של אדם.
+היה ותפר/י אחד או יותר מן התנאים שלעיל, את/ה תשפה את החברה בגין כל נזק שיגרם לה כתוצאה מהפרות אלו. 
+
+החברה שומרת לעצמה את הזכות לחסום/לבטל/להסיר כל מודעה שאינה עומדת בהוראות תקנון השימוש ו/או הוראות הדין ו/או נהלי החברה ו/או אשר יש בה כדי לפגוע בכל אדם או ישות משפטית אחרת ו/או אשר נסיבות פרסומה קשורות, במישרין או בעקיפין, למעשה של תרמית או לכל מעשה אסור אחר. 
+
+אין באמור לעיל או להלן כדי לחייב את החברה לפעול בצורה הנזכרת לעיל ובכל מקרה ונסיבות לא תהא אחראית הקבוצה לכל נזק אשר ייגרם לצד כלשהו בגין פעולה או היעדר פעולה מצד החברה בהקשר זה.
+הפעלתה השוטפת של האפליקציה
+החברה אינה מתחייבת להפעיל את האפליקציה במתכונתה הקיימת לפרק זמן מסוים או קבוע. החברה שומרת לעצמה את הזכות לערוך כראות עיניה שינויים מבניים ומהותיים באפליקציה, לבטל, להוסיף, לשנות ולעדכן את כל הפונקציות הקיימות בה, בכל עת. הפרעה בפעילותו השוטפת והתקינה של האפליקציה, אגב ביצוע תיקונים, שינויים ושיפורים לא תהווה עילה לכל תביעה, טענה או דרישה מצדך. החברה מצדה עושה ותמשיך לעשות את מירב המאמצים על מנת שתוכל לגלוש ולהשתמש באפליקציה באופן שוטף וקבוע אולם היא אינה מתחייבת כי לא יארעו שיבושים, תקלות או הפרעות הכרוכות וקשורות בהפעלת האפליקציה והנלווים להפעלה זו.
+מתווכים/ לקוחות עסקיים/ בעלי מקצוע
+מדיניות ניהול אמצעי פרסום, וזאת מבלי לפגוע בשאר הוראות תקנון השימוש, ככל שאלה חלות, בשינויים המתחייבים, הינה כדלקמן: 
+1.	בפרק זה, למונח \"המזמין\" תהא הפרשנות הבאה: \"כל מי שמזמין מאת החברה אמצעי פרסום ו/או רוכש חברות מועדון מסוג כסף או זהב\".
+2.	במידה וכרטיס האשראי יידחה ולא ייפרע תשלום במועדו, הדבר יגרור חיוב בריבית פיגורים ששיעורה יהא זהה לשיעור ריבית הפיגורים החריגה המפורסמת ע\"י בנק לאומי לישראל, וזאת מבלי לגרוע מכל סעד וזכות אחרים הנתונים לחברה לפי כל דין.
+3.	המזמין מאשר ומצהיר כי תוכן פרסום המודעות ו/או הפרסומות שיפורסם על ידו אינו מפר ולא יפר הוראות כל דין ו/או זכויות (לרבות זכויות קניין רוחני) צד שלישי כלשהו.
+4.	המזמין מאשר כי ידוע לו שהחברה תהא רשאית, בכל עת, שלא לאשר פרסום תוכן מודעות ו/או פרסומים שאינם כדין ו/או להתנות אישור לפרסומם בתנאים ו/או לחזור בה בכל עת מאישור שניתן לפרסומם, וזאת מכל סיבה שהיא לרבות עקב חשש לפגיעה בזכויות צדדים שלישיים ו/או חוקיות הפרסום, והוא מאשר ומצהיר כי החברה לא תישא בכל אחריות לכל נזק ו/או הפסד ו/א והוצאה שייגרמו למזמין במישרין או בעקיפין כתוצאה מכך.
+5.	ידוע ומוסכם על המזמין כי החברה תהא רשאית להסיר זמנית את תוכן פרסום המודעות עקב תקלה באפליקציה ו/או במידה ואלה לא יפעלו באופן תקין במצב כאמור. כמו כן, החברה תהא רשאית להסיר לאלתר את תוכן פרסום המודעות במידה ותמצא כי התוכן הנ\"ל לא מפורסם ו/או מוצג כדין ו/או בניגוד לאמור בתקנון האפליקציה (ו/או במסגרת מסמך זה) ו/או מפר זכויות של צד שלישי כלשהו ו/או לפי טענת צד שלישי כלשהו כי התוכן הנ\"ל מפר את זכויותיו. למזמין לא תהיה כל טענה כנגד החברה בגין האמור.
+6.	כמו כן, ידוע ומוסכם על המזמין כי החברה תהא רשאית להסיר מודעות ואף לחסום את המזמין מלפרסם מודעות נוספות במקרים בהם יגיעו תלונות ממשתמשים על תוכן לא ראוי, תוכן לא אמיתי, הטעייה מכווונת ו/או כל סיבה אחרת אשר המשתמשים רואים כפוגענית. 
+7.	המזמין מתחייב לשפות את החברה בגין כל נזק, הפסד, חבות, הוצאות והפסד הכנסה שייגרמו לה עקב תביעה ו/או דרישה שתופנה אליה מצדו של צד שלישי כלשהוא, ושעילתה קשורה במישרין או בעקיפין בפרסום תוכן המודעות שפורסמו ע\"י המזמין, לרבות בגין פגיעה בזכות קניינית, שמו הטוב, פרטיותו של כל צד ג' ו/או הפרת כל דין. מבלי לגרוע מהאמור, החברה תיידע את המזמין לגבי כל תביעה כאמור, ותאפשר לו להשתתף בניהול ההגנה.
+8.	ממועד אישורה של הצעה זו ע\"י המזמין יחול ההסכם בין הצדדים בהתאם לתוכנו של מסמך זה ובכפוף לתנאי תקנון האפליקציה, וכל שינוי או תוספת שלא אושרו בכתב ע\"י הצדדים לא יהיו תקפים.
+למעט אם צוין מפורשות אחרת באפליקציה או בתקנון השימוש, כל שימוש באפליקציה במסגרת של ו/או בקשר ישיר או עקיף לעסק כפוף לתשלום ואין לבצעו ללא קבלת אישור מפורש מצד החברה ומתן הסכמת המשתמש העסקי לתנאי ההתקשרות של החברה; וזאת במסגרת הליכי הרישום לשירות הרלוונטי באפליקציה
+לקוח עסקי לצורך תקנון השימוש הינו כל יחיד, שותפות או תאגיד מכל סוג שהוא שעיסוקם במסחר קמעונאי, סיטונאי או זעיר, ישיר או עקיף, של מוצרים ו/או שירותים. 
+החברה רשאית בכל עת לשנות את התעריפים, המסלולים ויתר תנאי ההתקשרות עם לקוחותיה העסקיים. 
+
+תחולת הדין וסמכות שיפוט ייחודית
+על השימוש באפליקציה יחולו דיני מדינת ישראל והם בלבד. לבתי המשפט בתל-אביב-יפו תהא סמכות השיפוט הייחודית בכל הנוגע לתקנון השימוש ולשימוש באפליקציה.
+
+	";
+"about_text" = "ATAD Club is an application that provides the best platform for businesses and private people to conduct trading in the surrounding area and neighborhood. You can also check for deals in a surrounding location you will go to in the future, even in a different country. The application will be most effective when as many people in your neighborhood will have it and use it. In private trading you can also make a bid for new price or even offer them to trad with something you want to sell. You can also do auction and sell it to the highest bidder.";
+"how_to_use" = "General \n
+ATAD Club is an application that was created in order to give everybody the ability to trade and locate deals in the nearby area. The application will give you the ability to: sell whatever you want in an easy way, locate deals from nearby businesses and neighbors (garage sale), locate deals and businesses up to 2KM radius from an address, define your custom alerts, negotiate with people about pricing and/or offer them barter (trading) and much more. \n
+You can also do an auction and sell it to the highest bidder. Locate deals around me. To locate deals around you, first you need to set your notifications , or use the default notification (which is all categories...). In the homepage, you will get all the deals in your default notification settings or you can search for something specific (if you want to search for items from private people (second hand or something like this), you need to choose Garage sale). All you need to do is choose category and sub category (you can choose more than 1), choose the radius distance, click the search button and you will get all the deals in the area matching your search. In a \"Garage sale\" deal, you have \"offer different price/barter\" button. It gives you the ability to negotiate with the seller about the price or even offer him to trade with something else you want to sell (barter). Create my own deal. ATAD Club allow you to create your own deal. In order to sell something, you click on \"new deal/advert\" that is in the menu at the bottom of your screen. If you are registered, you need to identify yourself, and if not, to register. You get your menu and click on advert. Here you will see all your adverts. You can edit/delete existing adverts or click on the \"add\" button (located on top right side) and create new advert. Everyone who see your advert can negotiate with you about the price or even offer you to trade with something else he want to sell (barter). \n
+Locate deals according to address. \n
+If you want to check what deals are available nearby a place you will be going to soon, you can do it easily! All you need is to write the address in the home page, click search and the application will show you if there are any deals there according to the search data you entered. \n
+Locate business according to address. \n
+ATAD Club can also show you all the businesses in a specific area or nearby you. All you need to do is click on \"Businesse\" Button at the top right of the search screen and you will get all the businesses that are selling your perfered search items.\n\v
+
+How can I benefit from ATAD Club? \n
+It is very simple!! Make sure all your customers and your neighbors customers are installing the app and everybody in the neighborhood will get your deals and will see you profile and products. If you are a private user, make sure all your neighbors (especially those who are geographically close to you!) have it and ask all the businesses you go to near your home to try it. This way you will know about their deals and if you will try to sell something, people nearby will get your advert and can come immediately because they are already in your area! \n
+So share it now and benefit!! \n
+How can I control my alerts? \n
+You can easily control the frequency of your alerts, the method, the time you will get the alerts, what type of deals you will be getting alerts on, what is the radius and so on. All you need is to go to \"MORE\", \"Notifications\" and set your own alert preferences.\n
+For more information please visit www.atadclub.com\n\n\n";
+"buyBanner_title" = "Get quotation for startup banner";

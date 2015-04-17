@@ -1,0 +1,41 @@
+<Alloy>
+	<Window fullscreen="true" titleid="profile" layout="absolute" id="window" onOpen="open" onClick="blur">
+		<ScrollView class="form" top="0">
+			
+			<View id="accInfo" height="Ti.UI.SIZE" layout="absolute">
+			</View>
+			
+			<View class="space20"></View>
+
+			<Label id='firstNameLbl' class='formLabel' textid="firstname"></Label>
+			<TextField class="formTextbox" id="firstName" onFocus="focus"></TextField>
+
+			<Label id='lastNameLbl' class='formLabel' textid="lastname"></Label>
+			<TextField class="formTextbox" id="lastName" onFocus="focus"></TextField>		
+
+			<Label id='emailLbl' class='formLabel' textid="email"></Label>
+			<TextField class="formTextbox" id="email" onFocus="focus"></TextField>
+
+			<Label id='phoneLbl' class='formLabel' textid="phone"></Label>
+			<TextField class="formTextbox" id="phone" onFocus="focus" keyboardType="Titanium.UI.KEYBOARD_NUMBER_PAD"></TextField>
+			
+			<Label class="formLabel" id='addressLbl' textid="address"></Label>
+			<View class="formTextarea">
+				<TextArea class="addressTextarea" id="address" onReturn="search" returnKeyType="Ti.UI.RETURNKEY_SEARCH" >
+				</TextArea>
+				<Button class="getLocation" id="customLocation" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" onFocus="focus"></Button>
+			</View>
+			
+			<Label id='newPasswordLbl' width="85dp" height="Ti.UI.SIZE" class='formLabel' textid="new_password"></Label>
+			<TextField class="formTextbox" id="password" passwordMask="true" onFocus="focus"></TextField>
+			
+			<Label id='confirmPasswordLbl' class='formLabel' textid="confirm"></Label>
+			<TextField class="formTextbox" id="confirmPassword" passwordMask="true" onFocus="focus"></TextField>
+			
+			<Button class="formButton" id="update" titleid="update" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formButton" id="upgrade" titleid="upgrade" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>		
+
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

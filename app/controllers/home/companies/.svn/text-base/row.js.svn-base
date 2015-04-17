@@ -1,0 +1,5 @@
+function onClick(e) {
+	Alloy.CFG.tabHome.open(
+		Alloy.createController('home/companies/company', {id : e.row.rowid}).getView()	
+	);
+}

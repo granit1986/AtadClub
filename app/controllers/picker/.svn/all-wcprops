@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/418/branches/v0.2/app/controllers/picker
+END
+dealtype.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/atadclub/!svn/ver/295/branches/v0.2/app/controllers/picker/dealtype.js
+END
+genericPicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/atadclub/!svn/ver/292/branches/v0.2/app/controllers/picker/genericPicker.js
+END
+rate.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/285/branches/v0.2/app/controllers/picker/rate.js
+END
+date.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/346/branches/v0.2/app/controllers/picker/date.js
+END
+time.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/418/branches/v0.2/app/controllers/picker/time.js
+END
+number.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/atadclub/!svn/ver/233/branches/v0.2/app/controllers/picker/number.js
+END

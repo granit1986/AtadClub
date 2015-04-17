@@ -1,0 +1,40 @@
+
+"#companyImg":{
+	backgroundColor: "#fff"
+}
+".dealImg_wrap": {
+	width: "70dp",
+	height: "70dp",
+	left: Alloy.Globals.Styles.row_imageWrapLeft,
+	right: Alloy.Globals.Styles.row_imageWrapRight,
+}
+"#titleLbl":{
+	width: "180dp",
+	height: "20dp",
+	top: "5dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '18dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#addressLbl":{
+	width: "180dp",
+	height: Ti.UI.SIZE,
+	top: "10dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#555"
+}
+"#categoriesLbl":{
+	height: Ti.UI.SIZE,
+	top: "10dp",
+	bottom: "5dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '13dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#555"
+}

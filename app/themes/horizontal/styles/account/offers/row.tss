@@ -1,0 +1,34 @@
+"TableViewRow": {
+	backgroundColor: "#00ffffff",
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+"#advert":{
+	width: "180dp",
+	height: "20dp",
+	top: "15dp",
+	left: "20dp",
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#price":{
+	height: "20dp",
+	top: "50dp",
+	left: "20dp",
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062"
+}
+"#date":{
+	height: "20dp",
+	top: "35dp",
+	left: "20dp",
+	font: {fontSize: '14dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#555"
+}
+"#img":{
+	width: "60dp",
+	height: "60dp",
+	right: "340dp",
+	top: "15dp",
+	bottom: "15dp",
+	borderRadius: "30dp"
+}

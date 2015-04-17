@@ -1,0 +1,50 @@
+"TableViewRow": {
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY
+}
+"#advert":{
+	width: "180dp",
+	height: "20dp",
+	top: "15dp",
+	left: Alloy.Globals.Styles.row_statusWrapLeft,
+	right: Alloy.Globals.Styles.row_statusWrapRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#price":{
+	height: "20dp",
+	top: "50dp",
+	left: Alloy.Globals.Styles.row_statusWrapLeft,
+	right: Alloy.Globals.Styles.row_statusWrapRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062"
+}
+"#date":{
+	height: "20dp",
+	top: "35dp",
+	left: Alloy.Globals.Styles.row_statusWrapLeft,
+	right: Alloy.Globals.Styles.row_statusWrapRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '14dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#555"
+}
+"#img":{
+	width: "60dp",
+	height: "60dp",
+	right: "340dp",
+	top: "15dp",
+	bottom: "15dp",
+	borderRadius: "30dp"
+}
+".badge":{
+    right: 10,
+    top: 35,
+    color: "#FFFFFF",
+    textAlign: "center",
+    font:{fontSize:14},
+    backgroundColor:'#e83038',
+    borderRadius: 10,
+    height: 20,
+    width: 20
+}

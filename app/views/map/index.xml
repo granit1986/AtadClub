@@ -1,0 +1,8 @@
+<Alloy>
+	<Window fullscreen="true" id="window">
+			<SearchBar id="search" />
+			<Button id="send" title="ok" />
+			<Button id="findMe" />
+			<Require src="map/map" id="map" />
+	</Window>
+</Alloy>

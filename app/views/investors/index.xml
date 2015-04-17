@@ -1,0 +1,8 @@
+<Alloy>
+	<Window fullscreen="true" titleid="win_appreciation" id="window">
+		<ScrollView>
+			<Label class="article" textid="investors_text"></Label>
+			<View class="investor_img" backgroundImage="images/chart.jpg"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

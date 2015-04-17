@@ -1,0 +1,29 @@
+"Window": {
+	layout: 'horizontal'
+}
+"TableView": {
+	layout: 'vertical',
+	backgroundColor: '#00ffffff',
+	top: "40dp",
+	bottom:'5dp'
+}
+"#sortsLbl": {top : '10dp' }
+"#sorts": {
+	top : '10dp', 
+	left: '110dp' ,	
+	height:'30dp',
+	style: Ti.UI.iPhone.SystemButtonStyle.BAR,
+	backgroundColor:'#007aff',
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'}}
+
+".formLabel":{
+	right: '60dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+".formLabel[if=Alloy.Globals.isHebrew]":{
+	left: Alloy.Globals.Styles.row_statusWrapLeft,
+	right: Alloy.Globals.Styles.row_statusWrapRight,
+}

@@ -1,0 +1,79 @@
+<Alloy>
+	<Window fullscreen="true" onClose="onClose" id="window" height="Ti.UI.FILL" layout="absolute" onOpen="open" titleid="new_deal" onClick="blur">	
+		<ScrollView class="form" id="form" top="0">
+			
+			<View class="space20"></View>
+			
+			<Label class="formLabel" id="categoriesLbl" textid="categories" ></Label>
+			<Button class="formSelect" id="categories" onClick="categories" >
+				<Label class="titleSelect" textid="select_category"></Label>
+				<Label class="selected_category" id="selectedCategories"></Label>
+				<Label class="iconSelect"></Label>
+			</Button>
+			
+			<Label class="formLabel" id="titleLbl" textid="title"></Label>
+			<TextField class="formTextbox" id="title" onFocus="focus"></TextField>
+	
+			<Label class="formLabel" id="priceLbl" textid="deal_price"></Label>
+			<TextField class="formTextbox" id="price" keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD" onFocus="focus"></TextField>
+			
+			<Label class="formLabel" id="dealtypeLbl" textid="dealtype"></Label>
+			<TextField  class="formTextbox" id="dealType" onClick="setDealType"  enabled="false"></TextField>
+	
+			<Label class="formLabel" id="descriptionLbl" textid="description"></Label>
+			<TextArea class="formTextarea" id="description" suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT" onFocus="focus"></TextArea>
+
+			<Label class="formLabel" width="85dp" height="Ti.UI.SIZE" id="startDateLbl" textid="start_date"></Label>
+			<TextField class="formTextbox" id="startDate" onClick="setStartDate" enabled="false"></TextField>
+			
+			<Label class="formLabel_width" width="85dp" height="Ti.UI.SIZE" textid="deal_renew"></Label>
+			<TextField  class="formLongTextbox" id="renewDeal" onClick="setAutoRenew" width="150dp" bottom="0" enabled="false"></TextField>
+			<Label class="tooltipIcon" onClick="showHelpRenew" top="-30dp" bottom="10dp"></Label>
+			
+			<Label class="formLabel_width" height="Ti.UI.SIZE" textid="deal_is_active_during"></Label>
+			<Switch class="formSwitchWithLongLabel" id="timepicker_switch" bottom="0" value="false"></Switch>
+			<Label class="tooltipIcon" onClick="showHelpDurning"></Label>
+			
+			<View id="timeInputs" layout="vertical" visible="false" height="0" top="-20dp">
+				<Label class="formLabel" height="Ti.UI.SIZE" id="startTimeLbl" textid="start_time"></Label>
+				<TextField  class="formTextbox" id="startTime" onClick="setStartTime"  enabled="false"></TextField>
+	
+				<Label class="formLabel" id="endTimeLbl" textid="end_time"></Label>
+				<TextField class="formTextbox" id="endTime" onClick="setEndTime"  enabled="false"></TextField>
+			</View>
+			
+			<Label class="formLabel_width" height="Ti.UI.SIZE" textid="use_vouchers"></Label>
+			<Switch class="formSwitchWithLongLabel" id="voucher_switch" value="false" bottom="0" ></Switch>
+			<Label class="tooltipIcon" onClick="showHelpVouchers"></Label>
+			
+			<View id="voucherInputs" layout="vertical" visible="false" height="0" top="-20dp">
+				<Label class="formLabel" id="vouchersLbl" textid="vouchers"></Label>
+				<TextField class="formTextbox" id="vouchers" onClick="setVouchers" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD" onFocus="focus"></TextField>
+			</View>
+
+
+			<Label class="formLabel" id="imageLbl" textid="images"></Label>
+			<View class="imageSelectWrap">
+				<View class="imageSelect" id="images" layout="horizontal" onClick="onClickImages" >
+					<Button class="addPhoto" id="addPhoto" onClick="addPhoto"></Button>
+				</View>	
+			</View>
+			<Label class="tipForRemoveImage" id="howToDeleteImageLbl" textid="tap_to_delete_image" visible="false"></Label>
+		
+			<Label class="formLabel" id="switchLbl" textid="active"></Label>
+			<Switch class="formSwitch" id="switch_" value="true"></Switch>
+				
+				
+			<Label class="formLabel" id="itemIsLoad" textid="itemIsLoad" visible="false"></Label> 
+			
+			
+			<Button class="formButton" titleid="add_deal_button" id="button" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>	
+			<Button class="formButton" titleid="cancel" id="cancel_button" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formButton" titleid="delete_deal_button" id="delete_button" visible="false" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+
+	
+		</ScrollView>	
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+
+</Alloy>

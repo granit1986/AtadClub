@@ -1,0 +1,7 @@
+<Alloy>
+  <TableViewRow selectionStyle="none" hasChild="true" onClick="click">
+		<Label id="label" text="{name}" categoryId="{id}"></Label>
+		<Label id="forDeals" text="{forDeals}" visible="false"></Label>
+		<View id="separate"></View>
+  </TableViewRow>
+</Alloy>

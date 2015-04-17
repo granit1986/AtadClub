@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/controllers/home/deals
+END
+index.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/atadclub/!svn/ver/491/branches/v0.2/app/controllers/home/deals/index.js
+END
+defaultSearchRow.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/controllers/home/deals/defaultSearchRow.js
+END
+similardeals.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/atadclub/!svn/ver/491/branches/v0.2/app/controllers/home/deals/similardeals.js
+END
+deal.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/controllers/home/deals/deal.js
+END
+row.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/controllers/home/deals/row.js
+END

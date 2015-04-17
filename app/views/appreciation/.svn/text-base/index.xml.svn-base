@@ -1,0 +1,21 @@
+<Alloy>
+	<Window fullscreen="true" titleid="win_appreciation" id="window">
+		<ScrollView>
+			<Label height="Ti.UI.SIZE"  class="article" textid="text_appreciation"></Label>
+			<View class="donationsWrap">
+				<View class="donation" id="donateS" onClick="appreciationSmall">
+					<Label class="donation_title" text="0.99$"></Label>
+					<ImageView left="10dp" image="images/heart_S.png"></ImageView>
+				</View>
+				<View class="donation" id="donateM" onClick="appreciationMedium">
+					<Label class="donation_title" text="1.99$"></Label>
+					<ImageView image="images/heart_M.png"></ImageView>
+				</View>
+				<View class="donation" id="donateL" onClick="appreciationLarge">
+					<Label class="donation_title" text="4.99$"></Label>
+					<ImageView image="images/heart_L.png"></ImageView>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_products" onOpen="open">
+		<TableView id="products" dataCollection="supplierProducts"    dataTransform="transform" >
+			<Require src="account/products/rowForUser"></Require>
+		</TableView>
+	</Window>
+</Alloy>

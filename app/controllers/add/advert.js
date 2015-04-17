@@ -1,0 +1,578 @@
+var advertToEdit = false;
+var advertId = false;
+if (arguments[0] && arguments[0].advertId)
+	advertId = arguments[0].advertId;
+var progress = Alloy.Globals.progress;
+var callback = false;
+if (arguments[0] && arguments[0].callback)
+	callback = arguments[0].callback;
+var indicator = Alloy.Globals.indicator;
+var errors = Alloy.Globals.errors,
+    core = Alloy.Globals.core;
+address = false,
+lat = false,
+lng = false,
+date = 0,
+subCategories = [],
+images = [],
+imagesToDelete = [];
+
+function open() {
+	$.address.setHintText(L("enter_address"));
+	indicator.openIndicator();
+	if (advertId)
+		advertToEdit = Alloy.Collections.adverts.where({id: advertId})[0].toJSON();
+	if (advertToEdit) {
+		address = advertToEdit.address;
+		lat = advertToEdit.lat;
+		lng = advertToEdit.lng;
+		subCategories = JSON.parse(advertToEdit.subCategories);
+		//	image				= advertToEdit.image + Alloy.Globals.imageSizes.advert.row();
+		$.title.value = advertToEdit.name;
+		$.price.value = advertToEdit.price;
+		$.description.value = advertToEdit.description;
+		$.address.value = advertToEdit.address;
+		$.switch_.value = advertToEdit.active;
+
+		$.button.title = L('update_advert_button');
+
+		core.selectedCategoriesInEdit = {};
+		for (var i = 0; i < subCategories.length; ++i) {
+			var s = subCategories[i];
+			core.subCategories.select({
+				categoryId : s.CategoryId,
+				id : s.Id
+			}, core.selectedCategoriesInEdit);
+		}
+		showSubcategories();
+		if (advertToEdit.images) {
+			advertToEdit.images = JSON.parse(advertToEdit.images);
+			for (var i = 0; i < advertToEdit.images.length; i++)
+				addImage('http://' + Ti.App.serverDomain + '/api/' + Titanium.App.ApiVersion + '/image/' + advertToEdit.images[i] + Alloy.Globals.imageSizes.advert.row(), advertToEdit.images[i]);
+		}
+	} else {
+		Alloy.Globals.core.selectedNewAdvertCategories = {};
+		$.delete_button.hide();
+		//visible = false;
+	}
+	indicator.closeIndicator();
+
+}
+
+function blur(e) {
+	hideKeyboard(e);
+}
+
+function hideKeyboard(e) {
+	if (e.source.id !== "description")
+		$.description.blur();
+	if (e.source.id !== "title")
+		$.title.blur();
+	if (e.source.id !== "price")
+		$.price.blur();
+	if (e.source.id !== "address")
+		$.address.blur();
+}
+
+function focus(e) {
+	hideKeyboard(e);
+}
+
+function currenLocation() {
+
+	var geo = Alloy.Globals.geo;
+	geo.checkLocation(function() {
+		if (geo.location.status != geo.errors.NONE) {
+			Alloy.Globals.core.showErrorDialog(L(geo.location.status.message));
+			indicator.closeIndicator();
+			return;
+		}
+
+		geo.reverseGeocoding(geo.location.latitude, geo.location.longitude, function(e) {
+			indicator.closeIndicator();
+			if (e && e.error) {
+				if (e.message)
+					Alloy.Globals.core.showErrorDialog(L(e.message));
+				else
+					Alloy.Globals.core.showErrorDialog(L(e.error));
+			} else if (e && e.response) {
+				if (e.response.results && e.response.results[0] && e.response.results[0].formatted_address)
+					$.address.value = e.response.results[0].formatted_address;
+				else if (e.response.resourceSets && e.response.resourceSets[0] && e.response.resourceSets[0].resources && e.response.resourceSets[0].resources[0] && e.response.resourceSets[0].resources[0].address && e.response.resourceSets[0].resources[0] && e.response.resourceSets[0].resources[0].address.formattedAddress)
+					$.address.value = e.response.resourceSets[0].resources[0].address.formattedAddress;
+			}
+		});
+	});
+}
+
+var rowIndex;
+function search() {
+	geo.geocoding($.address.value, function(geodata) {
+		if (geodata.error) {
+			Alloy.Globals.core.showErrorDialog(L(geodata.message));
+			return;
+		}
+		if (geodata.error == geo.elementStatuses.ZERO_RESULTS || geodata.error == geo.elementStatuses.NOT_FOUND) {
+			indicator.closeIndicator();
+			Alloy.Globals.core.showErrorDialog(L("address_not_found"));
+			return;
+		}
+		var items = [];
+		for (var i = 0; i < geodata.response.results.length; i++) {
+			var result = geodata.response.results[i];
+			items.push({
+				title : result.formatted_address,
+				data : {
+					lat : result.geometry.location.lat,
+					lng : result.geometry.location.lng
+				}
+			});
+
+		};
+		var addressPicker = Alloy.createController('picker/genericPicker', {
+			callback : function(item, close, index) {
+				if (!item.title)
+					$.address.value = item;
+				else
+					$.address.value = item.title;
+				if (item.data) {
+					lat = item.data.lat;
+					lng = item.data.lng;
+				}
+				if (index)
+					rowIndex = index;
+				if (close) {
+					$.pickerWrap.removeAllChildren();
+				}
+			},
+			rowIndex : rowIndex,
+			items : items
+		}).getView();
+
+		closeKeyboard();
+		$.pickerWrap.removeAllChildren();
+		$.pickerWrap.add(addressPicker);
+
+	});
+};
+
+function buttonTouchStart(e) {
+	e.source.backgroundColor = Alloy.Globals.Styles.buttonBgOnTap;
+}
+
+function buttonTouchEnd(e) {
+
+	e.source.backgroundColor = Alloy.Globals.Styles.buttonBg;
+	var id = e.source.id;
+	switch(id) {
+	case "button": {
+		indicator.openIndicator();
+		onClick();
+		break;
+	}
+	case "delete_button": {
+		indicator.openIndicator();
+		deleteAdvert();
+		break;
+	}
+	case "customLocation": {
+		indicator.openIndicator();
+		currenLocation();
+		break;
+	}
+	case "cancel_button": {
+		cancel();
+		break;
+	}
+
+	}
+}
+
+function cancel() {
+	$.window.close();
+}
+
+function winOnClick(e) {
+	if (e.source.id != "address")
+		closeKeyboard();
+}
+
+function closeKeyboard() {
+	$.address.blur();
+}
+
+function onClick() {
+	if (!Alloy.Globals.core.apiToken()) {
+
+		var alertDialog = Titanium.UI.createAlertDialog({
+			title : L('signup_or_signin_title'),
+			message : L('signup_or_signin_message'),
+			buttonNames : [L('no'), L('yes')],
+			cancel : 0
+		});
+		indicator.closeIndicator();
+		alertDialog.addEventListener('click', function(e) {
+
+			if (e.cancel === e.index || e.cancel === true)
+				return;
+			Alloy.Globals.tabGroup.setActiveTab(Alloy.CFG.tabAccount);
+		});
+		alertDialog.show();
+		return;
+	}
+
+	if (subCategories.length == 0) {
+		indicator.closeIndicator();
+		Alloy.Globals.core.showErrorDialog(L('please_select_category'));
+		return;
+	}
+
+	var subcategoriesForSave = [];
+	for (var i = 0; i < subCategories.length; ++i) {
+		var s = subCategories[i];
+		if (s.Id)
+			subcategoriesForSave.push(s.Id);
+		else
+			subcategoriesForSave.push(s);
+	}
+
+	var advert = {
+		name : $.title.value,
+		price : $.price.value,
+		description : $.description.value,
+		address : $.address.value,
+		lat : parseFloat(lat),
+		lng : parseFloat(lng),
+		subCategories : JSON.stringify(subcategoriesForSave),
+		active : $.switch_.value,
+	};
+
+	if (advertToEdit)
+		advert.id = advertToEdit.id;
+
+	advert.lat = geo.location.latitude;
+	advert.lng = geo.location.longitude;
+
+	advert = Alloy.createModel('advert', advert);
+
+	if (advert.localValidate(errorHandler)) {
+		if (!lat || !lng || $.address.value !== address) {
+			geo.geocoding($.address.value, function(e) {
+				if (e.error) {
+					Alloy.Globals.core.showErrorDialog(L(e.message));
+					return;
+				}
+				if (e.error == geo.elementStatuses.ZERO_RESULTS || e.error == geo.elementStatuses.NOT_FOUND) {
+					indicator.closeIndicator();
+					Alloy.Globals.core.showErrorDialog(L("address_not_found"));
+					return;
+				} else if (e && e.response && e.response.results && e.response.results.length > 0) {
+					advert.attributes.lat = parseFloat(e.response.results[0].geometry.location.lat);
+					advert.attributes.lng = parseFloat(e.response.results[0].geometry.location.lng);
+					save(advert);
+				} else {
+					indicator.closeIndicator();
+					Alloy.Globals.core.showErrorDialog(L("address_not_found"));
+					return;
+				}
+			});
+		} else
+			save(advert);
+	} else
+		indicator.closeIndicator();
+}
+
+function save(advert) {
+	advert.save({}, {
+		success : function(model, response, options) {
+			for (var i = 0; i < $.images.children.length; i++) {
+				var image = $.images.children[i].image;
+				if (image && !image.serverId) {
+					if ( typeof image != "string") {
+						var factor = 1;
+						var size = 400;
+						var imageView = $.images.children[i];
+						var height = image.height;
+						var width = image.width;
+						// Create an ImageView.
+						var newImageView = Ti.UI.createImageView({
+							image : imageView.image,
+							width : width,
+							height : height
+						});
+
+						if (width < height) {
+							factor = width / height;
+							newImageView.height = size;
+							newImageView.width = size * factor;
+						} else {
+							factor = height / width;
+							newImageView.width = size;
+							newImageView.height = size * factor;
+						}
+						image = newImageView.toImage();
+					}
+
+					images.push(image);
+				}
+			}
+			if (images.length > 0 || imagesToDelete.length > 0) {
+				var upload = Alloy.Globals.upload;
+				progress.openBar();
+				upload.start({
+					type : upload.types.advert,
+					id : response,
+					blobs : images,
+					delete : JSON.stringify(imagesToDelete),
+					onerror : function(e) {
+						indicator.closeIndicator();
+						progress.closeBar();
+						Alloy.Globals.core.showErrorDialog(L("error_loading_image"));
+					},
+					onload : function(e) {
+						progress.setBarValue(1);
+						progress.closeBar();
+						postUpdate();
+						indicator.closeIndicator();
+					},
+					onsendstream : function(e) {
+						progress.setBarValue(e.progress);
+						Ti.API.info("progress - " + e.progress);
+					}
+				});
+			} else {
+				postUpdate();
+			}
+			$.itemIsLoad.visible = false;
+		},
+		error : function(model, xhr, options) {
+			if (xhr && xhr.maxAdverts) {
+				var alertDialog = Titanium.UI.createAlertDialog({
+					title : L('upgrade_membership'),
+					message : L("limit") + " " + xhr.maxAdverts + " " + L("limit_adverts"),
+					buttonNames : [L('upgrade'), L('OK')],
+				});
+				alertDialog.addEventListener('click', function(e) {
+					if (!e.index) {
+						var view = Alloy.createController("account/upgradeSelect").getView();
+						Alloy.Globals.tabGroup.activeTab.open(view);
+					}
+				});
+				alertDialog.show();
+			} else if (xhr && xhr.Message)
+				Alloy.Globals.core.showErrorDialog(xhr.Message);
+			//$.itemIsLoad.visible = false;
+			indicator.closeIndicator();
+		}
+	});
+}
+
+function postUpdate() {
+	indicator.closeIndicator();
+	if (advertToEdit) {
+		imagesToDelete = [];
+		Alloy.Globals.core.showErrorDialog(L('avdvert_updated_label'));
+		Ti.App.fireEvent('account:updateAdverts');
+		if (callback)
+			callback();
+		$.window.close();
+	} else {
+		$.itemIsLoad.visible = true;
+		address = false;
+		subCategories = [];
+		images = [];
+		imagesToDelete = [];
+		$.title.value = '';
+		$.price.value = '';
+		$.description.value = '';
+		$.address.value = '';
+		$.images.removeAllChildren();
+		$.switch_.value = false;
+		$.itemIsLoad.visible = false;
+		var dialog = Titanium.UI.createAlertDialog({
+			title : L('avdvert_added_label')
+		});
+		dialog.addEventListener('click', function() {
+			if (callback)
+				callback();
+			Ti.App.fireEvent('account:updateAdverts');
+			$.window.close();
+		});
+		dialog.show();
+	}
+}
+
+function errorHandler(err) {
+
+	switch(err) {
+	case errors.NO_TITLE:
+		$.title.focus();
+		break;
+	case errors.NO_PRICE:
+		$.price.focus();
+		break;
+	case errors.INVALID_PRICE:
+		$.price.focus();
+		break;
+	case errors.NO_ADDRESS:
+		$.address.focus();
+		break;
+	}
+	Alloy.Globals.core.showError(err);
+}
+
+function categories() {
+	indicator.openIndicator();
+	var categoriesWindow = Alloy.createController('subCategories/index', {
+		categoryId : 1,
+		categoryName : L('categories'),
+		sectionName : advertToEdit ? "" : "newadvert",
+		closeCallback : function() {
+			subCategories = [];
+			if (core.currentSectionCategories()['_1'])
+				for (var subCategoryKey in core.currentSectionCategories()['_1']) {
+					subCategories.push(core.currentSectionCategories()['_1'][subCategoryKey]);
+				}
+			showSubcategories();
+		}
+	}).getView();
+	indicator.closeIndicator();
+	Alloy.Globals.tabGroup.activeTab.open(categoriesWindow);
+}
+
+function showSubcategories() {
+	$.selectedCategories.text = '';
+	subCategories.forEach(function(item) {
+		var subcategory;
+		if (item.Id)
+			subcategory = Alloy.Collections.subCategories.get(item.Id)
+		else
+			subcategory = Alloy.Collections.subCategories.get(item)
+		if ($.selectedCategories.text == '')
+			$.selectedCategories.text += subcategory.attributes['name'];
+		else
+			$.selectedCategories.text += ', ' + subcategory.attributes['name'];
+	});
+}
+
+function openGallery() {
+	Titanium.Media.openPhotoGallery({
+		success : function(e) {
+			if (e.mediaType == Titanium.Media.MEDIA_TYPE_PHOTO) {
+				addImage(e.media);
+			}
+		}
+	});
+}
+
+var optionsPhotoDialog = {
+	options : ['Make Photo', 'Choose Photo', 'Cancel'],
+	cancel : 2
+};
+var photoDialog = Titanium.UI.createOptionDialog(optionsPhotoDialog);
+photoDialog.addEventListener('click', function(e) {
+	if (e.index == 0) {
+		showCamera();
+	}
+	if (e.index == 1) {
+		openGallery();
+	}
+});
+function addPhoto() {
+	photoDialog.show();
+}
+
+var imageCount = 0;
+function addImage(image, serverId) {
+	indicator.openIndicator();
+	var imageView = Ti.UI.createImageView({
+		image : image,
+		width : '56dp',
+		height : '56dp',
+		right : '5dp',
+		bottom : '5dp',
+		serverId : serverId || false
+	});
+	var addImageControl = $.addPhoto;
+	//$.addPhoto.remove();
+	$.images.remove($.addPhoto);
+	$.images.add(imageView);
+	$.images.add(addImageControl);
+	indicator.closeIndicator();
+	//$.images.add($.addPhoto);
+	//var childrenCount = $.images.children.length;
+	//if(childrenCount > 3)
+	//	$.images.scrollTo((childrenCount -3) * 50, 0);
+	$.howToDeleteImageLbl.visible = true;
+	imageCount++;
+}
+
+function showCamera() {
+	Titanium.Media.showCamera({
+		success : function(e) {
+			if (e.mediaType == Titanium.Media.MEDIA_TYPE_PHOTO) {
+				addImage(e.media);
+			}
+		},
+		cancel : function(e) {
+
+		},
+		error : function(e) {
+
+		}
+	});
+}
+
+function onClickImages(e) {
+	if (e.source.toString() !== "[object TiUIImageView]")
+		return;
+	if (e.source.serverId)
+		imagesToDelete.push(e.source.serverId);
+	$.images.remove(e.source);
+	imageCount--;
+	if (imageCount == 0)
+		$.howToDeleteImageLbl.visible = false;
+}
+
+function deleteImage() {
+	image = false;
+	//$.imageView.image = null;
+	$.deleteImage.visible = false;
+	$.gallery.visible = true;
+	$.camera.visible = true;
+}
+
+function onClose() {
+	if (callback)
+		callback();
+	indicator.closeIndicator();
+}
+
+function deleteAdvert() {
+	var alertDialog = Titanium.UI.createAlertDialog({
+		title : L('delete_advert_title'),
+		message : L('delete_advert_message'),
+		buttonNames : [L('no'), L('yes')],
+		cancel : 0
+	});
+
+	alertDialog.addEventListener('click', function(e) {
+		indicator.closeIndicator();
+		if (e.index != 1)
+			return;
+
+		Alloy.Collections.adverts.where({id: advertToEdit.id})[0].destroy({
+			success : function() {
+				Ti.App.fireEvent('account:updateAdverts');
+				$.window.close();
+			},
+			error : function() {
+			}
+		});
+
+		//Ti.App.fireEvent('account:updateAdverts');
+		//$.window.close();
+
+	});
+	alertDialog.show();
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="addAddress">
+		<SearchBar id="search" />
+		<Button id="button" title="Submit" />
+		
+	</View>
+</Alloy>

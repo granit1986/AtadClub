@@ -1,0 +1,21 @@
+<Alloy>
+	<!--<Window fullscreen="true" onClose="onClose">
+</Window>-->
+	
+	<View id="pickerContent" class="pickerWrap">
+		<View class="pickerControls">
+			<Button class="pickerButton" onClick="onClose" titleid="done"></Button>
+		</View>
+		<Picker class="picker" id="picker" selectionIndicator="true" onChange="onChange" >
+			<PickerRow value="15" text="L('_15_min')"><Label textid="_15_min"></Label></PickerRow>	
+			<PickerRow value="30" text="L('_30_min')" ><Label textid="_30_min"></Label></PickerRow>	
+			<PickerRow value="45" text="L('_45_min')" ><Label textid="_45_min"></Label></PickerRow>	
+			<PickerRow value="60" text="L('_1_hour')" ><Label textid="_1_hour"></Label></PickerRow>	
+			<PickerRow value="120" text="L('_2_hour')" ><Label textid="_2_hour"></Label></PickerRow>	
+			<PickerRow value="180" text="L('_3_hour')" ><Label textid="_3_hour"></Label></PickerRow>	
+			<PickerRow value="240" text="L('_4_hour')"><Label textid="_4_hour"></Label></PickerRow>
+			<PickerRow value="300" text="L('_5_hour')"><Label textid="_5_hour"></Label></PickerRow>	
+		</Picker>
+	</View>
+</Alloy>
+ 

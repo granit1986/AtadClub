@@ -1,0 +1,49 @@
+"Window": {
+	layout:'',
+    backgroundColor:'#fff',
+}
+
+"#search": {
+    height: '40dp',
+    top: '5dp',
+    left: '5dp',
+    right: '50dp',
+    //style: Ti.UI.INPUT_BORDERSTYLE_NONE,
+    //borderColor: '#ccc',
+	//borderStyle: 1,
+	//borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff',
+    zIndex:'10'
+}
+
+"#send": {
+    top: '5dp',
+    height: '40dp',
+    width: '40dp',
+    right: '5dp',
+    zIndex:10,
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+
+"#findMe": {
+    bottom: '5dp',
+    height: '30dp',
+    width: '30dp',
+    left: '5dp',
+    zIndex:10,
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff',
+	backgroundImage: 'images/icon_location.png',
+	backgroundRepeat: false
+}
+

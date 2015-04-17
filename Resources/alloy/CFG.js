@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"nl.fokkezb.pullToRefresh":"1.5.1","nl.fokkezb.infiniteScroll":"1.3.2","nl.fokkezb.cachedImageView":"1.4"},"theme":"vertical"};

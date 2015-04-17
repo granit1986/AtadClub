@@ -1,0 +1,17 @@
+"TableViewRow":{
+	backgroundColor: "#00ffffff",
+	layout: 'absolute'
+}
+"Label":{
+	height: "44dp",
+	left:'40dp',
+	font: {fontSize: '18dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#separate":{
+	width: "300dp",
+	height:"1dp",
+	top: "43dp",
+	left: "10dp",
+	backgroundColor: "#e6e6e6"
+}

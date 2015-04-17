@@ -1,0 +1,4 @@
+<Alloy>
+	<View id="mapView" userLocation="true" ns="Alloy.Globals.Map" mapType="Alloy.Globals.Map.STANDARD_TYPE"
+		onComplete="setRegion" onClick="onClick" />
+</Alloy>

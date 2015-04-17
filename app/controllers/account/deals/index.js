@@ -1,0 +1,64 @@
+var indicator = Alloy.Globals.indicator;
+
+function open()
+{
+	indicator.openIndicator();
+	Ti.App.addEventListener('account:updateDeals', delasFetch);
+	delasFetch();
+}
+
+function close()
+{
+	Ti.App.removeEventListener('account:updateDeals', delasFetch);
+	Alloy.Collections.deals.reset();
+}
+
+function delasFetch() {
+	if(Alloy.Globals.core.apiToken())
+	{
+		var test = new Benchmark();
+		Alloy.Collections.deals.fetch({
+			data: {lng: Ti.Platform.locale},
+			success: function (response, data) {
+				Alloy.Globals.core.createRows(Alloy.Collections.deals, transform, $.deals, "account/deals/row");
+				Ti.API.info('Fetch time - ' + test.test() + ' ms');				
+				indicator.closeIndicator();
+			},
+			error: function () {
+				indicator.closeIndicator();
+			}
+		
+		});
+	}	
+}
+
+var btnNew = Ti.UI.createButton({
+    titleid: 'add'
+});
+btnNew.addEventListener('click',function(e){
+    var dealWindow = Alloy.createController('add/deal', {tab: Alloy.CFG.tabAccount, enterFromAccount: true}).getView();
+	Alloy.CFG.tabAccount.open(dealWindow);
+});
+$.window.rightNavButton = btnNew;
+// window
+
+function transform(model) {
+	var transform = model.toJSON();
+	transform.price = transform.currency + ' ' + transform.price;
+	
+	if(transform.images && transform.images.length > 0)
+		transform.images = JSON.parse(transform.images);
+	else
+		transform.images = [];
+			
+	if(transform.images.length > 0)
+		transform.image = 'http://' + Ti.App.serverDomain +'/api/'+Titanium.App.ApiVersion+'/image/' + transform.images[0] + Alloy.Globals.imageSizes.deal.row(); 
+
+	if(transform.active){
+		transform.statusLbl = L('active');
+	}else{
+		transform.statusLbl = L('not_active');
+	}
+
+	return transform; 
+}

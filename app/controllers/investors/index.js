@@ -1,0 +1,1 @@
+Alloy.Globals.chat.openChatId = false;

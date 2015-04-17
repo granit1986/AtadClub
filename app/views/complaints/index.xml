@@ -1,0 +1,13 @@
+<Alloy>
+	<Window  fullscreen="true" id="complainwin" titleid="win_add_complaint" layout="absolute" onClick="blur">
+		<ScrollView class="form" top="0">
+			<View class="space20"></View>
+			<Label class="formLabel" id="subjectLbl" textid="subject"></Label>
+			<TextField class="formTextbox" id="subject" enabled="false" onClick="clickSubject" ></TextField>
+			<Label class="formLabel" textid="complaint"></Label>
+			<TextArea class="formTextarea" id="text" onFocus="focus"></TextArea>
+			<Button class="formButton" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" id="sendButton" titleid="send"></Button>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

@@ -1,0 +1,283 @@
+var profile = Alloy.createModel('profile');
+var indicator = Alloy.Globals.indicator;
+
+profile.fetch({
+	success : function() {
+		var p = profile.toJSON();
+		$.firstName.value = p.firstName;
+		$.lastName.value = p.lastName;
+		$.email.value = p.email;
+		$.phone.value = p.phone;
+		$.address.value = p.address;
+	},
+	error : function() {
+	}
+});
+
+function buttonTouchStart(e) {
+	e.source.backgroundColor = Alloy.Globals.Styles.buttonBgOnTap;
+}
+
+function buttonTouchEnd(e) {
+	e.source.backgroundColor = Alloy.Globals.Styles.buttonBg;
+	if (e.source.id == "update")
+		update();
+	else if (e.source.id == "customLocation") {
+		customLocation();
+	} else if (e.source.id == "upgrade") {
+		upgrade();
+	}
+}
+
+function blur(e) {
+	hideKeyboard(e);
+}
+
+function hideKeyboard(e) {
+	if (e.source.id !== $.firstName.id)
+		$.firstName.blur();
+	if (e.source.id !== $.lastName.id)
+		$.lastName.blur();
+	if (e.source.id !== $.email.id)
+		$.email.blur();
+	if (e.source.id !== $.phone.id)
+		$.phone.blur();
+	if (e.source.id !== $.address.id)
+		$.address.blur();
+	if (e.source.id !== $.password.id)
+		$.password.blur();
+	if (e.source.id !== $.confirmPassword.id)
+		$.confirmPassword.blur();
+}
+
+function focus(e) {
+	hideKeyboard(e);
+}
+
+function upgrade() {
+	var view = Alloy.createController("account/upgradeSelect", {
+		callback : function() {
+			statusUpdate();
+		}
+	}).getView();
+	Alloy.CFG.tabAccount.open(view);
+}
+
+function open() {
+	$.address.setHintText(L("enter_address"));
+	if (Alloy.Globals.profile && Alloy.Globals.profile.endStatusDate)
+		statusUpdate();
+}
+
+function customLocation() {
+	indicator.openIndicator();
+	var geo = Alloy.Globals.geo;
+	geo.checkLocation(function() {
+		if (geo.location.status != geo.errors.NONE) {
+			Alloy.Globals.core.showErrorDialog(L(geo.location.status.message));
+			indicator.closeIndicator();
+			return;
+		}
+
+		geo.reverseGeocoding(geo.location.latitude, geo.location.longitude, function(e) {
+			indicator.closeIndicator();
+			if (e && e.error) {
+				if (e.message)
+					Alloy.Globals.core.showErrorDialog(L(e.message));
+				else
+					Alloy.Globals.core.showErrorDialog(L(e.error));
+			} else if (e && e.response) {
+				if (e.response.results && e.response.results[0] && e.response.results[0].formatted_address)
+					$.address.value = e.response.results[0].formatted_address;
+				else if (e.response.resourceSets && e.response.resourceSets[0] && e.response.resourceSets[0].resources && e.response.resourceSets[0].resources[0] && e.response.resourceSets[0].resources[0].address && e.response.resourceSets[0].resources[0].address.formattedAddress)
+					$.address.value = e.response.resourceSets[0].resources[0].address.formattedAddress;
+			}
+		});
+	});
+}
+
+var rowIndex;
+var correctAddress = false;
+function search() {
+	geo.geocoding($.address.value, function(geodata) {
+		if (geodata.error) {
+			Alloy.Globals.core.showErrorDialog(L(geodata.message));
+			return;
+		}
+		if (geodata.error == geo.elementStatuses.ZERO_RESULTS || geodata.error == geo.elementStatuses.NOT_FOUND) {
+			indicator.closeIndicator();
+			Alloy.Globals.core.showErrorDialog(L("address_not_found"));
+			correctAddress = false;
+			return;
+		}
+		var items = [];
+		for (var i = 0; i < geodata.response.results.length; i++) {
+			var result = geodata.response.results[i];
+			items.push({
+				title : result.formatted_address,
+				data : {
+					lat : result.geometry.location.lat,
+					lng : result.geometry.location.lng
+				}
+			});
+
+		};
+		var addressPicker = Alloy.createController('picker/genericPicker', {
+			callback : function(item, close, index) {
+				if (!item.title)
+					$.address.value = item;
+				else
+					$.address.value = item.title;
+				if (item.data) {
+					lat = item.data.lat;
+					lng = item.data.lng;
+				}
+				if (index)
+					rowIndex = index;
+				if (close) {
+					$.pickerWrap.removeAllChildren();
+				}
+				correctAddress = true;
+			},
+			rowIndex : rowIndex,
+			items : items
+		}).getView();
+
+		closeKeyboard();
+		$.pickerWrap.removeAllChildren();
+		$.pickerWrap.add(addressPicker);
+
+	});
+};
+
+function closeKeyboard() {
+	$.address.blur();
+}
+
+function update() {
+	indicator.openIndicator();
+	profile.set('firstName', $.firstName.value);
+	profile.set('lastName', $.lastName.value);
+	profile.set('email', $.email.value);
+	profile.set('phone', $.phone.value);
+	var address = $.address.value.trim();
+	profile.set('address', address);
+	profile.set('newPassword', $.password.value);
+	profile.set('confirm', $.confirmPassword.value);
+
+	if (address != "") {
+		geo.geocoding(address, function(e) {
+			if (e.error) {
+                Alloy.Globals.core.showErrorDialog(L(e.message));
+                return;
+            }
+			if (e.error == geo.elementStatuses.ZERO_RESULTS || e.error == geo.elementStatuses.NOT_FOUND) {
+				indicator.closeIndicator();
+				Alloy.Globals.core.showErrorDialog(L("address_not_found"));
+				return;
+			}
+
+			if (profile.localValidate(errorHandler)) {
+				profileSave(profile);
+			} else
+				indicator.closeIndicator();
+		});
+	} else {
+		if (profile.localValidate(errorHandler)) {
+			profileSave(profile);
+		} else
+			indicator.closeIndicator();
+	}
+}
+
+function profileSave(profile) {
+	profile.save({}, {
+		success : function(model, response, options) {
+			Ti.App.fireEvent("account:updateProfile");
+			Alloy.Globals.core.showErrorDialog(L("profile_save"));
+			indicator.closeIndicator();
+			$.window.close();
+		},
+		error : function(model, xhr, options) {
+			indicator.closeIndicator();
+			if (xhr && xhr.Message)
+				Alloy.Globals.core.showErrorDialog(L('server_' + xhr.Message, L('not_updated')));
+		}
+	});
+}
+
+function errorHandler(err) {
+	switch(err) {
+	case errors.NO_FIRST_NAME:
+		$.firstName.focus();
+		break;
+	case errors.NO_EMAIL:
+	case errors.INVALID_EMAIL:
+	case errors.NOT_SIGNED:
+		$.email.focus();
+		break;
+	case errors.INVALID_PHONE:
+		$.phone.focus();
+		break;
+	}
+	Alloy.Globals.core.showError(err);
+}
+
+function changePassword() {
+
+}
+
+function statusUpdate() {
+	if (Alloy.Globals.profile.status != 0) {
+		var status = '';
+		switch(Alloy.Globals.profile.status) {
+		case 1:
+			status = L('silver_business');
+			break;
+		case 2:
+			status = L('gold_business');
+			break;
+		case 3:
+			status = L('gold_private');
+			break;
+		}
+		var date = getDate(Alloy.Globals.profile.endStatusDate);
+		var endDate = date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear();
+		showStaus(status, endDate);
+	}
+}
+
+function getDate(date) {
+	var arr = date.split(/[- :T]/);
+	return new Date(arr[0], arr[1], arr[2], arr[3], arr[4], 00);
+}
+
+function showStaus(title, date) {
+	var lblAccStatus = Ti.UI.createLabel({
+		text : title,
+		height : "20dp",
+		width : Ti.UI.FILL,
+		top : "10dp",
+		textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+		color : "#007aff",
+		font : {
+			fontSize : '20dp',
+			fontFamily : 'Avenir Next Condensed'
+		}
+	});
+	var lblAccStatusTill = Ti.UI.createLabel({
+		text : L("to_DATE") + " " + date,
+		height : "20dp",
+		width : Ti.UI.FILL,
+		top : "40dp",
+		textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+		color : "#555",
+		font : {
+			fontSize : '15dp',
+			fontFamily : 'Avenir Next Condensed'
+		}
+	});
+	$.accInfo.removeAllChildren();
+	$.accInfo.add(lblAccStatus);
+	$.accInfo.add(lblAccStatusTill);
+}

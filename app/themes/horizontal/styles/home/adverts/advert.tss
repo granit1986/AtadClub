@@ -1,0 +1,88 @@
+"Window": {
+	//layout: 'vertical',
+	backgroundImage: 'images/background.png'
+}
+
+".pageTitle":{
+	top: '20dp',
+	height: '50dp',
+	textid: 'signup',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+
+"#images":{
+	width: "180dp",
+	height: "180dp",
+	top: "90dp",
+	left: "70dp",
+	contenWidth: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+}
+
+".infoLbl":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#priceLbl":{
+	top: '320dp'
+}
+"#descriptionLbl":{
+	top: '350dp'
+}
+"#contactLbl":{
+	top: '410dp'
+}
+
+".infoVal":{
+	left: '110dp',
+	width: '180dp',
+	height: '30dp',
+	color: '#555',
+	verticalAlign: 'top',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#priceVal":{
+	top: '320dp',
+	font: {fontSize: '18dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#a80062'
+}
+"#descriptionVal":{
+	top: '355dp',
+	height: '60dp',
+	verticalAlign: 1
+}
+"#user":{
+	top: '410dp'
+}
+"#email":{
+	top: '440dp'
+}
+"#address": {
+	top: '470dp'
+}
+"#phone":{
+	top: '500dp'
+}
+
+"#priceOffer":{ top: '540dp' }
+"#barterOffer":{ top: '590dp', bottom:'20dp' }
+
+".button": {
+	width: '60%',
+	height: '40dp',
+	left: '20%',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}

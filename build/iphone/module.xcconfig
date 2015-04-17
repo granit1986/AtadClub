@@ -1,0 +1,7 @@
+// this is a generated file - DO NOT EDIT
+
+FACEBOOK_OTHER_LDFLAGS=$(inherited) -weak_framework Accounts -weak_framework Social
+TI_MAP_OTHER_LDFLAGS=$(inherited) -weak_framework MapKit
+NET_IAMYELLOW_TIWS_OTHER_LDFLAGS=$(inherited) -framework Security -framework CFNetwork
+TI_STOREKIT_OTHER_LDFLAGS=$(inherited) -framework StoreKit -framework Security
+OTHER_LDFLAGS=$(inherited) $(FACEBOOK_OTHER_LDFLAGS) $(TI_MAP_OTHER_LDFLAGS) $(NET_IAMYELLOW_TIWS_OTHER_LDFLAGS) $(TI_STOREKIT_OTHER_LDFLAGS) 

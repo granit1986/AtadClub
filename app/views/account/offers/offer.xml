@@ -1,0 +1,36 @@
+<Alloy>
+	<Window fullscreen="true" id="window" titleid="offer" onOpen="open" onClose="close" onClick="blur">
+		<ScrollView class="form" id="scrollView">
+			<Label class="formLabel" textid="advert"></Label>
+			<Label class="formProperty" id="advert" ></Label>
+					
+			<Label class="formLabel" textid="from" id="fromLbl"></Label>
+			<Label class="formProperty" id="user" ></Label>
+			
+			<Label class="formLabel"></Label>
+			<Label class="formProperty" id="email" onClick="onClickEmail"></Label>
+			
+			<Label class="formLabel"></Label>
+			<Label class="formProperty" id="phone" onClick="phoneCall"></Label>
+			
+			<Label class="formLabel" id="imageLbl" textid="barter_image" ></Label>
+			<ImageView class="formImage" id="imageView" ></ImageView>
+			
+			<Label class="formLabel" id="priceLbl" textid="price" visible="false"></Label>
+			<Label class="formProperty" id="price" visible="false" ></Label>
+			
+			<Label class="formLabel" textid="description"></Label>
+			<Label class="formProperty" id="description"></Label>
+			
+			<Label class="formLabel" textid="state"></Label>
+			<Label class="formProperty" id="state"></Label>
+	
+			<Label class="formLabel" id="answerLbl" textid="answer" visible="false"></Label>
+			<TextArea class="formTextarea" id="answer" visible="false"></TextArea>
+			<Label class="formProperty" id="answerMsg" visible="false"></Label>
+			
+			<Button class="formButton" id="accept" titleid="accept" visible="false" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formButton" id="decline" titleid="decline" visible="false" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

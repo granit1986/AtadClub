@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tabHome" titleid="tab_home" icon="images/icon_tabHome.png"><Require src="home/index" /></Tab>
+		<Tab id="tabAdd" titleid="tab_add" icon="images/icon_tabAdd.png"><Require src="add/index" /></Tab>
+		<Tab id="tabAccount" titleid="tab_signin" icon="images/icon_tabAccount.png"><Require src="account/index" /></Tab>		
+		<Tab id="tabHowToUse" titleid="tab_how_to_use" icon="images/icon_tabHow.png"><Require src="howToUse/index" /></Tab>
+		<Tab id="tabShare" titleid="tab_share"  icon="images/icon_tabShare.png" ><Require src="share/index" /></Tab>
+		<Tab id="tabAboutUs" titleid="tab_about_us" icon="images/icon_tabAbout.png"><Require src="aboutUs/index" /></Tab>
+		<Tab id="tabAppreciation" titleid="tab_appreciation"  icon="images/icon_tabDonate.png"><Require src="appreciation/index" /></Tab>
+		<Tab id="tabContactUs" titleid="tab_contact_us"  icon="images/icon_tabContactUs.png"><Require src="contactUs/index" /></Tab>
+		<Tab id="tabNotifications" titleid="notifications" icon="images/icon_tabNotifications.png"><Require src="notifications/index" /></Tab>
+		<Tab id="tabSInvestors" titleid="tab_investors"  icon="images/icon_tabInvest.png" ><Require src="investors/index" /></Tab>
+		<Tab id="tabVersion" titleid="version"  icon="images/icon_tabVersion.png" ><Require src="version/index" /></Tab>	
+	</TabGroup>
+	
+</Alloy>

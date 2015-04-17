@@ -1,0 +1,8 @@
+"Window":{
+	backgroundImage: "images/background.png"
+}
+"TableView":{
+	top: '20dp',
+	bottom: '20dp',
+	backgroundColor: '#00ffffff'
+}

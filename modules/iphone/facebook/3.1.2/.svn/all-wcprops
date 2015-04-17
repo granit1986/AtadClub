@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/atadclub/!svn/ver/457/branches/v0.2/modules/iphone/facebook/3.1.2
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/atadclub/!svn/ver/457/branches/v0.2/modules/iphone/facebook/3.1.2/LICENSE
+END
+libfacebook.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/atadclub/!svn/ver/457/branches/v0.2/modules/iphone/facebook/3.1.2/libfacebook.a
+END
+manifest
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/atadclub/!svn/ver/457/branches/v0.2/modules/iphone/facebook/3.1.2/manifest
+END
+module.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/atadclub/!svn/ver/457/branches/v0.2/modules/iphone/facebook/3.1.2/module.xcconfig
+END

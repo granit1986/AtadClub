@@ -1,0 +1,13 @@
+"Window": {
+	titleid: 'win_home',
+	layout: 'horizontal',
+	backgroundImage: 'images/background.png'
+}
+"TableView": {
+	layout: 'vertical',
+	backgroundColor: '#00ffffff',
+	top: "0",
+	bottom:"0"
+}
+//"#sortsLbl": {top : '10dp' }
+//"#sorts": {top : '10dp', left: '110dp' }

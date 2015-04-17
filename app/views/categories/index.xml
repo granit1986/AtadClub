@@ -1,0 +1,7 @@
+﻿<Alloy>
+	<Window fullscreen="true" titleid="choose_category" id="window" onClose="onClose" onOpen="open">
+		<TableView id="categories" separatorColor="transparent" dataCollection="categories" dataFilter="dataFilter" >
+			<Require src="categories/row" />
+		</TableView>
+	</Window>
+</Alloy>

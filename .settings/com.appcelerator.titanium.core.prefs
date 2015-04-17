@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+provisioning_profiles/adhoc/12D258C0-8F9A-48FC-92B9-FE4B2D08DFDD/appid=biz.slavin.mobile.atadclub
+provisioning_profiles/adhoc/12D258C0-8F9A-48FC-92B9-FE4B2D08DFDD/name=AtadClub Distribution
+provisioning_profiles/adhoc/12D258C0-8F9A-48FC-92B9-FE4B2D08DFDD/uuid=12D258C0-8F9A-48FC-92B9-FE4B2D08DFDD
+provisioning_profiles/adhoc/65392B57-49F0-408E-ABFA-4C0CB46FE92F/appid=biz.slavin.mobile.atadclub
+provisioning_profiles/adhoc/65392B57-49F0-408E-ABFA-4C0CB46FE92F/name=AtadClub Distribution
+provisioning_profiles/adhoc/65392B57-49F0-408E-ABFA-4C0CB46FE92F/uuid=65392B57-49F0-408E-ABFA-4C0CB46FE92F
+provisioning_profiles/development/7BF1C92D-AA37-4C5E-8107-4418F20A7F22/appid=biz.slavin.mobile.atadclub
+provisioning_profiles/development/7BF1C92D-AA37-4C5E-8107-4418F20A7F22/name=AtadClub Development
+provisioning_profiles/development/7BF1C92D-AA37-4C5E-8107-4418F20A7F22/uuid=7BF1C92D-AA37-4C5E-8107-4418F20A7F22
+provisioning_profiles/development/AFFEDE9F-7CEC-4D51-BAC3-387D4386E3A8/appid=biz.slavin.mobile.atadclub
+provisioning_profiles/development/AFFEDE9F-7CEC-4D51-BAC3-387D4386E3A8/name=AtadClub Development
+provisioning_profiles/development/AFFEDE9F-7CEC-4D51-BAC3-387D4386E3A8/uuid=AFFEDE9F-7CEC-4D51-BAC3-387D4386E3A8

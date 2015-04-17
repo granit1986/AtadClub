@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/atadclub/!svn/ver/492/branches/v0.2/modules/iphone/ti.storekit/3.0.0
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/atadclub/!svn/ver/316/branches/v0.2/modules/iphone/ti.storekit/3.0.0/LICENSE
+END
+libti.storekit.a
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/atadclub/!svn/ver/492/branches/v0.2/modules/iphone/ti.storekit/3.0.0/libti.storekit.a
+END
+module.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/atadclub/!svn/ver/316/branches/v0.2/modules/iphone/ti.storekit/3.0.0/module.xcconfig
+END
+manifest
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/atadclub/!svn/ver/316/branches/v0.2/modules/iphone/ti.storekit/3.0.0/manifest
+END

@@ -1,0 +1,14 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<ImageView id="arrow"></ImageView>
+		<View id="bubbleWrap">
+			<Label id="bubble">
+				<Label id="messageWrap">
+					<Label id="message" text="{Text}"></Label>
+				</Label>
+			</Label>
+		</View>		
+		<Label class="badge" text="1" visible="true"></Label>
+		<Label id="dir" text="{dir}" visible="false"></Label>
+	</TableViewRow>
+</Alloy>

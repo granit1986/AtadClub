@@ -1,0 +1,20 @@
+<Alloy>
+	<TableViewRow rowid="{id}" id="dealRow_wrap" height="Ti.UI.SIZE"  onClick="onClick" hasChild="true">
+		
+		<View id="dealImg_wrap" class="dealImg_wrap" layout="absolute">
+			<ImageView id="dealImg" image="{image}"></ImageView>
+		</View>		
+		
+		<View layout="horizontal" height="Ti.UI.SIZE" top="10dp">
+		
+			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="titleLbl" class="account_label" text="{name}" height="Ti.UI.SIZE"></Label>
+			</View>
+			
+			<View layout="absolute" top="10dp" height="60dp">
+				<Label id="priceLbl" text="{price}"></Label>
+			</View>
+			
+		</View>
+	</TableViewRow>
+</Alloy>

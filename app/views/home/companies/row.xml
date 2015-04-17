@@ -1,0 +1,21 @@
+<Alloy>
+ 	<TableViewRow id="rowWrap" height="Ti.UI.SIZE" onClick="onClick" hasChild="true">
+ 		
+ 		<View id="row_imageWrap" class="dealImg_wrap" layout="absolute">
+  			<ImageView id="companyImg" ></ImageView>
+  		</View>
+  		
+  		<View layout="horizontal" height="Ti.UI.SIZE" top="0">
+  			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="titleLbl" ></Label>
+			</View>
+			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="addressLbl" ></Label>
+			</View>
+			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="categoriesLbl" ></Label>
+			</View>
+		</View>
+		
+ 	</TableViewRow>
+</Alloy>

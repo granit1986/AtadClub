@@ -1,0 +1,8 @@
+<Alloy>
+	<Window fullscreen="true" titleid="tab_add">
+		<Label class="mainTitle" textid="what_add"></Label>
+		
+		<Button class="linkButton" id="advert" titleid="add_advert" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="linkButton" id="deal" titleid="add_deal" height="Ti.UI.SIZE" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+	</Window>
+</Alloy>

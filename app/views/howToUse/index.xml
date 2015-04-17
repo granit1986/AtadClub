@@ -1,0 +1,13 @@
+<!--<Alloy>
+	<Window  fullscreen="true" titleid="win_how_to_use">
+		<WebView id="webView" showScrollbars="false"></WebView>
+	</Window>
+</Alloy>-->
+
+<Alloy>
+	<Window fullscreen="true" titleid="win_how_to_use" id="window">
+		<ScrollView>
+			<Label textid="how_to_use"></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

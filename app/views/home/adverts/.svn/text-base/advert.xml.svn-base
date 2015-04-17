@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="window" fullscreen="true" onOpen="open">
+		<ScrollView class="content" id="scroll">
+			<Label id="nameVal" textid="name" class="mainTitle"></Label>
+			
+			<ScrollableView class="imageSlider" id="images" showPagingControl="true"></ScrollableView>
+			
+			<Label class="formLabel bottom_null" id="priceLbl" textid="price"></Label>
+			<Label class="formProperty bottom_null" id="priceVal"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel bottom_null" id="descriptionLbl"  textid="description"></Label>
+			<Label class="formProperty bottom_null" id="descriptionVal"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel bottom_null" id="contactLbl" textid="seller"></Label>
+			<Label class="formProperty bottom_null" id="user"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel bottom_null" id="emailLbl" textid="email"></Label>
+			<!-- <Label class="formLabel" id="email" onClick="onClickEmail"></Label>
+			<Label class="formProperty" id="address" onClick="onClickAddress"></Label> -->
+			
+			<!-- <Label class="formLabel" textid="phone" id="phoneLbl"></Label> -->
+			<Label class="formProperty bottom_null" id="email" color="#00accb" onClick="onClickEmail"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel bottom_null" id="phoneLbl" textid="advert_phone"></Label>
+			<Label class="formProperty bottom_null" id="phone" color="#00accb" onClick="phoneCall"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel bottom_null" id="addressLbl" textid="address"></Label>
+			<Label class="formProperty bottom_null" id="address" color="#00accb" onClick="onClickAddress"></Label>
+			
+			<ImageView id="mapImage" image="" onClick="onClickAddress" ></ImageView>
+			<View class="space20"></View>
+			
+			<Button class="linkButton" id="priceOffer" titleid="send_my_price_offer"  onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="linkButton" id="barterOffer" titleid="send_my_barter_offer"  onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,23 @@
+<Alloy>
+	<TableViewRow id="dealRow_wrap" height="Ti.UI.SIZE" onClick="onClick" hasChild="true">
+		<View id="dealImg_wrap" class="dealImg_wrap" layout="absolute">
+			<Widget id="dealImg" src="nl.fokkezb.cachedImageView"/>
+		</View>
+		
+		<View layout="horizontal" height="Ti.UI.SIZE" top="0">
+			
+			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="titleLbl" class="account_label" height="Ti.UI.SIZE"></Label>
+			</View>
+			
+			<View layout="absolute" height="30dp">
+				<Label id="statusLbl" ></Label>				
+			</View>
+			
+			<View layout="absolute" height="30dp">
+				<Label id="priceLbl" ></Label>
+			</View>
+			
+		</View>
+	</TableViewRow>
+</Alloy>

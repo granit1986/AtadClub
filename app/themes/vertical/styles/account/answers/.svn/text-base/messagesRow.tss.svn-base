@@ -1,0 +1,46 @@
+"#row":{
+	layout:'absolute',
+	height: Ti.UI.SIZE,
+	bottom:'5dp',
+	selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+"#bubbleWrap":{
+	width: '200dp',
+	height: Ti.UI.SIZE,
+	layout:'vertical'
+}
+"#bubble":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	borderRadius:'10dp',
+	borderWidth:'1dp',
+	layout:'vertical'
+}
+"#messageWrap":{
+	right:'7dp',
+}
+"#message":{
+	height: Ti.UI.SIZE,
+	left:'7dp',
+	top:'5dp',
+	bottom:'5dp',
+	font: 	{fontSize: '14dp'}
+}
+"#arrow":{
+	width:'10dp',
+	heigth:'10dp',
+	bottom:'2dp',
+	font:{fontSize:'1dp'}
+}
+".badge":{
+    top: "5dp",
+    left:"20dp",
+    color: "#FFFFFF",
+    textAlign: "center",
+    font:{fontSize:14},
+    backgroundColor:'#e83038',
+    borderRadius: "10dp",
+    height: "20dp",
+    width: "20dp",
+    visible:true
+}

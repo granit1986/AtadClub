@@ -1,0 +1,9 @@
+"Window": {
+	titleid: 'win_home',
+	layout: 'horizontal'
+}
+"TableView": {
+	layout: 'vertical',
+	backgroundColor: '#00ffffff',
+	top: "0dp"
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_deals" onOpen="open" onClose="close">
+		<TableView id="deals">			
+       </TableView>
+	</Window>
+</Alloy>

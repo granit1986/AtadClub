@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_barter_offer" onClick="blur">
+		<ScrollView class="form" id="scrollView" scrollType="vertical" contentWidth="100%">
+			
+			<Label class="mainTitle">Make your Barter offer</Label>
+			
+			<Label class="formLabel" id="descriptionLbl" textid="description"></Label>
+			<TextArea class="formTextarea" id="description" ></TextArea>
+	
+			
+			<Label class="formLabel imageAddLabel" id="imageLbl" textid="picture"></Label>
+			<ImageView class="formImage" id="imageView" height="0" visible="false" bottom="0"></ImageView>
+			<View class="imageSelectWrap imageAddArea">
+				<View class="imageSelect" id="images" layout="horizontal" onClick="onClickImage" >
+					<Button class="addPhoto" id="addPhoto" onClick="addPhoto"></Button>
+				</View>	
+			</View>			
+			<Label class="tipForRemoveImage" id="howToDeleteImageLbl" textid="tap_to_delete_image" visible="false"></Label>
+						
+			<View class="space20"></View>
+			
+			<Button id="sendOffer" class="formButton" titleid="send" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

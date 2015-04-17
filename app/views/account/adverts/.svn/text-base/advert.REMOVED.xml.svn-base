@@ -1,0 +1,34 @@
+<Alloy>
+	<Window id="window" fullscreen="true">
+		<ScrollView>
+			
+			<!--<Label id="pageTitle">Edit advert</Label>-->
+			
+			<Label class="formLabel" id="categoriesLbl">Category</Label>
+			<Button id="categories" onClick="categories" titleid="Select"></Button>
+			
+			<Label class="formLabel" id="titleLbl">Title</Label>
+			<TextField id="title"></TextField>
+			
+			<Label class="formLabel" id="priceLbl">Price</Label>
+			<TextField id="price"></TextField>
+			
+			<Label class="formLabel" id="descriptionLbl">Description</Label>
+			<TextArea id="description"></TextArea>
+			
+			<Label class="formLabel" id="addressLbl">Address</Label>
+			<TextArea id="address"></TextArea>
+			<Label id="currenLocationLbl" text="Use my current location"></Label>
+			<Button id="currenLocation" onClick="currenLocation"></Button>
+			
+			<Label class="formLabel" id="imageLbl">Image</Label>
+			<ImageView id="imageView"></ImageView>
+			<Button id="gallery" onClick="openGallery"></Button>
+			<Button id="camera" onClick="showCamera"></Button>
+			<Button id="deleteImage" onClick="deleteImage" visible="false"></Button>
+			
+			<Button titleid="Save" id="button" onClick="onClick"></Button>
+			
+		</ScrollView>
+	</Window>
+</Alloy>

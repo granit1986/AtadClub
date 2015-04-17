@@ -1,0 +1,23 @@
+/*"Window": {
+	backgroundImage: 'images/background.png',
+	layout : 'vertucal'
+}*/
+"Label":{
+	top: '10dp',
+	left: '10dp',
+	right: '10dp',
+	color: '#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}	
+}
+"Button":{
+	width: '60%',
+	height: '40dp',
+	top: '20dp',
+	left: '20%',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}

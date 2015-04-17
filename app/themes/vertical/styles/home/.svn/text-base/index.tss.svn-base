@@ -1,0 +1,33 @@
+".lbl_under_def_search":{
+	width			: 	Ti.UI.FILL,
+	height			: 	'15dp',
+	top				: 	"5dp",
+	textAlign		:	"center",
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '17dp'},
+	color			: 	'#999',
+}
+".button_settings": {
+	width			:	'30dp',
+	height			: 	'30dp',
+	top				: 	'-40dp',
+	right			:	'40dp',
+	backgroundImage	: 	"images/icon_settings.png"
+}
+
+".search_title":{
+	height			: 	'80dp',
+	width			:	Ti.UI.SIZE,
+	textAlign		:	'center',
+	bottom			: 	'12dp',
+	color			: 	Alloy.Globals.Styles.titleColor,
+	font			: 	{fontSize: '18dp', fontFamily: 'OleoScriptSwashCaps-Regular'}//, fontWeight: 'Regular'}
+}
+".getHomeDeals": {
+	width			:	'31dp',
+	height			: 	'31dp',
+	backgroundColor: 'transparent',
+	backgroundFocusedColor: 'transparent',
+	backgroundRepeat: false,
+	backgroundImage	: 	"images/ic_action_turn_right.png",
+	backgroundSelectedImage: "images/ic_action_turn_right1.png"
+}

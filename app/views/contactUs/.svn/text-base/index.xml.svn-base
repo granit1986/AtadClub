@@ -1,0 +1,25 @@
+<Alloy>
+	<Window  fullscreen="true" layout="absolute" onClick="blur" >
+		<ScrollView class="form" top="0">
+			<Label class="mainTitle" textid="win_contact_us"></Label>
+						
+			<Label class="formLabel" id="contact_nameLbl" textid="name"></Label>
+			<TextField class="formTextbox" id="contactName" enabled="true" ></TextField>
+			
+			<Label class="formLabel" id="contact_phoneLbl" textid="phone"></Label>
+			<TextField class="formTextbox" id="contactPhone" enabled="true" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD"></TextField>
+			
+			<Label class="formLabel" id="contact_mailLbl" textid="email"></Label>
+			<TextField class="formTextbox" id="contactMail" enabled="true" keyboardType="Ti.UI.KEYBOARD_EMAIL"></TextField>
+			
+			<Label class="formLabel" id="subjectLbl" textid="subject"></Label>
+			<TextField class="formTextbox" id="subject" enabled="false" onClick="clickSubject" ></TextField>
+			
+			<Label id="messageLbl" class="formLabel" textid="message"></Label>
+			<TextArea class="formTextarea" id="message" onFocus="focus" suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT"></TextArea>
+			
+			<Button class="formButton" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" id="send" titleid="send"></Button>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

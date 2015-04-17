@@ -1,0 +1,51 @@
+<Alloy>
+	<Window titleImage="images/headTitle@2x.png" fullscreen="true" onClick="winOnClick" layout="absolute" onOpen="open" id="mainWindow">
+		<ScrollView top="0">
+			<View class="form" layout="vertical" height="Ti.UI.SIZE">
+				<Label class="mainTitle" textid="what_looking"></Label>
+				<!-- <Label class="formLabel" id="distanceLbl" textid="distance_label"></Label> -->
+				<ScrollView class="distancePiker" id="scrollView" borderRadius="10dp">
+					<View class="distancePikerItem" width="50dp" distance="0"></View>
+					<View class="distancePikerItem" distance="0"><Label class="distanceTitle" textid="distance_wheel"></Label></View>
+					<View class="distancePikerItem" distance="100"><Label class="distancePikerLabel">100 m</Label></View>
+					<View class="distancePikerItem" distance="250"><Label class="distancePikerLabel">250 m</Label></View>
+					<View class="distancePikerItem" distance="500"><Label class="distancePikerLabel">500 m</Label></View>
+					<View class="distancePikerItem" distance="750"><Label class="distancePikerLabel">750 m</Label></View>
+					<View class="distancePikerItem" distance="1000"><Label class="distancePikerLabel">1000 m</Label></View>
+					<View class="distancePikerItem" distance="2000"><Label class="distancePikerLabel">2000 m</Label></View>
+					<View class="distancePikerItem" distance="0"><Label class="distanceTitle" textid="distance_wheel"></Label></View>
+					<View class="distancePikerItem" width="37dp" distance="0"></View>
+				</ScrollView>
+				
+				<Label id="categoriesLbl" class="formLabel"  textid="categories"></Label>
+				<Button  class="formSelect" id="categoriesBtn" onClick="categories"  onClick="clickCategories" >
+					<Label class="titleSelect" textid="select_category"></Label>
+					<Label class="selected_category" id="selectedCategories"></Label>
+					<Label class="iconSelect"></Label>
+				</Button>
+		
+				<Label class="formLabel" id="addressLbl" textid="address"></Label>
+				<View class="adressWrap" height="30dp">
+					<TextField class="addressTextarea" height="30dp" id="address" onReturn="search" returnKeyType="Ti.UI.RETURNKEY_SEARCH" ></TextField>
+					<Button class="getLocation" id="customLocation" onTouchstart="findTouchStart" onTouchend="findTouchEnd"></Button>
+				</View>				
+		
+				<Button id="findBtn" titleid="find_button" onTouchstart="findTouchStart" onTouchend="findTouchEnd" class="formButton"></Button>
+			</View>		
+			<Label class="search_title" height="Ti.UI.SIZE" textid="default_search"></Label>
+			<Button id="settings" onClick="goToNotifications" class="button_settings"></Button>
+			<Button onClick="getHomeDeals" class="getHomeDeals"></Button>
+			
+			<TableView id="deals" backgroundColor="transparent" height="Ti.UI.SIZE" >
+						
+	        </TableView>
+	        <Label class="lbl_under_def_search" textid="isTap" id="loadMore" onClick="add"></Label>
+	        <Label class="lbl_under_def_search" textid="isDone" id="noLoad" visible="false"></Label>
+			<View class="space20"></View>
+			<View visible="false" id="mapView" height="0dp">
+				
+			</View>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

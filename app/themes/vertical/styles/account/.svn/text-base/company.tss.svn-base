@@ -1,0 +1,148 @@
+/*"Window": {
+	backgroundImage: 'images/background.png'
+	//,layout:'vertical'
+}
+"#categoriesLbl"	: {	top: '30dp',	textid: 'categories'}
+"#categories":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	top: '30dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+
+"#nameLbl"			: { top: '70dp',	textid: 'company_name' }
+"#name"				: {	top: '70dp',	hintText: L('company_name') }
+
+"#phoneLbl"			: {	top: '110dp',	textid: 'phone' }
+"#phone"			: {	top: '110dp',	hintText: L('phone'), keyboardType: Ti.UI.KEYBOARD_PHONE_PAD }
+
+"#emailLbl"			: {	top: '150dp',	textid: 'email' }
+"#email"			: {	top: '150dp',	hintText: L('email'), keyboardType: Ti.UI.KEYBOARD_EMAIL }
+
+"#addressLbl"		: {	top: '190dp',	textid: 'address' }
+"#address"			: {	top: '190dp',	hintText: L('address') }
+
+"#imageLbl"			: {	top: '290dp',	textid: 'address' }
+
+"#aboutLbl"			: {	top: '490dp',	textid: 'company_about' }
+"#about"			: {	top: '490dp',	hintText: L('company_about') }
+
+"#workingHoursLbl"	: {	top: '570dp',	textid: 'company_working_hours' }
+"#workingHours"		: {	top: '570dp',	hintText: L('company_working_hours') }
+
+"#termsLbl"			: {	top: '650dp',	textid: 'company_terms' }
+"#terms"			: {	top: '650dp',	hintText: L('company_terms') }
+
+"#update"			: {	top: '730dp' }
+
+
+"#imageViewWrapper": {
+	top: "300dp",
+	right: "30dp",
+	width: "180pd",
+	height: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+	
+}
+
+"#gallery":{
+	width: '40dp',
+	height: '40dp',
+	right: '125dp',
+	top: '370dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_gallery.png"
+}
+"#camera":{
+	width: '40dp',
+	height: '40dp',
+	right: '75dp',
+	top: '370dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_camera.png"
+}
+"#deleteImage":{
+	width: '40dp',
+	height: '40dp',
+	right: '30dp',
+	top: '440dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: 'images/icon_delete.png'
+}
+
+"#currenLocationLbl": {
+	width: '150dp',
+	height: '30dp',
+	right: '60dp',
+	top: '260dp',
+	titleid: "Use my current location",
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '12dp'},
+	color: '#555',
+}
+"#currenLocation": {
+	width: '30dp',
+	height: '30dp',
+	right: '30dp',
+	top: '260dp',
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff',
+	backgroundImage: 'images/icon_location.png',
+	backgroundRepeat: false
+}
+
+"TextArea":{
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}
+"TextField" : {
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff',
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	//left: '110dp',
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+*/

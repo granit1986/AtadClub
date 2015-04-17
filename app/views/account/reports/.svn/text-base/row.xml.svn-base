@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow onClick="onClick" hasChild="false" selectionStyle="none" dealTitle="{name}" rowid="{id}">
+		<ImageView id="dealImg" image="{image}"></ImageView>
+		<Label id="titleLbl" text="{name}"></Label>				
+		<Label id="priceLbl" text="{price}"></Label>
+	</TableViewRow>
+</Alloy>

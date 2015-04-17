@@ -1,0 +1,8 @@
+<Alloy>	
+	<View id="pickerContent" class="pickerWrap">
+		<View class="pickerControls">
+			<Button class="pickerButton" onClick="onClose" titleid="done"></Button>
+		</View>
+		<Picker class="picker" id="picker" selectionIndicator="true" type="Ti.UI.Picker" onChange="onChange" />
+	</View>
+</Alloy>

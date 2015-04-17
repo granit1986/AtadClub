@@ -1,0 +1,120 @@
+"Window": {
+	//layout: 'vertical',
+	backgroundImage: 'images/background.png'
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#descriptionLbl": {
+	top: "30dp"
+}
+"#description": {
+	top: "30dp"
+}
+
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	//returnKeyType: Ti.UI.RETURNKEY_DONE,
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+}
+
+"TextArea":{
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}
+/*"#imageViewWrapper": {
+	top: "110dp",
+	right: "30dp",
+	width: "180pd",
+	height: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+	
+}
+
+"#gallery":{
+	width: '40dp',
+	height: '40dp',
+	right: '125dp',
+	top: '190dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_gallery.png"
+}
+"#camera":{
+	width: '40dp',
+	height: '40dp',
+	right: '75dp',
+	top: '160dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_camera.png"
+}*/
+"#imageLbl": { 	top: "110dp" }
+
+"#gallery":{
+	width: '40dp',
+	height: '40dp',
+	left: '110dp',
+	top: '110dp',
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_gallery.png"
+}
+"#camera":{
+	width: '40dp',
+	height: '40dp',
+	left: '160dp',
+	top: '110dp',
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_camera.png"
+}
+"#deleteImage":{
+	width: '40dp',
+	height: '40dp',
+	left: '110dp',
+	top: '110dp',
+	backgroundColor: '#007aff',
+	backgroundImage: 'images/icon_delete.png'
+}
+"#imageViewWrapper":{
+	width: '180dp',
+	height: '100dp',
+	left: '110dp',
+	top : '160dp',
+	textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+"#imageView":{
+	left:'0dp'
+}
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	top: '300dp',
+	bottom: '20dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}

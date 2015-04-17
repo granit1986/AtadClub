@@ -1,0 +1,5 @@
+<Alloy>
+    <Window id="windowLoading" fullscreen="true">
+		<Label id="loading">Loading</Label>
+    </Window>
+</Alloy>

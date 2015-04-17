@@ -1,0 +1,113 @@
+"#dealImg":{
+	width: "100dp",
+	height: "100dp",
+	backgroundColor: "#fff"	
+}
+".row_imageWrap":{
+	width: "100dp",
+	height: "140dp",
+	left: Alloy.Globals.Styles.row_image,
+}
+"#dealStatusWrap":{
+	width: "90dp"
+}
+".row_titleLbl":{
+	width: "180dp",	
+	top: "10dp",
+	right: Alloy.Globals.Styles.row_image,
+	textAlign: Alloy.Globals.Styles.row_align,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+".row_titleLbl[if=Alloy.Globals.isHebrew]":{
+	left: Alloy.Globals.Styles.labelDefaultRow_left,
+	right: Alloy.Globals.Styles.labelDefaultRow_right,
+}
+"#companyLbl":{
+	width: "auto",
+	height: "20dp",
+	top: "2dp",
+	right: Alloy.Globals.Styles.row_image,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#companyLbl[if=Alloy.Globals.isHebrew]":{
+	left: Alloy.Globals.Styles.labelDefaultRow_left,
+	right: Alloy.Globals.Styles.labelDefaultRow_right
+}
+"#dealTypeLbl":{
+	height: "20dp",
+	top: "0dp",
+	left: Alloy.Globals.Styles.row_price,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#a80062'
+}
+"#dealTypeLbl[if=Alloy.Globals.isHebrew]":{
+	left: Alloy.Globals.Styles.dealTypeLbl_left,
+	right: Alloy.Globals.Styles.dealTypeLbl_right
+}
+"#distanceLbl":{
+	height: "20dp",
+	width: "0",
+	top: "10dp",	
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#distanceVal":{
+	height: "20dp",
+	top: "0dp",
+	right: Alloy.Globals.Styles.row_image,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#distanceVal[if=Alloy.Globals.isHebrew]":{
+	left: Alloy.Globals.Styles.labelDefaultRow_left,
+	right: Alloy.Globals.Styles.labelDefaultRow_right,
+}
+"#endTimeLbl":{
+	height: "20dp",
+	top: "10dp",
+	left: Alloy.Globals.Styles.labelDefaultRow_left,
+	right: Alloy.Globals.Styles.row_imageWrapRight,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#endTimeVal":{
+	height: "20dp",
+	top: "10dp",
+	left: Alloy.Globals.Styles.endTimeVal_left,
+	right: Alloy.Globals.Styles.campaignRating_left,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#priceLbl":{
+	height: "20dp",
+	top: "-6dp",
+	left:  Alloy.Globals.Styles.row_price,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062"
+}
+"#priceLbl[if=Alloy.Globals.isHebrew]":{
+	left:  Alloy.Globals.Styles.priceLbl_left,
+	right: Alloy.Globals.Styles.priceLbl_right
+}
+".campaignRatingWrap":{
+	height: "30dp",
+	top: "-15dp"
+}
+".campaignRating":{
+	width: "70dp",
+	height: "13dp",
+	left: Alloy.Globals.Styles.row_statusLbl_left,
+	right: Alloy.Globals.Styles.row_statusLbl_right,
+	backgroundRepear: false 
+}
+".campaignRatingVoted":{
+	height: "20dp",
+	left: Alloy.Globals.Styles.tooltipLeft,
+	right: Alloy.Globals.Styles.tooltipRight,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '12dp'},
+	color			: 	'#555',
+}

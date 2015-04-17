@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="pickerContent" class="pickerWrap">
+		<View class="pickerControls">
+			<Button class="pickerButton" onClick="onClose" titleid="done"></Button>
+		</View>
+		<Picker class="picker" id="picker" selectionIndicator="true" onChange="onChange" >
+			<PickerRow value="1" text="L('strip')"><Label textid="strip"></Label></PickerRow>	
+			<PickerRow value="2" text="L('pop_up')" ><Label textid="pop_up"></Label></PickerRow>	
+		</Picker>
+	</View>
+</Alloy>
+ 

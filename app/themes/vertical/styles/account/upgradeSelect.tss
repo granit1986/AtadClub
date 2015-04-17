@@ -1,0 +1,20 @@
+".membership_gold_private": {
+	width:' 220dp',
+	backgroundImage: "images/membership_gold_p.png",
+	height: '56dp',
+	top: '30dp',
+}
+
+".membership_gold_business": {
+	width:' 220dp',
+	backgroundImage: "images/membership_gold_b.png",
+	height: '56dp',
+	top: '20dp',
+}
+
+".membership_silver_business": {
+	width:' 220dp',
+	backgroundImage: "images/membership_silver_b.png",
+	height: '56dp',
+	top: '20dp',
+}

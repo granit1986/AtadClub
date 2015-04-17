@@ -1,0 +1,3 @@
+<Alloy>
+	<Window fullscreen="true" onFocus="focus" ></Window>
+</Alloy>

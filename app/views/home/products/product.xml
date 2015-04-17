@@ -1,0 +1,5 @@
+<Alloy>
+	<Window fullscreen="true">
+		<Label id="title"></Label>
+	</Window>
+</Alloy>

@@ -1,0 +1,53 @@
+<Alloy>
+	<Window id="window" fullscreen="true"  titleid="win_new_product" onClick="blur" onOpen="open">
+		<ScrollView class="form">
+			
+			<View class="space20"></View>
+			
+			<Label class="formLabel" id="categoriesLbl" textid="categories" ></Label>
+			<Button class="formSelect" id="categories" onClick="categories" >
+				<Label class="titleSelect" textid="select_category"></Label>
+				<Label class="selected_category" id="selectedCategories"></Label>
+				<Label class="iconSelect"></Label>
+			</Button>
+			
+			
+			<!--<Label class="formLabel" id="categoriesLbl" textid="categories" ></Label>
+			<Button id="categories" onClick="categories" titleid="Select"></Button>-->
+	
+			<Label class="formLabel" id="titleLbl" textid="title"></Label>
+			<TextField  class="formTextbox" id="title" onFocus="focus"></TextField>
+		
+			<Label class="formLabel" id="priceLbl" textid="price"></Label>
+			<TextField  class="formTextbox" id="price"  keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD" onFocus="focus"></TextField>
+		
+			<Label class="formLabel" id="descriptionLbl" textid="description"></Label>
+			<TextArea class="formTextarea" id="description" onFocus="focus" suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT"></TextArea>
+	
+	
+			<Label class="formLabel" id="imageLbl" textid="images"></Label>
+			<View class="imageSelectWrap">
+				<View class="imageSelect" id="images" layout="horizontal" onClick="onClickImages" >
+					<Button class="addPhoto" id="addPhoto" onClick="addPhoto"></Button>
+				</View>	
+			</View>
+			<Label class="tipForRemoveImage" id="howToDeleteImageLbl" textid="tap_to_delete_image" visible="false"></Label>
+	
+	
+			<!--<Label class="formLabel" id="imageLbl" textid="images"></Label>
+			<Button id="gallery" onClick="openGallery"></Button>
+			<Button id="camera" onClick="showCamera"></Button>
+			<ScrollView id="images" layout="horizontal" showHorizontalScrollIndicator="true" onClick="onClickImages" ></ScrollView>	
+			<Label id="howToDeleteImageLbl" textid="tap_to_delete_image"></Label>-->
+			
+			
+			<Label class="formLabel" id="switchLbl" textid="active"></Label>
+			<Switch class="formSwitch" id="switch_" value="true"></Switch>
+				
+			<Button  class="formButton"  titleid="add_product_button" id="button" onClick="onClick"></Button>		
+
+			<Button  class="formButton"  titleid="delete_product_button" id="delete_button" onClick="deleteProduct" visible="false"></Button>		
+
+		</ScrollView>
+	</Window>
+</Alloy>

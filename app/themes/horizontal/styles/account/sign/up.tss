@@ -1,0 +1,105 @@
+"ScrollView": {
+	/*layout: 'vertical',*/
+	backgroundImage: 'images/background.png'
+}
+
+/*"#pageTitle":{
+	top: '20dp',
+	height: '50dp',
+	textid: 'signup',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}*/
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#firstNameLbl": {
+	top: '30dp',
+	textid: 'firstname'
+}
+"#lastNameLbl": {
+	top: '70dp',
+	textid: 'lastname'
+}
+"#emailLbl": {
+	top: '110dp',
+	textid: 'email'
+}
+"#passwordLbl": {
+	top: '150dp',
+	textid: 'password'
+}
+"#confirmLbl": {
+	top: '190dp',
+	textid: 'confirm'
+}
+
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff',
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+"#firstName": {
+	top: '30dp',
+	hintText: L('firstname')
+}
+"#lastName": {
+	top: '70dp',
+	hintText: L('lastname')
+}
+"#email": {
+	top: '110dp',
+	hintText: L('email'),
+	keyboardType: Ti.UI.KEYBOARD_EMAIL
+}
+"#password": {
+	top: '150dp',
+	hintText: L('password')
+}
+"#confirm": {
+	top: '190dp',
+	hintText: L('confirm')
+}
+
+
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+"#signUp": {
+	top: '230dp',
+	titleid: 'signup'
+}
+"#signIn": {
+	top: '310dp',
+	titleid: 'signin'
+}
+
+"#lSignin": {
+	top: '280dp',
+	height: '20dp',
+	textid:'orSignin',
+	font: {fontSize: '10dp'},
+	color: '#555',
+	verticalAlign: 'center'
+}

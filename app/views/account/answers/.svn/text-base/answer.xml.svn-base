@@ -1,0 +1,18 @@
+<Alloy>
+	<Window fullscreen="true" id="window" titleid="offer" onClose="close" onOpen="open" onBlur="blur" onFocus="focus" onClick="click">		
+		
+		<TableView id="messages" separatorColor="transparent"  >			
+			<!-- <Require src="account/answers/messagesRow"></Require>	 -->		
+		</TableView>
+		
+		<View id="form" class="messageForm">
+			<TextArea id="answer" ></TextArea>
+			<Button id="send" titleid="send" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" ></Button>
+		</View>
+		
+		
+		<!-- <Button id="accept" titleid="accept" visible="false" onClick="onClickAccept"></Button>
+		<Button id="decline" titleid="decline" visible="false" onClick="onClickDecline"></Button> -->
+
+	</Window>
+</Alloy>

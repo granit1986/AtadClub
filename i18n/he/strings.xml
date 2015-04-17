@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	
+	<string name="back">חזרה</string>
+	
+	<!--InfinyScroll-->
+	<string name="tap_to_load_more">לחץ כאן להעלות עוד...</string>
+	<string name="no_more_to_load">אין יותר פריטים להעלאה...</string>
+	<string name="scroll_error">טעות גלילה</string>
+
+	<!--PullToRefresh-->
+	<string name="pull_to_refresh">משוך לריענון</string>
+	<string name="release_to_refresh">שחרר לריענון</string>
+	<string name="updating">מעדכן...</string>
+
+	<string name="login">שם משתמש</string>
+	<string name="name">שם</string>
+	<string name="firstname">שם פרטי</string>
+	<string name="lastname">שם משפחה</string>
+	<string name="email">אימייל</string>
+	<string name="currency">מטבע</string>
+	<string name="company_number">מס. חברה</string>
+	<string name="phone">מס. טלפון</string>
+	<string name="done">נעשה</string>
+	<string name="password">סיסמא</string>
+	<string name="confirm">אשר</string>
+	<string name="not_right_pass">הסיסמא שגויה</string>
+	<string name="try_again_or_rquest">אנא נסה שנית או אחזר סיסמא</string>
+	<string name="signup">הירשם</string>
+	<string name="new_password">סיסמא חדשה</string>
+	<string name="reset_password">אתחל סיסמא</string>
+	<string name="blocked">חשבונך נחסם, למידע נוסף </string>
+	<string name="contact_administrator">פנה למנהל הרשת</string>
+	<string name="company_number">מס. חברה</string>
+	
+	<string name="try_again">נסה שוב</string>
+	
+	
+	<string name="signin">כניסת משתמש</string>
+	<string name="I_agree_with">אני מסכים ל</string>
+	<string name="terms_of_use">תנאי השימוש</string>
+	<string name="create_account">הירשם</string>
+	<string name="facebook_signin">Facebook</string>
+	<string name="message">הודעה</string>
+	<string name="company_name">שם חברה</string>
+	<string name="use_current_location">מצא את מיקומי הנוכחי</string>
+	<string name="tap_to_delete_image">לחץ על התמונה למחיקה</string>
+	
+	<string name="send">שלח</string>
+	<string name="what_add">הוסף מבצע/מודעה</string>
+	<string name="add_new_advert">הוסף מודעה חדשה</string>
+	<string name="add_advert">מודעת יד 2</string>
+	<string name="add_deal">מבצע (לעסקים בלבד)</string>
+	<string name="new_deal">מוסיף מבצע חדש</string>
+	<string name="please_login_title">אנא בצע כניסה</string>
+	<string name="please_login">רק משתמשים רשומים יכולים להוסיף מבצעים</string>
+	<string name="please_login_price">רק משמשים רשומים יכולים לשלוח הצעה נגדית</string>
+	<string name="please_login_barter">רק משמשים רשומים יכולים לשלוח הצעת ברטר</string>
+	<string name="please_login_notifications">רק משתמשים רשומים יכולים לעדכן התראות</string>
+	<string name="option_upgrade">לדוחות יש לשדרג את חברות המועדון שלך</string>
+	<string name="offers_upgrade">.יש לשדרג למועדון חברות פרטי זהב בכדי לשלוח הצעה נגדית או ברטר</string>
+	<string name="complaint_sended">תודה! תלונתך תיבחן ותועבר לספק</string>
+
+	<string name="tab_home">ראשי</string>
+	<string name="tab_add">הוסף</string>
+	<string name="tab_account">חשבון</string>
+	<string name="tab_how_to_use">הוראות שימוש</string>
+	<string name="tab_appreciation">תמוך בנו עכשיו</string>
+	<string name="tab_about_us">אודותינו</string>
+	<string name="tab_contact_us">צור קשר</string>
+	<string name="tab_share">שתף אפליקציה</string>
+	<string name="tab_investors">משקיעים</string>
+	<string name="tab_signin">הרשמה/כניסה</string>
+	<string name="version">גרסה</string>
+	
+	<string name="win_home">ראשי</string>
+	<string name="win_account">חשבון</string>
+	<string name="win_add_advert">מודעה חדשה</string>
+	<string name="win_add_deal">מבצע חדש</string>
+	<string name="win_new_product">הוסף מוצר חדש</string>
+	<string name="win_appreciation">תמוך בנו עכשיו</string>
+	<string name="win_find">מה אני מחפש?</string>
+	<string name="win_how_to_use">הוראות שימוש</string>
+	<string name="win_about_us">אודותינו</string>
+	<string name="win_contact_us">צור קשר</string>
+	<string name="win_add_complaint">תלונה חדשה</string>
+	<string name="wib_share">שתף אפליקציה</string>
+	<string name="notifications">התראות</string>
+	<string name="answer">הודעות</string>
+	<string name="tryAgain">נסה שוב</string>
+	<string name="choose_category">בחר קטגוריה</string>
+	<string name="deals_in_a_location">מבצעים באזור</string>
+	<string name="all_companies_in_location">כל העסקים באזור</string>
+	<string name="all_companies">כל העסקים</string>
+	<string name="voucher_successfull_get">מספר הקופון שלך הוא</string>
+	<string name="send_to">שלח אל</string>
+	<string name="voucher_code">קוד קופון</string>
+	<string name="my_voucher_code">קוד הקופון שלי</string>
+
+	<string name="contact_us">צור קשר</string>
+	<string name="about_us">אודותינו</string>
+	<string name="investors_text">אנו מחפשים משקיעים על מנת לגדול ולהתפתח. אם יש לכם עניין בנושא, אנא צרו קשר דרך "צור קשר".</string>
+	<string name="text_appreciation">אם עזרנו לכם לקדם את העסק שלכם ו/או לבצע עסקה כלשהי, אנו נשמח לקבל לב מכם! 
+תודה!
+צוות  Atad Club</string>
+	
+	<string name="categories">קטגוריות</string>
+	<string name="select_category">בחר</string>
+	<string name="title">כותרת</string>
+	<string name="image">תמונה</string>
+	<string name="images">תמונות</string>
+
+
+	<string name="allDealsFromSupplier">כל מבצעי הספק</string>
+	<string name="similardeals">מבצעים דומים</string>
+	<string name="getVauchers">קבל קופון</string>
+	<string name="deals">כל המבצעים</string>
+	
+	<string name="_new">חדש</string>
+	<string name="declined">נדחה</string>
+	<string name="accepted">התקבל</string>
+	<string name="decline">דחה</string>
+	<string name="accept">קבל</string>
+	<string name="state">סטטוס</string>
+
+	<string name="category">קטגוריה</string>
+	<string name="supplier">ספק</string>
+	<string name="rateDeal">דרג מבצע</string>
+	<string name="dealtype">סוג מבצע</string>
+	<string name="rating">דירוג</string>
+	<string name="companies">חברות</string>
+
+	<string name="advert">מודעה</string>
+	<string name="offer">הצעה</string>
+	<string name="from">מאת</string>
+	<string name="to">אל</string>
+
+	<string name="shouldSignin">יש להיכנס למערכת על מנת לגשת לחשבון.</string>
+	<string name="orSignup">אם אינך משתמש רשום, אנא הרשם.</string>
+	<string name="orSignin">אם הנך משתמש רשום, אנא התחבר.</string>
+	<string name="newSignUp">צור משתמש חדש</string>
+	
+	<string name="no_email">נדרש כתובת דוא"ל</string>
+	<string name="invalid_email">כתובת דוא"ל לא חוקית</string>
+	<string name="no_password">נדרשת סיסמא</string>
+	<string name="not_signed">שם משתמש או סיסמא שגויים</string>
+	<string name="not_updated">עדכון נכשל. אנא בדוק את השדות</string>
+	<string name="no_message">אנא הכנס את הודעתך.</string>
+	<string name="no_first_name">נדרש שם פרטי.</string>
+	<string name="no_last_name">נדרש שם משפחה.</string>
+	<string name="no_confirm">נדרש אימות סיסמא.</string>
+	<string name="passwords_not_match">הסיסמאות אינן זהות.</string>
+	<string name="can_not_create_account">לא ניתן ליצור חשבון, דוא"ל קיים במערכת.</string>
+	<string name="password_is_too_simple">הסיסמא חייבת לכלול מספרים ואותיות באורך של 6 תווים או יותר.</string>
+	<string name="no_description">נדרש תיאור.</string>
+	<string name="no_renew_days">חידוש אוטומטי נדרש.</string>
+	<string name="no_deal_types">סוג מבצע נדרש.</string>
+	<string name="no_start_date">תאריך התחלה נדרש.</string>
+	<string name="date_to_require">תאריך התחלה נדרש</string>
+	<string name="date_from_require">תאריך סיום נדרש</string>
+	<string name="date_equals">תאריך התחלה לא יכול להיות גדול מתאריך סיום.</string>
+	<string name="user_not_exist">משתמש לא נמצא.</string>
+	<string name="user_not_active">המשתמש נחסם.</string>
+	<string name="reset_sended">אנא בדוק את הדוא"ל שלך! נשלח דוא"ל אשר יאפשר לך לאתחל את הסיסמא באופן פשוט ויעיל. </string>
+	<string name="no_currency">מטבע נדרש.</string>
+	<string name="no_about">אודות נדרש.</string>
+	<string name="no_working_hours">שעות עבודה נדרש. </string>
+	<string name="no_terms">תנאים נדרש.</string>
+	<string name="invalid_number">מס. חברה צריך להיות 5 תווים או יותר. </string>
+	
+	<string name="hours_start">שעת התחלה</string>
+	<string name="hours_finish">שעת סיום</string>
+
+	<string name="no_title">נדרשת כותרת.</string>
+	<string name="no_price">מחיר נדרש.</string>
+	<string name="no_address">כתובת נדרשת.</string>
+	<string name="invalid_price">אנא הכנס מחיר חוקי.</string>
+	<string name="no_phone">מס. טלפון נדרש.</string>
+	<string name="invalid_phone">אנא הכנס מס. טלפון חוקי</string>
+	<string name="no_company_name">שם חברה נדרש.</string>
+	<string name="no_number">מס. חברה נדרש.</string>
+	
+	<string name="edit_profile">עריכת החשבון שלי</string>
+	<string name="add_company">הוספת פרטי חברה</string>
+	<string name="edit_company">עריכת פרטי חברה</string>
+	<string name="deals">מבצעים</string>
+	<string name="products">מוצרים</string>
+	<string name="contact_supplier">צ'אט עם הספק</string>
+	<string name="my_adverts">המודעות שלי</string>
+	<string name="my_answers">הודעות</string>
+	<string name="buy_banner">רכישת באנר</string>
+	<string name="buy_banner">רכישת באנר</string>
+	<string name="buy_advertisement">רכישת פרסום</string>
+	<string name="reports">דוחות יעילות מבצעים</string>
+
+	<string name="my_deals">המבצעים שלי</string>
+	<string name="my_products">המוצרים שלי</string>
+	<string name="my_offers">הצעות נגדיות</string>
+	<string name="stats">סטטיסטיקות</string>
+	<string name="complains">תלונות</string>
+	<string name="complain">תלונה</string>
+	<string name="complaint">תלונה</string>
+	<string name="complaints">תלונות</string>
+	<string name="logout">התנתק</string>
+
+	<string name="price">מחיר</string>
+	<string name="deal_price">מחיר מבצע</string>
+	<string name="description">תיאור</string>
+	<string name="about_the_deal">אודות</string>
+	<string name="contactInfo">פרטי התקשרות</string>
+	<string name="vouchers">קופונים</string>
+	
+	<string name="picture">תמונה</string>
+
+	<string name="yes">כן</string>
+	<string name="no">לא</string>
+	<string name="add">הוספה</string>
+	<string name="update">עדכון</string>
+	<string name="map">מפה</string>
+	<string name="list">רשימה</string>
+	<string name="adverts">מודעות</string>
+	<string name="start_date">תאריך התחלה</string>
+	<string name="finish_date">תאריך סיום</string>
+	<string name="vacancy">דרושים </string>
+	<string name="start_time">שעת התחלה</string>
+	<string name="end_time">שעת סיום</string>
+	<string name="work_time">שעות פעילות</string>
+	<string name="send">שלח</string>
+	<string name="active">פעיל</string>
+	<string name="not_active">לא פעיל</string>
+	<string name="notyfication_settings_updated">הגדרת ההתראות עודכנו בהצלחה</string>
+	<string name="network_off_line">מכשירך כרגע לא מקוון. אנא התחבר לרשת להמשך. </string>
+	<string name="offer_sent">הצעתך נשלחה בהצלחה</string>
+	<string name="cancel">בטל</string>
+	<string name="no_connection">אינך מחובר לאינטרנט, אנא התחבר ונסה שוב. </string>
+	<string name="error_send_message">השרת אינו זמין, מנסה להתחבר שוב ולשלוח הודעה אחרונה שוב.</string>
+	<string name="chat_server_unavailable">אות האינטרנט חלש, ייתכן ויהיו בעיות בצ'אט מול ספקים.</string>
+	<string name="internet_weak">אות האינטרנט שלך חלש.</string>
+	
+	<string name="new_message">יש לך הודעה חדשה</string>
+	<string name="chat">צ'אט</string>
+	
+	<string name="barter_offer">הצעת ברטר</string>
+	<string name="barter_image">תמונה למוצר חלופי</string>
+
+	<string name="_15_min">15 דקות</string>
+	<string name="_30_min">30 דקות</string>
+	<string name="_45_min">45 דקות</string>
+	<string name="_1_hour">1 שעה</string>
+	<string name="_2_hour">2 שעות</string>
+	<string name="_3_hour">3 שעות</string>
+	<string name="_4_hour">4 שעות</string>
+	<string name="_5_hour">5 שעות</string>
+	
+	<string name="new_deals">מבצעים חדשים</string>
+	<string name="all_deals">כל המבצעים</string>
+	
+
+	<string name="please_select_category">אנא בחר קטגוריה </string>
+	<string name="add_image_from_gallery">גלריה</string>
+	<string name="add_image_from_camera">מצלמה</string>
+	<string name="delete_image">מחק</string>
+	
+	<string name="sort_by">מיין לפי</string>
+	<string name="distance">מרחק</string>
+	<string name="my_price_offer">הצעת מחיר נגדית</string>
+	<string name="my_barter_offer">הצעת ברטר</string>
+	<string name="send_my_price_offer">הצע מחיר אחר</string>
+	<string name="send_my_barter_offer">שלח הצעת ברטר</string>
+	
+
+	<!-- NEW ADVERT/DEAL -->
+	<string name="advert_title">כותרת</string>
+	<string name="advert_price">מחיר</string>
+	<string name="advert_description">תיאור</string>
+
+	<string name="add_advert_button">הוספת מודעה</string>
+	<string name="update_advert_button">עדכן</string>
+	<string name="delete_advert_button">מחק</string>
+	<string name="delete_advert_title">המודעה תימחק לצמיתות!</string>
+	<string name="delete_advert_message">האם אתם בטוחים שברצונכם לבצע מחיקה?</string>
+
+	<string name="add_product_button">הוספת מוצר</string>
+	<string name="update_product_button">עדכון מוצר</string>
+	<string name="delete_product_button">מחק מוצר</string>
+	<string name="delete_product_title">המוצר יימחק לצמיתות!</string>
+	<string name="delete_product_message">האם אתם בטוחים שברצונכם למחוק?</string>
+
+
+	<string name="add_advert_description_label">תיאור</string>
+
+	<string name="deal_renew">ימים לחידוש אוטומטי</string>
+	<string name="deal_is_active_during">המבצע פעיל רק בשעות מסוימות</string>
+	<string name="use_vouchers">הגבל באמצעות קופונים (אופציונלי)</string>
+	
+	<string name="show_help_durning">כאשר יש עניין לבצע את המבצע רק בין שעות מסוימות (כמו שעות "מתות" למשל), הפעל את הכפתור ע"י הזזתו ל "on" ולאחר מכן בחר את השעות שבהן המבצע יהיה פעיל בהן </string>
+	<string name="show_help_renew">באופן כללי, מבצעים פעילים למשך 24 שעות בלבד. במידה ויש עניין להריץ את המבצע ליותר זמן, כאן תוכלו לבחור בחידוש אוטומטי של המבצע עד 30 ימים ברציפות. </string>
+	<string name="show_help_vouchers">ע"י הפעלת הקופונים, תוכלו לשלוט בכמה אנשים יממשו את המבצע. ככה תוכלו לשלוט בכמות האנשים שיגיעו ללרכוש את המבצע בין אם בגלל כמות מוגבלת או כל סיבה אחרת. בסיום כמות הקופונים, המבצע ירד אוטומטית</string>
+	
+	<string name="add_deal_button">הוספת מבצע</string>
+	<string name="update_deal_button">עדכון מבצע</string>
+	<string name="delete_deal_button">מחק מבצע</string>
+	<string name="delete_deal_title">המבצע יימחק לצמיתות!</string>
+	<string name="delete_deal_message">האם את/ה בטוח?</string>
+
+
+	<!-- COMPANY -->
+	<string name="up_click_for_company">אם הנך עסק רשום, אנא לחץ כאן.</string>
+	<string name="about_company">אודות</string>
+	<string name="working_hours">שעות פעילות</string>
+	<string name="terms_company">תנאים</string>
+	<string name="company_logo">לוגו</string>
+	<string name="company_updated_label">נתוני החברה עודכנו בהצלחה!</string>
+
+	<string name="period">תקופה</string>
+	<string name="type">סוג</string>
+	<string name="for_">עבור</string>
+	<string name="hours">שעות</string>
+	
+	<!-- ALERTS -->
+	<string name="signup_or_signin_title">עליך להתחבר למערכת</string>
+	<string name="signup_or_signin_message">לבצע פעולה זאת, עליך להיות משתמש רשום </string>
+
+	<string name="should_be_company_title">עליך להירשם כחברה על מנת לבצע פעולה זאת</string>
+	<string name="should_be_company_message">השרות הזה ניתן לשימושן של חברות רשומות בלבד</string>
+
+	<string name="select_category">בחר</string>
+	<string name="address">כתובת</string>
+	<string name="use_current_location">השתמש במיקומי הנוכחי</string>
+	
+	<!--GEO ERRORS-->
+	<string name="xhr_error">בעיית רשת</string>
+	<string name="json_error">בעיית רשת</string>
+	<string name="err_geo_device_turned_off">ה GPS שלך כבוי.</string>
+	<string name="err_geo_running_services_disallowed"> שרותי GEO אינם מאופשרים. אנא נסה לאפשר בהגדרות המכשיר.</string>
+	<string name="err_geo_system_services_disallowed"> שרותי GEO אינם מאופשרים. אנא נסה לאפשר בהגדרות המכשיר.</string>
+	<string name="err_geo_location_unknown">לא ניתן למצוא את מיקומך</string>
+	<string name="err_geo_access_denied"> לא ניתן למצוא את מיקומך </string>
+	<string name="err_geo_network_error">שגיאת רשת</string>
+	<string name="err_geo_failure_detect_heading">failure detect headling&nbsp;</string>
+	<string name="err_geo_region_monitoring_access_denied"> לא ניתן למצוא את מיקומך </string>
+	<string name="err_geo_region_monitoring_access_failure"> לא ניתן למצוא את מיקומך </string>
+	<string name="err_geo_region_monitoring_setup_delayed"> לא ניתן למצוא את מיקומך </string>
+	<string name="err_geo_region_monitoring_setup_delayed"> לא ניתן למצוא את מיקומך </string>
+
+	<string name="INVALID_REQUEST">לא ניתן לאתר את הכתובת</string>
+	<string name="MAX_ELEMENTS_EXCEEDED">לא ניתן לאתר את הכתובת</string>
+	<string name="OVER_QUERY_LIMIT">אין חיבור GPS</string>
+	<string name="REQUEST_DENIED"> לא ניתן לאתר את הכתובת </string>
+	<string name="UNKNOWN_ERROR"> לא ניתן לאתר את הכתובת </string>
+
+	<string name="avdvert_added_label">מודעתך התווספה בהצלחה!</string>
+	<string name="avdvert_added_title">המודעה התווספה</string>
+	<string name="avdvert_updated_label">מודעתך עודכנה בהצלחה!</string>
+	<string name="avdvert_updated_title">המודעה עודכנה</string>
+
+	<string name="deal_added_label">המבצע שלך התווסף בהצלחה! </string>
+	<string name="deal_added_title">המבצע התווסף</string>
+	<string name="deal_updated_label">המבצע עודכן בהצלחה!</string>
+	<string name="deal_updated_title">המבצע עודכן</string>
+	
+
+	<string name="add_another_advert">האם ברצונך להוסיף מודעה נוספת?</string>
+	<string name="view_my_adverts">צפייה במודעות שלי</string>
+
+	<string name="category_label">קטגוריה</string>
+	<string name="distance_label">מרחק</string>
+	
+	<string name="select_category">בחר</string>
+	<string name="find_button">חיפוש</string>
+	
+	<string name="search_result">תוצאות חיפוש</string>
+	<string name="back_to_search_result">חזרה לתוצאות חיפוש</string>
+	
+	<string name="about_you_advert_subject">אודות המודעה</string>
+	<string name="about_you_advert_message">שלום, %s!</string>
+
+	<string name="about_you_offer_subject">אודות ההצעה</string>
+	<string name="about_you_offer_message">שלום, %s!</string>
+
+	
+	<string name="update">עדכון</string>
+	
+	<string name="server_not_authorized">אינך מורשה</string>		
+	<string name="server_invalid_data">אנא תקן השגיאה ונסה שוב</string>		
+	<string name="server_email_used">הדוא"ל קיים במערכת, אנא נסה דוא"ל אחר</string>		
+	<string name="server_login_password_not_found">שם משתמש או סיסמא שגויים</string>		
+	
+	<string name="_button"></string>
+	
+	<string name="success_contact_us">הודעתך נשלחה בהצלחה ותיענה בהקדם. תודה!</string>
+	
+	<string name="no_adverts_found">לא נמצאו מודעות</string>
+	<string name="no_adverts_in_subcategories">לא נמצאו מודעות בקטגוריות הנבחרות. האם ברצונך לראות מודעות אחרות? </string>
+	<string name="no_adverts_in_you_location">מודעות לא נמצאו בסביבתך הקרובה, האם אתה מעוניין לראות מודעות יותר רחוקות? </string>
+	
+	<string name="advert_added">מודעתך התווספה בהצלחה. תוכל לערוך אותה ב"מודעות שלי" אשר בחשבון שלך </string>
+	<string name="advert_updated">המודעה עודכנה בהצלחה!</string>
+	<string name="ok">אישור</string>
+	<string name="select_all">בחר הכל</string>
+	
+	<string name="black_list">ספקים חסומים</string>
+	<string name="block_supplier">האם ברצונך לחסום ספק זה?</string>
+	
+	<string name="my_black_list">ספקים חסומים שלי</string>
+	<string name="similardeals">מבצעים דומים</string>
+	<string name="allDealsFromSupplier">כל המבצעים מספק זה</string>
+	<string name="complaint">תלונה</string>
+	<string name="strip">Strip</string>
+	<string name="pop_up">התראה</string>
+	<string name="notify_type">סוג ההתראה</string>
+	<string name="product_added_label">המוצר התווסף בהצלחה!</string>
+	<string name="product_updated_label">המוצר עודכן בהצלחה! </string>
+	
+	<!-- Share-->
+	<string name="tab_share">שתף</string>
+	<string name="sms">SMS</string>
+	<string name="email_share">Email</string>
+	<string name="facebook">Facebook</string>
+	<string name="twitter">Twitter</string>
+	<string name="google">Google</string>
+	<string name="share_text">שלום לכולם!
+הנה אפליקציית חובה בכל שכונה!
+תפיצו אותה בקרב החנויות והשכנים שלכם ותהנו ממועדון צרכנות שכונתי בחינם
+תהנו</string>
+	
+	<!-- Contact Us -->
+	<string name="subject">נושא</string>
+	<string name="bug_report">דיווח על באג</string>
+	<string name="investment">השקעה</string>
+	<string name="features_suggestion">הצעה לפונקציות נוספות</string>
+	<string name="improvement_suggestion">הצעת ייעול</string>
+	<string name="affiliate_request">מעוניין לעזור בהפצה</string>
+	<string name="blocked_account">משתמש חסום</string>
+	<string name="other">אחר</string>
+	
+	<!-- Upgrade -->
+	<string name="upgrade">שדרג</string>
+	<string name="Silver">כסף</string>
+	<string name="Gold">זהב</string>
+	<string name="silver_deals">מבצעי מועדון כסף</string>
+	<string name="gold_deals">מבצעי מועדון זהב</string>	
+	<string name="gold_adverts">מודעות מועדון זהב</string>
+	<string name="silver_business">חברות מועדון כסף - לעסקים</string>
+	<string name="gold_business">חברות מועדון זהב - לעסקים</string>
+	<string name="gold_private"> חברות מועדון זהב - לפרטיים</string>
+	<string name="upgrade_account">שדרג חברות מועדון</string>
+	<string name="to_DATE">עד</string>
+	<string name="buing_silver_month">ברכות! רכשת חברות מועדון כסף עבור לקוחות עסקיים למשך חודש</string>
+	<string name="buing_silver_year"> ברכות! רכשת חברות מועדון כסף עבור לקוחות עסקיים למשך שנה</string>
+	<string name="buing_gold_private_month">ברכות! רכשת מועדון חברות זהב ללקוחות פרטיים למשך חודש</string>
+	<string name="buing_gold_private_year">ברכות! רכשת מועדון חברות זהב ללקוחות פרטיים למשך שנה</string>
+	<string name="buing_gold_business_month">ברכות! רכשת מועדון חברות זהב עבור לקוחות עסקיים למשך חודש</string>
+	<string name="buing_gold_business_year"> ברכות! רכשת מועדון חברות זהב עבור לקוחות עסקיים למשך שנה</string>
+	<string name="description_silver">חברות מועדון המאפשרת להריץ עד 3 מבצעים שונים בו זמנית, הגדרת עד 10 מוצרים בפרופיל החברה, תעדוף בחיפוש לקוחות, עד 8 יום חידוש אוטומטי של מבצעים ואפשרות לבצע דילים על כל הקטגוריות</string>
+	<string name="description_goldBusiness">חברות מועדון המאפשרת להריץ מבצעים ללא הגבלה בו זמנית, הגדרת מוצרים בפרופיל החברה ללא הגבלה, תעדוף ראשון בחיפוש לקוחות, עד 30 יום חידוש אוטומטי של מבצעים, אפשרות לעשות מבצעים על כל הקטגוריות ולקבל דוחות יעילות על המבצעים</string>
+	<string name="description_goldPrivate">חברות מועדון זהב מאפשרת לחבר המועדון לייצר מודעות ללא הגבלה בו זמנית, יכולת לשלוח הצעת מחיר נגדית והצעת ברטר, תעדוף בחיפוש של לקוחות פוטנציאלים ואפשרות לייצר מודעות בכל הקטגוריות</string>
+	
+	<!-- Buy banner -->
+	<string name="country">מדינה</string>
+	<string name="city">עיר</string>
+	<string name="street">רחוב</string>
+	<string name="house">מספר בית</string>
+	<string name="country_require">יש למלא את השדה מדינה </string>
+	<string name="city_require"> יש למלא את השדה עיר</string>
+	<string name="image_require"> יש למלא את השדה תמונה</string>
+	<string name="request_send">תודה! אנו ניצור קשר בהקדם האפשרי</string>
+	<string name="buy_banner_text">כאן תוכלו לרכוש באנר שהינו בעצם התמונה הראשונית שעולה בהפעלת האפליקציה. הבאנר הינו מבוסס מיקום וכל מי שברדיוס של עד 2 ק"מ מכתובתכם ייחשף לבאנר הזה כשייכנס לאפליקציה.
+במידה ויהיה יותר מבאנר אחד במיקום מסוים, הסבב בין הבאנרים יהיה רנדומלי.
+שילחו לנו את הבאנר שלכם, את הכתובת שלכם ואנחנו נשלח לכם הצעת מחיר (שתנוע בין 17-35 ₪ לחודש (תלוי בחשיפה של אזורכם)</string>
+	
+	<!-- Location service -->
+	<string name="address_not_found">הכתובת לא נמצאה</string>
+	<string name="location_service_disable">שרותי מיקום אינם פועלים</string>
+	
+	<string name="complaint_requited"> יש למלא את השדה תלונה</string>
+	<string name="chat_open_error">ישנה בעיה כללית, אנא נסה שוב מאוחר יותר</string>
+	
+	
+	<!-- Complaints -->
+	<string name="spam">המבצע הינו ספאם</string>
+	<string name="not_relevant">המבצע אינו מבצע אמיתי</string>
+	<string name="misleading">אינפורמציה מוטעית</string>
+	<string name="not_real">לא מדובר בבעל עסק לגיטימי</string>
+	<string name="other">אחר</string>
+	
+	
+	<string name="registration_success">תודה על הרשמתך!</string>
+	<string name="thanks">תודה רבה!</string>
+	
+	<string name="limit">חברות המועדון שלך מוגבלת ל </string>
+	<string name="limit_deals">מבצעים</string>
+	<string name="limit_adverts">מודעות</string>
+	<string name="upgrade_membership">שדרוג חברות מועדון</string>
+	<string name="save_item">שומר תמונות...</string>
+	<string name="maxRenew_part1">הערך הזה בחידוש אוטומטי זמין ל </string>
+	<string name="maxRenew_separator">ו</string>
+	<string name="maxRenew_part2">חברות מועדון עסקי בלבד</string>
+	
+	
+	<string name="choose_deals">בחר מבצעים לדו"ח</string>
+	<string name="send_to_email">שלח לדוא"ל</string>
+	<string name="best_deals">המבצעים הטובים ביותר</string>
+	<string name="choose_deals">אנא בחר מבצעים</string>
+	<string name="report_sended">הדו"ח נשלח לדוא"ל שלך</string>
+	
+	<string name="only_register_company">הפונקציונליות הזאת מיועדת למורשים מטעם חברות רשומות בלבד! האם הנך מורשה מטעם העסק לבצע פעולה זו??</string>
+	<string name="settings">הגדרות</string>
+	<string name="profile_save">הפרופיל שלך עודכן בהצלחה!</string>
+	
+	<string name="isTap">תוצאות נוספות...</string>
+	<string name="isDone">אין יותר תוצאות...</string>
+	<string name="isError">לחץ לנסות שוב...</string>
+	<string name="can_add_product">כאן ניתן להזין את כל מוצריך</string>
+	<string name="error_loading_image">שגיאה בטעינת התמונה</string>
+	<string name="default_search">חיפוש ברירת המחדל שלי</string>
+	<string name="block">חסום</string>
+	<string name="photo">הוסף תמונה</string>
+	<string name="edit">ערוך</string>
+	<string name="enter_address">הכנס כתובת</string>
+	<string name="thank_you">תודה</string>
+	<string name="deal_rating">דירוג עסקה</string>
+	<string name="what_looking">מה אתם מחפשים?</string>
+	<string name="distance_wheel">רדיוס</string>
+	<string name="advert_phone">טלפון</string>
+	<string name="seller">מוכר</string>
+	<string name="support">תמוך בנו</string>
+	<string name="cant_write_themselves">אתה לא יכול לרשום את המכתב לעצמך</string>
+	
+	<!-- Terms of use  -->
+	<string name="terms">תנאי שימוש ורישיון</string>
+	<string name="terms_not_argee">על מנת להשתמש באפליקציה, הנך נדרש/ת לאשר את תנאי השימוש</string>
+	<string name="terms_text"> מבוא\n
+ג. אטד אחזקות בע"מ ("החברה") היא הבעלים והמפעילה של אפליקציית Atad club. 
+השימוש באפליקציה כפופה להסכמתך המקדמית לתנאי השימוש כפי שיפורטו להלן בתקנון זה ("תקנון השימוש"). על כן נבקשך לקרוא בעיון את תקנון השימוש טרם שימושך באפליקציה \n
+
+בשימושך באפליקציה את/ה מסכים/ה להיות קשור ולפעול על פי התנאים המפורטים בתקנון השימוש ומאשר בזאת כי קראת והינך מסכים/ה לתנאים אלו. אם אינך מסכים/ה באופן מלא לכל התנאים המפורטים בתקנון השימוש, אנא הפסק/י מיד כל שימוש נוסף באפליקציה. \n
+ויתור והגבלת אחריות \n
+המידע, התכנים והשירותים (ביחד "השירותים") המוצעים לך באפליקציה מוצעים AS IS והחברה, מנהליה, בעלי מניותיה, בעלי שליטה בה, חברות הקשורות אליה ומי מטעמם של כל אלו (להלן יחד עם החברה: "הקבוצה") לא יישאו בכל אחריות להתאמתם לצרכיך ו/או למטרותיך. \n
+
+כל האמור, המתפרסם מעת לעת באפליקציה הינו בבחינת המלצה בלבד ואין בהם כדי לחייב את הקבוצה ו/או להטיל עליה אחריות מכל מין וסוג שהוא ביחס לפעולות המשתמשים בהסתמך על אותו פרסום ועל בסיסו. 
+הקבוצה אינה אחראית בכל צורה שהיא לשימוש ו/או התוכן המפורסם באתרים אליהם מפנה האפליקציה ו/או פרסומות באפליקציה. כל שימוש באתרים אלו יעשה על אחריותך הבלעדית. \n
+
+הקבוצה לא תהא אחראית, בכל מקרה ועל פי תיאוריה משפטית כלשהי (לרבות נזיקית, חוזית, עשיית עושר וכדומה), כלפיך ו/או כלפי כל אדם אחר, במישרין ובעקיפין, לכל נזק ישיר או עקיף, הנובעים משימוש באפליקציה ו/או בשירותים ו/או בשל חוסר יכולת לעשות שימוש באפליקציה ו/או בשירותים ו/או מאי תקינותה של האפליקציה ו/או בשל אובדן מידע ו/או נזק למכשיר הנייד שלך ו/או למידע המאוחסן במכשיר הנייד שלך ו/או נזק הנובע ממחיקה מלאה או חלקית של המידע המאוחסן ולכל נזק אחר שהוא בין אם הנזק צפוי ובין אם שאינו צפוי, והינך מצהיר/ה בזאת כי את/ה אחראי/ת באופן בלעדי לכל שימוש אשר את/ה עושה באפליקציה ו/או בשירותים בין אם בתשלום ובין אם ללא תשלום. \n
+נהלי הרשמה ומסירת מידע אישי \n
+במסגרת השימוש באפליקציה הדורשת מסירת מידע אישי (כדוגמת הלוחות השונים) תתבקש/י לספק מספר נתונים אישיים כדוגמת: שם מלא, מספר טלפון, כתובת דואר אלקטרוני, ועוד. נתונים אלה יועברו ויישמרו במאגר המידע של החברה, ולא ניתן יהיה למוחקם. יודגש כי מסירת הנתונים הנ"ל על ידך אינה מחויבת על פי חוק, אולם, ללא מסירת הנתונים המוגדרים באפליקציה כ"חובה", לא תוכל להשתמש בשירותים המוצעים באפליקציה, כדוגמת פרסום בלוח המכירות של האפליקציה, יצירת מבצעים וכדומה. \n
+מדיניות ניהול מודעות באפליקציה \n
+החברה רשאית לבטל/לשנות/לערוך כל מודעה באפליקציה, לפי שיקול דעתה. 
+החברה שומרת לעצמה את הזכות לא לאשר נוסח של מודעה שאינו ראוי ו/או אינו עומד בסטנדרטים של האפליקציה. 
+בהתאם לתקנון השימוש כל אדם רשאי להכניס מודעה אחת בלבד באותו עניין, לערוך ולשנות אותה בכל עת. 
+לא יכניס המשתמש למודעה לינק/קישור לאתר אינטרנט אחר או כתובת אינטרנט בין בכתב ובין בתוך תמונה. פרסום של מספר טלפון יעשה אך ורק בתוך שדות יצירת הקשר ולא בטקסט חופשי. \n
+אופן השימוש של החברה במידע \n
+שימושך באפליקציה, כמו גם שימושם של משתמשים אחרים, עשוי להביא לאיסוף מידע ונתונים אודות סוג הפעילות אותה ביצעת באפליקציה כדוגמת פרסום בלוחות המכירות המופיעים באפליקציה, דירוגך של מבצעים מסוימים וכדומה. \n
+
+מידע זה, כמו גם המידע האישי לגביך ("המידע") - ככל שתמסור כזה - יישמר במאגר הנתונים של החברה. החברה מתחייבת בזאת לעשות שימוש במידע הנ"ל בכפוף להוראות כל דין. 
+השימוש במידע שייאסף על ידי החברה , ככל שייאסף, ייוחד בין היתר להתאמה אישית של פרסומות, קבלת/שליחת דואר אלקטרוני / SMS, להביא לידיעתך על מבצעים חדשים שעשויים לעניין אותך וכדומה. \n
+העברת מידע למפרסמים וצדדים שלישיים אחרים \n
+במסגרת פעילות החברה והאפליקציה ייתכן והחברה תעביר מעת לעת מידע ממאגר נתוניה לרבות מודעות המתפרסמות באפליקציה ופרטי מפרסמי מודעות באפליקציה (כולל מידע מזהה כדוגמת שם וטלפון) למפרסמים שונים ו/או לצדדים שלישיים אחרים. מובהר בזאת, כי אישור משתמש / מפרסם מודעה באפליקציה את תנאי תקנון השימוש מהווה הסכמתו אף להעברת מידע זה כאמור למפרסמים ו/או לצדדים שלישיים אחרים, ולא תהיה למשתמש / מפרסם טענה ו/או דרישה כלפי הקבוצה כהגדרתה לעיל(לרבות החברה) עקב כך. \n
+אבטחת מידע \n
+החברה מאבטחת את המידע המצוי באפליקציה וברשת מחשביה ככל שהיא נוגעת להפעלת האפליקציה, במערכות מתקדמות. על אף המאמצים והמשאבים המושקעים בכך, החברה אינה יכולה להתחייב בפני המשתמשים לכך שלא תתאפשר חדירה לא חוקית למאגרי המידע הכלולים באפליקציה וברשת המחשבים. \n
+זכויות יוצרים וקניין רוחני \n
+החברה הינה בעלת זכויות היוצרים והקניין הרוחני באפליקציה, באופן בלעדי. במסגרת זכויות היוצרים והקניין הרוחני נכללים, בין היתר, עיצובו הגראפי של האפליקציה, מבנה האפליקציה, מרכיביה הצורניים והמהותיים של האפליקציה, הטקסטים המופיעים בה, הפרסומים, מודעות המפורסמות באפליקציה וכן קבצים ויישומים מכל מין וסוג שהוא. \n
+
+חל איסור מוחלט על העתקה, הפצה, הצגה, פרסום או העברה של הנ"ל או חלק מהם, לרבות כל מודעה המפורסמת באפליקציה (בין בלוח המכירות של האפליקציה ובין בכל מקום אחר באפליקציה), אלא אם ניתנה לכך הסכמת החברה מראש ובכתב.  \n
+
+השימוש באפליקציה ופרסום מודעות \n
+למרות שהחברה עושה את מירב המאמצים להתאים את האפליקציה לכל משתמש באופן האופטימאלי ביותר הרי שהאפליקציה הינה אפליקציה המיועדת לציבור בכללותו וכל המידע המובא בה - לרבות לוחות המודעות - עומד לרשות ציבור המשתמשים כמות שהוא. מעת לעת, מטעמי עיצוב ונוחות – הפנייה באפליקציה הינה בלשון נקבה או זכר אולם מתייחסת תמיד גם למין השני. \n
+
+השימוש באפליקציה - על כל מגוון שירותיה - הינו על אחריותך בלבד.  \n
+
+השימוש באפליקציה מוגבל לפרסום מודעה בנוגע לנכס/מוצר/שירות/מבצע שמפרסם/ת המודעה מבקש/ת למכור, לעיון קהל המתעניינים באותן מודעות, ולפניה למפרסם המודעות בשל עניין של הפונה בנכס/מוצר/שירות/מבצע שפרסם/ה. אין להשתמש באפליקציה למטרה אחרת מהמטרות הנ"ל, וכל שימוש באפליקציה למטרה זרה כאמור אסור בהחלט. \n
+
+מובהר כי כלל השירותים השונים באפליקציה מוצעים למשתמשי האפליקציה בהתאם לתנאים הקבועים על ידי החברה והגישה והשימוש בהם מותנים בעמידה בתנאי הסף אשר ייקבעו על ידי החברה. החברה שומרת את הזכות שלא לאשר את השימוש בשירותים המוצעים על ידה עקב אי עמידה בתנאים אלו, וזאת על פי שיקול דעתה המוחלט. \n
+
+הינך מצהיר/ה ומתחייב/ת שלא לאסוף נתונים מהאפליקציה בכל צורה שהיא. כל שימוש אחר, לרבות פניה למפרסם המודעה שלא על מנת להתעניין ברכישת/שכירת הנכס/המוצר/השירות שפורסם, יהווה משום שימוש בניגוד לתנאי תקנון השימוש, על כל המשתמע מכך, והחברה שומרת לעצמה הזכות לתבוע בגינו פיצוי מתאים. \n
+
+מבלי לגרוע מהאמור לעיל הנך מצהיר ומתחייב: \n
+•	שלא להעתיק ו/או לשכפל ו/או לעדכן ו/או לשנות ו/או להפיץ ו/או לפרסם ברבים כל תוכן המצוי באפליקציה. \n
+•	שלא לבצע כל פעולה אשר תייצר ו/או אשר עלולה לייצר עומס על מערכות ושרתי האפליקציה. \n
+•	שלא לבצע כל פעולה המתערבת ו/או המפריעה (ו/או אשר מנסה להתערב ו/או להפריע) בדרך הפעולה הרגילה של האפליקציה והשירותים. \n
+•	שלא לעקוף או לנסות לעקוף כל אמצעי טכנולוגי הקיים באפליקציה ו/או במערכות הקשורות אליה אשר תפקידו למנוע אלו מן הפעילויות האסורות תחת תקנון השימוש. \n
+מובהר בזאת, כי האפליקציה מהווה פלטפורמת פרסום למשתמשים והחברה אינה אחראית על תוכן המודעות המתפרסמות במסגרתו. יחד עם זאת נהלי החברה אוסרים פרסום של מודעות שנושאיהן אינם חוקיים ו/או פוגעניים. למען הסר ספק יובהר בזאת כי אין לפרסם באפליקציה מודעות למכירת/שיווק/השכרת/אספקת/פרסום/הפצת מוצרים ושירותים המנוגדים לחוק. החברה לא תישא בכל אחריות נזיקית או פלילית כתוצאה מפרסום מודעה כאמור או היענות לה. החברה אף שומרת על זכותה לפנות במקרה הצורך לרשויות אכיפת החוק על מנת למנוע המשך פרסום של מוצרים/שירותים כאמור בתקנון השימוש תוך חשיפת פרטי המפרסם. \n
+
+מבלי לפגוע מכלליות האמור לעיל הינך מתחייב שלא לפרסם ו/או להזין לאפליקציה אחד או יותר מן התכנים הבאים: \n
+•	כל חומר הפוגע או מפר זכויות קנייניות של אחרים או מסלף זכויות ו/או תכנים של צדדים שלישיים \n
+•	כל חומר פורנוגראפי או בעל אופי מיני בוטה, המפר הוראות כל דין או עלול לפגוע ברגשות הציבור. \n
+•	כל חומר הנוגע לקטינים שלא התקבלה הסכמה של האפוטרופוסים החוקיים ומזהה אותם כקטינים או כולל את פרטיהם האישיים או מענם ודרכי ההתקשרות עימם. \n
+•	כל מידע בטחוני רגיש, או מידע אחר אשר מטבעו רגיש. \n
+•	כל חומר בלתי-חוקי, או חומר המעודד, תומך, מסייע, מספק הוראות לביצוע או מנחה בביצוע מעשה המהווה עבירה פלילית לפי דיני מדינת ישראל. כל חומר המהווה לשון הרע (הוצאת דיבה) על אדם. \n
+•	כל חומר החושף את פרטיו האישיים או האינטימיים של אדם (לרבות שמו), מבלי שהוא עצמו מסר אותו ו/או חומר הפוגע בפרטיותו ו/או בצנעת אישיותו של אדם. \n
+היה ותפר/י אחד או יותר מן התנאים שלעיל, את/ה תשפה את החברה בגין כל נזק שיגרם לה כתוצאה מהפרות אלו.  \n
+
+החברה שומרת לעצמה את הזכות לחסום/לבטל/להסיר כל מודעה שאינה עומדת בהוראות תקנון השימוש ו/או הוראות הדין ו/או נהלי החברה ו/או אשר יש בה כדי לפגוע בכל אדם או ישות משפטית אחרת ו/או אשר נסיבות פרסומה קשורות, במישרין או בעקיפין, למעשה של תרמית או לכל מעשה אסור אחר. \n
+
+אין באמור לעיל או להלן כדי לחייב את החברה לפעול בצורה הנזכרת לעיל ובכל מקרה ונסיבות לא תהא אחראית הקבוצה לכל נזק אשר ייגרם לצד כלשהו בגין פעולה או היעדר פעולה מצד החברה בהקשר זה. \n
+הפעלתה השוטפת של האפליקציה \n
+החברה אינה מתחייבת להפעיל את האפליקציה במתכונתה הקיימת לפרק זמן מסוים או קבוע. החברה שומרת לעצמה את הזכות לערוך כראות עיניה שינויים מבניים ומהותיים באפליקציה, לבטל, להוסיף, לשנות ולעדכן את כל הפונקציות הקיימות בה, בכל עת. הפרעה בפעילותו השוטפת והתקינה של האפליקציה, אגב ביצוע תיקונים, שינויים ושיפורים לא תהווה עילה לכל תביעה, טענה או דרישה מצדך. החברה מצדה עושה ותמשיך לעשות את מירב המאמצים על מנת שתוכל לגלוש ולהשתמש באפליקציה באופן שוטף וקבוע אולם היא אינה מתחייבת כי לא יארעו שיבושים, תקלות או הפרעות הכרוכות וקשורות בהפעלת האפליקציה והנלווים להפעלה זו. \n
+מתווכים/ לקוחות עסקיים/ בעלי מקצוע \n
+מדיניות ניהול אמצעי פרסום, וזאת מבלי לפגוע בשאר הוראות תקנון השימוש, ככל שאלה חלות, בשינויים המתחייבים, הינה כדלקמן:  \n
+1.	בפרק זה, למונח "המזמין" תהא הפרשנות הבאה: "כל מי שמזמין מאת החברה אמצעי פרסום ו/או רוכש חברות מועדון מסוג כסף או זהב". \n
+2.	במידה וכרטיס האשראי יידחה ולא ייפרע תשלום במועדו, הדבר יגרור חיוב בריבית פיגורים ששיעורה יהא זהה לשיעור ריבית הפיגורים החריגה המפורסמת ע"י בנק לאומי לישראל, וזאת מבלי לגרוע מכל סעד וזכות אחרים הנתונים לחברה לפי כל דין. \n
+3.	המזמין מאשר ומצהיר כי תוכן פרסום המודעות ו/או הפרסומות שיפורסם על ידו אינו מפר ולא יפר הוראות כל דין ו/או זכויות (לרבות זכויות קניין רוחני) צד שלישי כלשהו. \n
+4.	המזמין מאשר כי ידוע לו שהחברה תהא רשאית, בכל עת, שלא לאשר פרסום תוכן מודעות ו/או פרסומים שאינם כדין ו/או להתנות אישור לפרסומם בתנאים ו/או לחזור בה בכל עת מאישור שניתן לפרסומם, וזאת מכל סיבה שהיא לרבות עקב חשש לפגיעה בזכויות צדדים שלישיים ו/או חוקיות הפרסום, והוא מאשר ומצהיר כי החברה לא תישא בכל אחריות לכל נזק ו/או הפסד ו/א והוצאה שייגרמו למזמין במישרין או בעקיפין כתוצאה מכך. \n
+5.	ידוע ומוסכם על המזמין כי החברה תהא רשאית להסיר זמנית את תוכן פרסום המודעות עקב תקלה באפליקציה ו/או במידה ואלה לא יפעלו באופן תקין במצב כאמור. כמו כן, החברה תהא רשאית להסיר לאלתר את תוכן פרסום המודעות במידה ותמצא כי התוכן הנ"ל לא מפורסם ו/או מוצג כדין ו/או בניגוד לאמור בתקנון האפליקציה (ו/או במסגרת מסמך זה) ו/או מפר זכויות של צד שלישי כלשהו ו/או לפי טענת צד שלישי כלשהו כי התוכן הנ"ל מפר את זכויותיו. למזמין לא תהיה כל טענה כנגד החברה בגין האמור. \n
+6.	כמו כן, ידוע ומוסכם על המזמין כי החברה תהא רשאית להסיר מודעות ואף לחסום את המזמין מלפרסם מודעות נוספות במקרים בהם יגיעו תלונות ממשתמשים על תוכן לא ראוי, תוכן לא אמיתי, הטעייה מכווונת ו/או כל סיבה אחרת אשר המשתמשים רואים כפוגענית.  \n
+7.	המזמין מתחייב לשפות את החברה בגין כל נזק, הפסד, חבות, הוצאות והפסד הכנסה שייגרמו לה עקב תביעה ו/או דרישה שתופנה אליה מצדו של צד שלישי כלשהוא, ושעילתה קשורה במישרין או בעקיפין בפרסום תוכן המודעות שפורסמו ע"י המזמין, לרבות בגין פגיעה בזכות קניינית, שמו הטוב, פרטיותו של כל צד ג' ו/או הפרת כל דין. מבלי לגרוע מהאמור, החברה תיידע את המזמין לגבי כל תביעה כאמור, ותאפשר לו להשתתף בניהול ההגנה. \n
+8.	ממועד אישורה של הצעה זו ע"י המזמין יחול ההסכם בין הצדדים בהתאם לתוכנו של מסמך זה ובכפוף לתנאי תקנון האפליקציה, וכל שינוי או תוספת שלא אושרו בכתב ע"י הצדדים לא יהיו תקפים. \n
+למעט אם צוין מפורשות אחרת באפליקציה או בתקנון השימוש, כל שימוש באפליקציה במסגרת של ו/או בקשר ישיר או עקיף לעסק כפוף לתשלום ואין לבצעו ללא קבלת אישור מפורש מצד החברה ומתן הסכמת המשתמש העסקי לתנאי ההתקשרות של החברה; וזאת במסגרת הליכי הרישום לשירות הרלוונטי באפליקציה \n
+לקוח עסקי לצורך תקנון השימוש הינו כל יחיד, שותפות או תאגיד מכל סוג שהוא שעיסוקם במסחר קמעונאי, סיטונאי או זעיר, ישיר או עקיף, של מוצרים ו/או שירותים.ואשר אינו מונה למעלה מ 2 סניפים ברחבי ארץ ישראל. 
+החברה רשאית בכל עת לשנות את התעריפים, המסלולים ויתר תנאי ההתקשרות עם לקוחותיה העסקיים. \n
+
+תחולת הדין וסמכות שיפוט ייחודית \n
+על השימוש באפליקציה יחולו דיני מדינת ישראל והם בלבד. לבתי המשפט בתל-אביב-יפו תהא סמכות השיפוט הייחודית בכל הנוגע לתקנון השימוש ולשימוש באפליקציה. \n\n\n</string>
+	
+	
+	
+<string name="about_text">ATAD Club הינה אפליקציה אשר מספקת את הפלטפורמה הטובה ביותר לעסקים וללקוחות פרטיים לבצע מסחר באזור הקרוב (השכונה). האפליקציה הינה מועדון צרכנות שכונתית אשר מאפשרת לכל עסק להירשם, להחשף ולבצע מבצעים בתוך 5 דקות וכל זאת באמצעות הטלפון החכם שלו! \n
+האפליקציה מאפשרת לייצר מבצעים/מודעות יד שניה, לחפש מבצעים ומודעות יד שניה באזור שלך או סביב כתובת מסוימת ואפילו לתת הצעות מחיר נגדיות, לבצע צ'אט עם הספק, לחסום ספקים מטרידים, להתלונן, לדרג, לקבל התראות על מה שמעניין ועוד הרבה מאוד. \n
+ככל שיותר משתמשים ועסקים ישתמשו באפליקציה בשכונה הקרובה שלכם, כך תגדל החשיפה והיכולת שלכם להנות מהאפליקציה הטובה ביותר שיש! \n
+שתפו עכשיו והתחילו לסחור! \n
+</string>
+
+<string name="how_to_use">כללי \n
+Atad Club הינה אפליקציה אשר נוצרה על מנת לאפשר לכל אחד לסחור ולאתר עסקאות טובות באיזור הקרוב למקום הימצאו. \n
+האפליקציה תאפשר לכם למכור כל מה שבא לכם בדרך פשוטה, לאתר מבצעים באזור מעסקים מובחרים, לאתר מודעות יד שניה באזור שלכם (מכירות יד שניה), לאתר מבצע או עסק מסוים עד רדיוס של 2 ק"מ מכתובת מסוימת, להגדיר התראות על פי נוחות, ניהול משא ומתן על מחירים ואפילו הצעת החלפה (ברטר) ועוד הרבה! אתם אפילו יכולים לערוך מכירה פומבית ולמכור למרבה במחיר. \n
+איתור מבצע: \n
+על מנת לאתר מבצע (רצוי ראשית להגדיר את ההתראות שלך היות וברירת המחדל הינה הכל), כל מה שעליכם לעשות הינו לפתוח את האפליקציה וכבר בעמוד הבית יהיו כל המבצעים בקטגוריות אשר נמצאות בהגדרת ההתראות שלך. ניתן לבצע חיפש אחר ולבחור קטגוריות אחרות מברירת המחדל לפי הצורך במסך הבית (אשר לא יישמרו לפעם הבאה אלא אם תעדכן את ההתראות שלך) ולקבל מבצעים על קטגוריות אלו. בחלונית המיקום ניתן ללחוץ על צלמית ה GPS ולבחור את הכתובת שבה אתה נמצא או להזין כתובת ידנית (למשל מקום שאתה הולך אליו) ולקבל את כל המבצעים ברדיוס שבחרת (עד 2 ק"מ). על מנת לאתר עסקים ולא מבצעים, יש לבצע חיפוש וכאשר מגיע מסך תוצאות החיפוש, יש ללחוץ על כפתור "כל העסקים" שנמצא מצד ימין למעלה. כך תוכל לראות את כל העסקים באזור שמתאימים למאפייני החיפוש שלך. \n
+לחיפוש מודעות יד שניה, עליך לבחור בקטגורית החיפוש "מכירות יד שניה" וכך יגיעו רק מודעות של קטגוריות יד שניה. לא ניתן לחפש את 2 סוגי המודעות באותו החיפוש. \n
+במודעות יד שניה, יש לך אפשרות להציע הצעת מחיר נגדית או הצעת החלפה (ברטר). ע"י שליחת הצעות נגדיות תוכל להשיג עסקה טובה יותר ולנהל משא ומתן עם המוכר באופן פשוט ונוח. \n
+יצירת מבצע / מודעה משלי: \n
+Atad Club מאפשרת לך ליצור מבצע / מודעה משלך בצורה פשוטה ונוחה והכל בפחות מדקה. במידה ואתם רשומים, יש להתחבר למערכת, ובמידה ולא, יש להירשם (זאת על מנת שהמערכת תוכל לשלוח לכם הודעות מלקוחות פוטנציאלים). הרישום לחברה הינו רישום שונה. אתה יכול לרשום מספר חברות, במידה ויש לך יותר מעסק אחד. \n
+על מנת לייצר מבצע / מודעה, כל שעליך לעשות הינו ללחוץ על כפתור ה"הוסף" שמופיע למטה ולמלא את כל השדות הרלוונטים. לכל שדה לא מובן ישנו לחצן עזרה אשר יסביר לכם בדיוק למה נועד השדה ויעזור לכם למלא את הפרטים החשובים. לא ניתן לייצר מבצע או מודעה ללא תמונה של המוצר. \n
+מציאת מבצעים / עסקים לפי כתובת: \n
+על מנת למצוא מבצעים או עסקים ברדיוס של עד 2 ק"מ מכתובת מסוימת, יש להזין את הכתובת בחלונית של המיקום בדף הבית וללחוץ על חפש. אתם תקבלו את כל המבצעים באותו אזור וברדיוס שבחרתם במסך הבית. על מנת לראות אילו עסקים נמצאים באיזור, יש ללחוץ על כפתור "כל העסקים" שנמצא למעלה מצד ימין. \n
+כיצד אני יכול לשלוט בהתראות שאני מקבל? \n
+גש לתפריט התחתון ובחר "עוד" ו "התראות". כאן תוכל לשלוט כל כמה זמן תתקבל התראה, באיזה רדיוס ועל מה תקבל התראות. \n
+הגברת יעילות התוכנה: \n
+AtadClub הינה אפליקציה אשר יכולה לשרת אותך בצורה מעולה, אבל צריכה קצת את עזרתך... אם תדאג שכל משפחה בשכונה תשתמש באפליקציה וכל חנות או עסק בשכונה ישתמש באפליקציה, אתה תוכל להנות באופן ודאי מחיסכון בקניות, למכור מוצרי יד שניה ביתר קלות ובכלל לשכלל את יכולות המסחר שלך מול הסביבה הקרובה שלך ולמקסם את התועלת האישית. אז אל תחכה, שתף את האפליקציה עכשיו, אנחנו מתחייבים שזה רק יבוא לטובתך! \n
+לפרטים נוספים www.atadclub.com\n\n\n</string>
+
+<string name="buyBanner_title">קבל הצעת מחיר לבאנר הפתיחה</string>
+
+</resources>

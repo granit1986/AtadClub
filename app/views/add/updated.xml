@@ -1,0 +1,6 @@
+<Alloy>
+	<Window layout="vertical" id="window" fullscreen="true">
+		<Label id="label"></Label>
+		<Button titleid="ok" onClick="close"></Button>
+	</Window>
+</Alloy>

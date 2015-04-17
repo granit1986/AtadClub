@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/atadclub/!svn/ver/432/branches/v0.2/app/views/map
+END
+map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/202/branches/v0.2/app/views/map/map.xml
+END
+annotation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/atadclub/!svn/ver/202/branches/v0.2/app/views/map/annotation.xml
+END
+index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/atadclub/!svn/ver/432/branches/v0.2/app/views/map/index.xml
+END
+addAddress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/atadclub/!svn/ver/432/branches/v0.2/app/views/map/addAddress.xml
+END
+smallMap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/atadclub/!svn/ver/215/branches/v0.2/app/views/map/smallMap.xml
+END

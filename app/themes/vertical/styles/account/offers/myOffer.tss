@@ -1,0 +1,33 @@
+/*"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+}
+
+".infoLbl":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoVal":{
+	top:'-30dp',
+	left: '110dp',
+	width: '180dp',
+	height: '30dp',
+	color: '#555',
+	verticalAlign: 'top',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"TextArea":{
+	top: '-30dp',
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}*/

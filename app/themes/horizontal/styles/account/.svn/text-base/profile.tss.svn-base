@@ -1,0 +1,55 @@
+"#firstNameLbl"	: { top: '3090dp',	textid: 'firstname' }
+"#firstName"	: {	top: '30dp',	hintText: L('firstname') }
+
+"#lastNameLbl"	: {	top: '70dp',	textid: 'lastname' }
+"#lastName"		: {	top: '70dp',	hintText: L('lastname') }
+
+"#emailLbl"		: {	top: '110dp',	textid: 'email' }
+"#email"		: {	top: '110dp',	hintText: L('email'), keyboardType: Ti.UI.KEYBOARD_EMAIL }
+
+"#phoneLbl"		: {	top: '150dp',	textid: 'phone' }
+"#phone"		: {	top: '150dp',	hintText: L('phone'), keyboardType: Ti.UI.KEYBOARD_PHONE_PAD }
+
+//"#passwordLbl"	: {	top: '250dp',	textid: 'password' }
+//"#password"		: {	top: '250dp',	hintText: L('password') }
+
+//"#confirmLbl"	: {	top: '290dp',	textid: 'confirm' }
+//"#confirm"		: {	top: '290dp',	hintText: L('confirm') }
+
+"#update"		: {	top: '190dp' }
+
+"Window": {
+	/*layout: 'vertical',*/
+	backgroundImage: 'images/background.png'
+}
+"TextField" : {
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff',
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	left: '110dp',
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+

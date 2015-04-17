@@ -1,0 +1,8 @@
+"#titleLabel":{
+	height: '50dp',
+	left: '15dp'
+}
+"#deleteBtn":{
+	height: '50dp',
+	right: '0dp'
+}

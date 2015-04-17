@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/atadclub/!svn/ver/417/branches/v0.2/app/controllers/account/answers
+END
+index.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/atadclub/!svn/ver/350/branches/v0.2/app/controllers/account/answers/index.js
+END
+answer.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/atadclub/!svn/ver/389/branches/v0.2/app/controllers/account/answers/answer.js
+END
+messagesRow.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/atadclub/!svn/ver/417/branches/v0.2/app/controllers/account/answers/messagesRow.js
+END
+row.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/atadclub/!svn/ver/355/branches/v0.2/app/controllers/account/answers/row.js
+END

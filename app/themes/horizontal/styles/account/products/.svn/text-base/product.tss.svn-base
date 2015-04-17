@@ -1,0 +1,132 @@
+"Window": {
+	/*layout: 'vertical'*/
+	backgroundImage: 'images/background.png'
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#categoriesLbl": {	top: "30dp" }
+"#categories":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	top: '30dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+
+"#titleLbl": { 	top: "70dp" }
+"#title": { top: "70dp" }
+
+"#priceLbl": { 	top: "110dp" }
+"#price": { top: "110dp", keyboardType: Titanium.UI.KEYBOARD_DECIMAL_PAD }
+
+"#descriptionLbl": { top: "150dp" }
+"#description": { top: "150dp" }
+
+"#imageLbl": { 	top: "230dp" }
+
+"#gallery":{
+	width: '40dp',
+	height: '40dp',
+	left: '110dp',
+	top: '230dp',
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_gallery.png"
+}
+"#camera":{
+	width: '40dp',
+	height: '40dp',
+	left: '160dp',
+	top: '230dp',
+	backgroundColor: '#007aff',
+	backgroundImage: "images/icon_camera.png"
+}
+"#images":{
+	width: '180dp',
+	height: '50dp',
+	contentHeight: '50dp',
+	right: '30dp',
+	top : '280dp',
+}
+"#howToDeleteImageLbl": { 
+	width: '150dp',
+	height: '30dp',
+	right: '60dp',
+	top: '340dp',
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '12dp'},
+	color: '#555',
+}
+
+"#deleteImage":{
+	width: '40dp',
+	height: '40dp',
+	right: '30dp',
+	top: '370dp',
+	zIndex: "10",
+	backgroundColor: '#007aff',
+	backgroundImage: 'images/icon_delete.png'
+}
+
+"#switchLbl": { top: "380dp" }
+"#switch_": { top: "380dp", left: '110dp' }
+
+"#button":{
+	width: '100dp',
+	height: '40dp',
+	top: '420dp',
+	//bottom: '20dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+"#delete_button": {
+	width: '100dp',
+	height: '40dp',
+	top: '510dp',
+	bottom: '20dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'	
+}
+
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+}
+
+"TextArea":{
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}

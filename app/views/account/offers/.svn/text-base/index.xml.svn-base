@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_offers" onClose="close">
+		<TableView separatorColor="transparent" dataCollection="offers" dataTransform="transform" editable="true" onDelete="removeOffer">
+			<Require src="account/offers/row"></Require>
+		</TableView>
+	</Window>
+</Alloy>

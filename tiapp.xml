@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-development" type="string">6fBIbyDj1WZbzXhYfuBIBH00Iyd481qJ</property>
+    <property name="ti.facebook.appid">1437623056473639</property>
+    <property name="acs-oauth-key-development" type="string">HKjhf71j4FpVxUNbq71s4wOdDqkl7Hen</property>
+    <property name="acs-api-key-development" type="string">vZAC75HZroUG6oizURucbpkL32bwlP5V</property>
+    <property name="acs-oauth-secret-production" type="string">kQ3PAufAVYEpepMijHpLHrWlGCS0XmGq</property>
+    <property name="acs-oauth-key-production" type="string">BpnNLPiqNu08nHh8GxKBnpRE4IJoU7pu</property>
+    <property name="acs-api-key-production" type="string">ZAKyEuVHmzcYp8Vdiy98s1AGuKN2us9S</property>
+    <id>biz.slavin.mobile.atadclub</id>
+    <name>AtadClub</name>
+    <version>1.0.23</version>
+    <publisher>Slavin - Internet Technologies</publisher>
+    <url>http://slavin.biz</url>
+    <description>not specified</description>
+    <copyright>2014 by Slavin - Internet Technologies</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>ffcf6bc0-4324-4557-98f2-cd86e4b5b2d7</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>
+                    Specify the reason for accessing the user's location information.
+                    This appears in the alert dialog when asking the user for permission to
+                    access their location.
+                </string>
+            </dict>
+        </plist>
+    </ios>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+        <requires>
+            <feature>location-services</feature>
+            <feature>gps</feature>
+        </requires>
+    </iphone>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+        <module platform="iphone">net.iamyellow.tiws</module>
+        <module platform="iphone">ti.storekit</module>
+        <module platform="iphone">com.omorandi</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.5.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.5">ti.alloy</plugin>
+    </plugins>
+    <property name="ti.deploytype">development</property>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <uses-sdk android:targetSdkVersion="14"/>
+            <!-- Allows the API to download data from Google Map servers -->
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <!-- Allows the API to cache data -->
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <!-- Use GPS for device location -->
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <!-- Use Wi-Fi or mobile connection for device location -->
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <!-- Allows the API to access Google web-based services -->
+            <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+            <!-- Specify OpenGL ES 2.0 as a requirement -->
+            <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+            <uses-permission android:name="biz.slavin.mobile.atadclub.permission.MAPS_RECEIVE"/>
+            <permission
+                android:name="biz.slavin.mobile.atadclub.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+            <application>
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBbK9MVK9fHB2OyoP_uzE7msXJzHi60C6o"/>
+            </application>
+        </manifest>
+    </android>
+</ti:app>

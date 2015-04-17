@@ -1,0 +1,37 @@
+<Alloy>
+  <TableViewRow onClick="dealClick" id="rowWrap" hasChild="false" r>
+		
+		<View layout="absolute" id="row_imageWrap" class="row_imageWrap">
+			<View id="dealStatusWrap" class="row_statusLbl" height="0" top="0"></View>
+			<Widget id="dealImg" src="nl.fokkezb.cachedImageView" />
+			<View class="campaignRating" id="raitingStars" bottom="5dp" backgroundImage="images/rate_5.png"></View>
+			<Label class="campaignRatingVoted" id="votesLbl" bottom="2dp" ></Label>			
+		</View>		
+		<View layout="absolute" class="row_statusWrap" height="30dp">
+			<Label id="statusLbl"  visible="false"></Label>
+			<Label id="raitingLbl" visible="false"></Label>
+		</View>	
+		<View id="dealInfoWrap" layout="horizontal" height="Ti.UI.SIZE" top="0">
+			
+			<View layout="absolute" height="Ti.UI.SIZE">
+				<Label id="titleLbl" class="defaultSearchRow_titleLbl"  height="Ti.UI.SIZE"></Label>
+			</View>
+			
+	  		<View layout="absolute" height="30dp">
+				<Label id="companyLbl" ></Label>
+				<Label id="dealTypeLbl" ></Label>
+			</View>
+			
+			<View layout="absolute" height="30dp">
+				<Label id="distanceLbl" textid="distance"></Label>
+				<Label id="distanceVal" ></Label>
+				<Label id="priceLbl" ></Label>
+			</View>
+			
+			<View class="campaignRatingWrap" layout="absolute" height="30dp">
+				<Label id="endTimeLbl" textid="end_time" visible="false"></Label>
+				<Label id="endTimeVal" ></Label>
+			</View>
+		</View>
+  </TableViewRow>
+</Alloy>

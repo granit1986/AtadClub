@@ -1,0 +1,13 @@
+".tooltipIcon":{
+	width					:"30dp",
+	height					:"30dp",
+	top						:"-60dp",
+	bottom					:"30dp",
+	right					:Alloy.Globals.Styles.tooltipRight,
+	left					:Alloy.Globals.Styles.tooltipLeft,
+	borderRadius			:"15dp",
+	color					:"#ffffff",
+	backgroundColor			:"#007aff",
+	textAlign				:"center",
+	text					:"?"
+}

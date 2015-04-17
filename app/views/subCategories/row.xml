@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow id="row" selectionStyle="none" categoryId="{categoryId}" subCategoryId="{id}" onClick="onClick">
+		<Label id="label" text="{name}"></Label>
+		<View id="separate"></View>
+	</TableViewRow>
+</Alloy>

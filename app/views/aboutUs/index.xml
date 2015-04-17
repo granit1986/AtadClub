@@ -1,0 +1,6 @@
+<Alloy>
+	<Window fullscreen="true" titleid="win_about_us" id="window">
+		<Label  class="article" textid="about_text"></Label>
+		<!--<Button titleid="close_button" onClick="close"></Button>-->
+	</Window>
+</Alloy>

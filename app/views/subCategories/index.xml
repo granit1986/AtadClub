@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" fullscreen="true" onClose="onClose" onOpen="open" >
+		<TableView id="categories" separatorColor="transparent" dataCollection="subCategories" dataFilter="categoryFilter" >
+			<Require src="subCategories/row" />
+		</TableView>
+	</Window>
+</Alloy>

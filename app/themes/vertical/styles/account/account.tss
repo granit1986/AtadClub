@@ -1,0 +1,29 @@
+".badge":{
+    right: 10,
+    top: 10,
+    color: "#FFFFFF",
+    textAlign: "center",
+    font:{fontSize:14},
+    backgroundColor:'#e83038',
+    borderRadius: 10,
+    height: 20,
+    width: 20,
+    visible:false
+}
+
+/*"View": {
+	layout: 'vertical',
+	backgroundImage: "images/background.png"
+}
+"Button":{
+	width: '60%',
+	height: '40dp',
+	top: '20dp',
+	left: '20%',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#00a99d'
+}*/

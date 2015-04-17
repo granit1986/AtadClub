@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_price_offer" onClick="blur" onFocus="focus">
+		<ScrollView class="form" id="scrollView" layout="vertical" scrollingEnabled="false">
+			<View class="space20"></View>
+			
+			<Label class="formLabel" id="priceLbl" textid="price"></Label>
+			<TextField class="formTextbox" id="price" keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD" onFocus="focus"></TextField>
+	
+			<Label class="formLabel" id="descriptionLbl" textid="description"></Label>
+			<TextArea class="formTextarea"  id="description" onFocus="focus"></TextArea>
+	
+			<Button class="formButton" id="sendPriceOffer" titleid="send" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

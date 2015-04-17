@@ -1,0 +1,34 @@
+<Alloy>
+	<Window fullscreen="true" id="window" titleid="offer" onOpen="open" onClose="close">
+		<ScrollView class="content" id="scrollView">
+			<Label class="formLabel" textid="advert"></Label>
+			<Label class="formProperty" id="advert" ></Label>
+			
+			<Label class="formLabel" textid="to" id="toLbl" ></Label>		
+			<Label class="formProperty" id="user" ></Label>
+			
+			<Label class="formLabel"></Label>
+			<Label class="formProperty" id="email" onClick="onClickEmail"></Label>
+			
+			<Label class="formLabel"></Label>
+			<Label class="formProperty" id="phone" onClick="phoneCall"></Label>
+			
+			<Label class="formLabel" id="imageLbl" textid="barter_image" visible="false"></Label>
+			<ImageView class="formImage" id="imageView" height="0" visible="false"></ImageView>
+			<Label class="formLabel" id="priceLbl" textid="price" visible="false"></Label>
+			<Label class="formProperty" id="price" visible="false" ></Label>
+			
+			
+			
+			<Label class="formLabel" textid="description"></Label>
+			<Label class="formProperty" id="description" height="Ti.UI.SIZE"></Label>
+			
+			<Label class="formLabel" textid="state"></Label>
+			<Label class="formProperty" id="state"></Label>
+	
+			<Label class="formLabel" id="answerLbl" textid="answer" visible="false"></Label>
+			<TextArea class="formTextarea" id="answer" visible="false"></TextArea>
+			<Label class="formProperty" id="answerMsg" visible="false"></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

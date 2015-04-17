@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/views/home/deals
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/views/home/deals/row.xml
+END
+deal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/atadclub/!svn/ver/449/branches/v0.2/app/views/home/deals/deal.xml
+END
+similardeals.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/atadclub/!svn/ver/491/branches/v0.2/app/views/home/deals/similardeals.xml
+END
+defaultSearchRow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/atadclub/!svn/ver/492/branches/v0.2/app/views/home/deals/defaultSearchRow.xml
+END
+index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/491/branches/v0.2/app/views/home/deals/index.xml
+END

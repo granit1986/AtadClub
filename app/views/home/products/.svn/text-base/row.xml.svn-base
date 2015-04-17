@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow rowid="{id}" onClick="onClick" hasChild="true">
+		<Widget id="img" src="nl.fokkezb.cachedImageView" image="{image}"/>
+		<Label id="titleLbl" text="{name}"></Label>
+		<Label id="priceLbl" text="{price}"></Label>
+	</TableViewRow>
+</Alloy>

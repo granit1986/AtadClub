@@ -1,0 +1,1 @@
+/Users/ad/Documents/Titanium_Studio_Workspace/AtadClub/Resources/iphone/alloy/widgets/nl.fokkezb.cachedImageView/styles/widget.js

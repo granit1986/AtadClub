@@ -1,0 +1,17 @@
+<Alloy>
+	<ScrollView class="content" >
+		
+		<View class="space20"></View>
+		<Button class="accountButton" id="profile" titleid="edit_profile" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" ></Button>
+		<Button class="accountButton" id="supplier" titleid="add_company" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="blackList" titleid="my_black_list" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="adverts" titleid="my_adverts" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="deals" titleid="my_deals" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="products" titleid="my_products" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="offers" titleid="my_offers" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"><Label id="offers_badge" class="badge"></Label></Button>
+		<Button class="accountButton" id="reports" titleid="reports" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="answers" titleid="my_answers" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"><Label id="answers_badge" class="badge"></Label></Button>
+		<Button class="accountButton" id="buyBanner" titleid="buy_banner" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Button class="accountButton" id="logout" titleid="logout" onClick="logout" ></Button>		
+	</ScrollView>
+</Alloy>

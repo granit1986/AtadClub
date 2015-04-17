@@ -1,0 +1,4 @@
+"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+}

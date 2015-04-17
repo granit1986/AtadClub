@@ -1,0 +1,57 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="add_company" layout="absolute" onClick="blur" onClose="close">
+		<ScrollView class="form" top="0">
+			
+			<View class="space20"></View>
+			
+			<Label class="formLabel" id="categoriesLbl" textid="categories"></Label>
+			<Button  class="formSelect" id="categories" onClick="categories" >
+				<Label class="titleSelect" textid="select_category"></Label>
+				<Label class="selected_category" id="selectedCategories"></Label>
+				<Label class="iconSelect"></Label>
+			</Button>
+	
+			
+			<Label class="formLabel" id='nameLbl' textid="name"></Label>
+			<TextField class="formTextbox" id='name' onFocus="focus"></TextField>
+			
+			<Label class="formLabel" id='companyNumberLbl' textid="company_number"  ></Label>
+			<TextField class="formTextbox" id='companyNumber' onFocus="focus"></TextField>
+	
+
+			<Label class="formLabel" id='phoneLbl' textid="phone"  ></Label>
+			<TextField class="formTextbox" id='phone' keyboardType="Titanium.UI.KEYBOARD_NUMBER_PAD" onFocus="focus"></TextField>		
+
+			<Label class="formLabel" id='emailLbl' textid="email"></Label>
+			<TextField class="formTextbox" id='email'  keyboardType="Titanium.UI.KEYBOARD_EMAIL" onFocus="focus"></TextField>
+			
+			<Label class="formLabel" id='addressLbl' textid="address"></Label>
+			
+			<View class="formTextarea">
+				<TextArea class="addressTextarea" id="address" onReturn="search" returnKeyType="Ti.UI.RETURNKEY_SEARCH" onFocus="focus">
+				</TextArea>
+				<Button class="getLocation" id="customLocation" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			</View>
+			
+			<Label class="formLabel" id="imageLbl" textid="company_logo"></Label>
+			<ImageView class="formImage" id="imageView" height="0" visible="false"></ImageView>
+			<Button class="formChangeImage_company" id="changeImage" onClick="addPhoto" titleid="photo"></Button>
+			<Button class="formDeleteImage_company" id="deleteImage" onClick="deleteImage" visible="false"></Button>		
+			
+			<!--<Button id="gallery" onClick="openGallery"></Button>
+			<Button id="camera" onClick="showCamera"></Button>	-->
+
+			<Label class="formLabel" id='aboutLbl' textid="about_company"></Label>
+			<TextArea class="formTextarea" id='about' suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT" onFocus="focus"></TextArea>
+
+			<Label class="formLabel" id='workingHoursLbl' height="50" textid="working_hours"></Label>
+			<TextArea class="formTextarea" top="-50" id='workingHours' suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT" onFocus="focus"></TextArea>
+
+			<Label class="formLabel" id='termsLbl' textid="terms_company"></Label>
+			<TextArea class="formTextarea"  id='terms' suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT" onFocus="focus"></TextArea>
+
+			<Button class="formButton" id="update" titleid="add" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

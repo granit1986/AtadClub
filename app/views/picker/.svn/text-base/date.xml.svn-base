@@ -1,0 +1,12 @@
+<Alloy>
+	<!--<Window fullscreen="false" backgroundImage="false" backgroundColor="transparent" onClose="onClose">
+		<View height="Ti.UI.FILL">-->
+		<!--</View>
+	</Window>-->
+	<View id="pickerContent" class="pickerWrap">
+		<View class="pickerControls">
+			<Button class="pickerButton" onClick="onClose" titleid="done"></Button>
+		</View>
+		<Picker class="picker" id="picker" selectionIndicator="true" type="Ti.UI.PICKER_TYPE_DATE" onChange="onChange" />
+	</View>
+</Alloy>

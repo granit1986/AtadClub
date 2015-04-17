@@ -1,0 +1,13 @@
+"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+}
+
+"TableView": {
+	backgroundColor: '#00ffffff'
+}
+
+".table_row": {
+	height: "1dp",
+	backgroundColor: "#d9d9d9",
+}

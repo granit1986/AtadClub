@@ -1,0 +1,57 @@
+"TableViewRow":{
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY
+}
+".account_label":{
+	width: "180dp",
+	bottom: "10dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#statusLbl":{
+	width: "180dp",
+	height: "20dp",
+	top: "2dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+".dealImg_wrap": {
+	height: "100dp",
+	width: "60dp",
+	left: Alloy.Globals.Styles.account_imageLeft,
+	right: Alloy.Globals.Styles.account_imageRight,
+}
+"#img":{
+	width: "60dp",
+	height: "60dp",
+	backgroundColor: "#fff"
+}
+"#companyLbl":{
+	width: "180dp",
+	height: "20dp",
+	top: "5dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#distanceLbl":{
+	height: "20dp",
+	top: "5dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#priceLbl":{
+	height: "20dp",
+	top: "-5dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062"
+}

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=AtadClub
+iosLaunchConfigurationAttributes/appid=biz.slavin.mobile.atadclub
+iosLaunchConfigurationAttributes/certificate=Emil Slavin (44HDQYB67A)
+iosLaunchConfigurationAttributes/distribute_path=/Users/ad/Documents
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/output_format=ipa
+iosLaunchConfigurationAttributes/sdk_version=7.0
+iosLaunchConfigurationAttributes/uuid=12D258C0-8F9A-48FC-92B9-FE4B2D08DFDD

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window onOpen="open" titleid="wib_share">
+		<View class="space20"></View>
+		<Button class="linkButton" id="sms" titleid="sms" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Label class="icon_sms"> </Label>
+		<Button class="linkButton" id="email" titleid="email_share" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Label class="icon_email"> </Label>
+		<Button class="linkButton" id="facebook" titleid="facebook" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Label class="icon_facebook"> </Label>
+		<Button class="linkButton" id="twitter" titleid="twitter" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Label class="icon_twitter"> </Label>
+		<Button class="linkButton" id="google" titleid="google" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		<Label class="icon_google"> </Label>
+	</Window>
+</Alloy>

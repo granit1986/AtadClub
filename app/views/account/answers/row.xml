@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow rowId="{ChatId}" hasChild="true" onClick="onClick" id="row">
+		<Label id="toUser" text="{ToUser}"></Label>
+		<Label id="toUserId" text="{To}" visible="false"></Label>
+		<Label id="newMessages" class="badge" text="{NewMessages}" ></Label>
+	</TableViewRow>
+</Alloy>

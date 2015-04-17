@@ -1,0 +1,12 @@
+<Alloy>
+    <Window fullscreen="true" id="window" titleid="advers" onClose="close">
+    	<View id="wrapper">
+			<!---->
+			<Label id="sortsLbl" textid="sort_by" class="formLabel" visible="false"></Label>
+			<TabbedBar platform="ios"  id="sorts" index="0" visible="false" onClick="Sort"></TabbedBar>
+			<TableView id="adverts" visible="false">
+				<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="add" />
+			</TableView>
+    	</View>
+    </Window>
+</Alloy>

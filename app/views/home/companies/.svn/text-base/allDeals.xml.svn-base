@@ -1,0 +1,8 @@
+<Alloy>
+    <Window id="window" fullscreen="true" titleid="deals" onOpen="open" onClose="close">
+		<TableView id="deals" >			
+			<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="add" />
+       </TableView>
+       <Label id="loading">Loading</Label>
+    </Window>
+</Alloy>

@@ -1,0 +1,44 @@
+﻿<Alloy>
+	<Window fullscreen="true" id="window">
+		<ScrollView>
+			<ImageView id="image" class="image"></ImageView>
+			<Label id="nameVal" class="pageTitle"></Label>
+			<Label id="addressLbl" class="infoLbl" textid="address"></Label>			
+			<Label id="addressVal" class="infoVal" onClick="onClickAddress"  color="#00accb"></Label>
+			
+			<Label id="emailLbl" class="infoLbl" textid="email"></Label>				
+			<Label id="emailVal" class="infoVal" onClick="onClickEmail" color="#00accb"></Label>
+			
+			<Label id="companyNumberLbl" class="infoLbl" textid="company_number" />
+			<Label id="companyNumber" class="infoVal" ></Label>
+			
+			<Label id="phoneLbl" class="infoLbl" textid="phone"></Label>				
+			<Label id="phoneVal" class="infoVal" onClick="onClickPhone"  color="#00accb"></Label>			
+		
+			<Label id="aboutLbl" class="infoLbl" textid="about_company"></Label>	
+			<Label id="aboutVal" class="infoVal"></Label>
+			
+			<Label id="hoursLbl" class="infoLbl" textid="working_hours"></Label>		
+			<Label id="hoursVal" class="infoVal"></Label>
+			
+			<Label id="termsLbl" class="infoLbl" textid="terms_company"></Label>	
+			<Label id="termsVal" class="infoVal"></Label>
+			
+			<View class="space20"></View>
+			
+			<Button class="linkButton" id="products" titleid="products" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="linkButton" id="deals" titleid="deals" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="linkButton" id="send" titleid="contact_supplier" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			
+			<AlertDialog id="dialog" titleid='Block' messageid="block_supplier" cancel="1">
+				<ButtonNames>
+					<ButtonName>Ok</ButtonName>
+					<ButtonName>Cancel</ButtonName>
+				</ButtonNames>				
+			</AlertDialog>
+			<!--<Button id="productsBtn" class="infoBtn">Products</Button>		
+			<Button id="dealsBtn" class="infoBtn">Deals</Button>-->
+			
+		</ScrollView>
+	</Window>
+</Alloy>

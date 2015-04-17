@@ -1,0 +1,63 @@
+﻿<Alloy>
+	<Window fullscreen="true" id="window" onOpen="open">
+		<ScrollView class="content" id="scrollView">
+			
+			<Label id="name" class="mainTitle" height="Ti.UI.SIZE"></Label>
+			
+			<Label class="formProperty_category lightgray" id="category"></Label>
+			
+			<ScrollableView class="imageSlider" id="images" showPagingControl="true"></ScrollableView>
+			
+			<View class="hor2SmallButtonsWrap" id="buttonsView">
+							
+				<View layout="absolute" height="30dp" bottom="10dp" class="campaignRatingWrap" id="campaignRatingWrap">
+					<Button class="smallHorButton smallHorButton_align" backgroundDisabledImage='images/gray_fill.png' disabledColor="#ccc" width="90dp" id="rateDiealButton" titleid="rateDeal" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>		
+					<View class="campaignRating" id="rating"></View>
+					<Label class="campaignRatingVoted lightgray" id="ratingVoted"></Label>
+				</View>
+							
+				<View layout="absolute" height="30dp">
+					<Button class="smallHorButton smallHorButton_align" backgroundDisabledImage='images/gray_fill.png' disabledColor="#ccc" width="90dp" id="complaintDiealButton" titleid="complain" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+					<Label class="formProperty complainLabelCount" color="#303030" id="complains"></Label>
+					<Label class="formLabel lightgray complainLabel" id="complainsLbl" textid="complains"></Label>
+				</View>
+				
+			</View>
+
+			<Label class="formLabel lightgray" id="priceLbl" textid="price"></Label>
+			<Label class="formProperty price" id="price"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel lightgray" id="dealtypeLbl" textid="dealtype"></Label>			
+			<Label class="formProperty price" id="dealtype"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel lightgray" id="descriptionLbl" textid="about_the_deal"></Label>	
+			<Label class="formProperty dealtypeLabelMargin" id="description"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel lightgray" id="supplierLbl" textid="supplier"></Label>
+			<Label class="formProperty price" id="supplier" color="#00accb" onClick="onClickSupplier"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel lightgray" id="addressLbl" textid="address"></Label>	
+			<Label class="formProperty dealtypeLabelMargin" id="address" color="#00accb" onClick="onClickAddress"></Label>
+			<View class="table_row"></View>
+			<Label class="formLabel lightgray" id="distanceLbl" textid="distance"></Label>	
+			<Label class="formProperty price" id="distance"></Label>
+			
+			<ImageView id="mapImage" image="" onClick="onClickAddress" ></ImageView>
+			
+			<Label class="formLabel lightgray" id="workTimeLbl" textid="work_time"></Label>
+			<Label class="formProperty dealtypeLabelMargin" id="workTime"></Label>
+			
+			<View class="hor2SmallButtonsWrap" id="buttons">
+				<Button class="smallHorButton" right="10dp" id="supplierButton" titleid="supplier" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+				<Button class="smallHorButton" id="similarDealsButton" titleid="similardeals" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+				<Button class="smallHorButton" top="10dp" width="280dp" id="allDealsButton" titleid="allDealsFromSupplier" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+				<Button class="smallHorButton" top="10dp" width="280dp" id="getVauchersButton" titleid="getVauchers" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+				<Button class="smallHorButton" top="10dp" width="280dp" id="send" titleid="contact_supplier" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+				<Button class="smallHorButton social" top="10dp" width="280dp" id="share" titleid="tab_share" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"/>
+			</View>
+			
+			<View class="space20"></View>
+			
+		</ScrollView>
+	</Window>
+</Alloy>

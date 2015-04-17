@@ -1,0 +1,29 @@
+<Alloy>
+	<ScrollView class="form" onClick="blur">
+		<Label class="mainTitle" textid="signin"></Label>
+			
+		<Label id="loginLbl" width="95dp" height="Ti.UI.SIZE" class="formLabel" textid="login" ></Label>
+		<TextField class="formTextbox" id="login" keyboardType="Ti.UI.KEYBOARD_EMAIL" onFocus="focus"></TextField>
+		
+		<Label id="passwordLbl" class="formLabel" textid="password"></Label>
+		<TextField class="formTextbox" id="password" passwordMask="true" bottom="0" onFocus="focus"></TextField>
+		
+		<View id="resetPasswordWrap" height="0" visible="false" layout="vertical">
+			<Label class="passwordError" textid="not_right_pass">That's not the right password.</Label>
+			<Label id="resetPassword" class="resetPassword" onTouchstart="linkTouchStart" onTouchend="linkTouchEnd" textid="try_again_or_rquest">Please try again or request a new one.</Label>
+		</View>
+		
+		<View id="sendAdmin" height="0" visible="false" layout="vertical">
+			<Label class="passwordError" textid="blocked" width="190dp"  height="Ti.UI.SIZE" right="0"></Label>
+			<Label class="resetPassword" textid="contact_administrator" onClick="contactClick"></Label>
+		</View>
+		
+		<View class="space20"></View>
+			
+		 
+		<Button class="formButton" id="signIn" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" titleid="signin"></Button>		
+		<Button class="formButton" backgroundColor="#3b5998" id="facebookSignIn" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" titleid="facebook_signin"></Button>	
+		
+		<!--<Button class="formButton" id="resetPassword" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" titleid="reset_password"></Button>	-->	
+	</ScrollView>
+</Alloy>

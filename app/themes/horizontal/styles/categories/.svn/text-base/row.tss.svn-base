@@ -1,0 +1,9 @@
+"TableViewRow":{
+	backgroundColor: "#00ffffff"
+}
+"Label":{
+	height: "30dp",
+	left:'30dp',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}

@@ -1,0 +1,49 @@
+/*
+"#priceLbl": { 	top: "30dp" }
+"#price":{ 	top: "30dp", keyboardType: Titanium.UI.KEYBOARD_DECIMAL_PAD }
+
+"#descriptionLbl": { top: "70dp" }
+"#description": { top: "70dp" }
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	//returnKeyType: Ti.UI.RETURNKEY_DONE,
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+}
+"TextArea":{
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	top: '150p',
+	bottom: '20dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}*/

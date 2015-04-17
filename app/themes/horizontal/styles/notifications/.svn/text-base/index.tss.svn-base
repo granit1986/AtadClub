@@ -1,0 +1,86 @@
+"Window": {
+	//layout: 'vertical',
+	backgroundImage: "images/background.png"
+}
+
+"#categoriesLbl": {	top: "30dp" }
+"#categories":{
+	width: '180dp',
+	height: '30dp',
+	left: '110dp',
+	top: '30dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+
+"#periodLbl": {top: '70dp' }
+"#period": {top: '70dp' }
+
+"#forLbl" : {top: '110dp' }
+"#for_" :  {top: '110dp' }
+	
+"#hoursLbl":  {top: '150dp' }
+"#start" :  {top: '150dp' }
+"#end" :  {top: '190dp' }
+
+"#distanceLbl":  {top: '230dp' }
+"ScrollView": {
+	layout:'horizontal',
+	top:'230dp',
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	contentHeight:'30dp',
+	backgroundColor:'#007aff'
+}
+//"#typeLbl": {top: '270dp' }
+//"#type_":  {top: '270dp' }
+
+"Button":{
+	height: '40dp',
+	top: '270dp',
+	left: '110dp',
+	width: '100dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	//returnKeyType: Ti.UI.RETURNKEY_DONE,
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+}
+
+
+".viewOnScroll": {
+	width: '90dp',
+	height:'30dp'
+},
+".labelOnScroll": {
+	height:'30dp',
+	textAlign:'center',
+	color:'#fff',
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+}

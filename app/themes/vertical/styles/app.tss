@@ -1,0 +1,527 @@
+"Window": {
+	backgroundImage	: 	Alloy.Globals.Styles.backgroundImage,
+	layout			: 	'vertical'
+}
+"ScrollView":{
+	layout			:	'vertical'
+}
+"TableView":{
+	 backgroundColor:	"transparent"
+}
+"TableViewRow":{
+	selectedBackgroundColor: Alloy.Globals.Styles.TableRowOnTapBg,	
+}
+"TextArea[if=Alloy.Globals.isHe]":{
+	textAlign: "right"
+}
+".content":{
+	left			:	'20dp',
+	right			:	'20dp'
+}
+".mainTitle":{
+	height			: 	'80dp',
+	width			:	Ti.UI.FILL,
+	textAlign		:	'center',
+	color			: 	Alloy.Globals.Styles.titleColor,
+	font			: 	{fontSize: '25dp', fontFamily: 'OleoScriptSwashCaps-Regular'}//, fontWeight: 'Regular'}
+}
+
+".distanceTitle":{
+	// height			: 	'80dp',
+	// width			:	Ti.UI.FILL,
+	// textAlign		:	'center',
+	color			: 	Alloy.Globals.Styles.titleColor,
+	font			: 	{fontSize: '15dp', fontFamily: 'OleoScriptSwashCaps-Regular'}//, fontWeight: 'Regular'}
+}
+
+".space10":{
+	height			: 	'10dp',
+	width			:	Ti.UI.FILL
+}
+".space20":{
+	height			: 	'20dp',
+	width			:	Ti.UI.FILL
+}
+".link":{
+	width			:	Ti.UI.FILL,
+	height			: 	"30dp",
+	top				:	"10dp",
+	borderWidth		:	"0",
+	background		:	"transparent",
+	color			:	"#000",
+	font			:	{fontSize: '20dp', fontFamily: 'Avenir Next Condensed'}
+}
+".article":{
+	top				: 	'10dp',
+	left			: 	'10dp',
+	right			: 	'10dp',
+	color			: 	'#555',
+	textAlign		: 	Alloy.Globals.Styles.titleLbl_textAlign,
+	font			: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}	
+}
+
+/// FORMS
+
+".accountButton":{
+	width			: Ti.UI.FILL,
+	left			: "5dp",
+	right			: "5dp",	
+	height			: 	'40dp',
+	bottom			:	'20dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".form":{
+	left			:	'20dp',
+	right			:	'20dp'
+}
+".formLabel":{
+	width			:	Alloy.Globals.Styles.labelWidth,
+	height			:	Alloy.Globals.Styles.labelHeight,
+	color			:	Alloy.Globals.Styles.labelColor,
+	left			:	Alloy.Globals.Styles.labelLeft,
+	right			:	Alloy.Globals.Styles.labelRight,
+	textAlign		:	Alloy.Globals.Styles.labelTextAlign,
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'}
+}
+".formLabel_width":{
+	width 			:	"140dp",
+	height			:	Alloy.Globals.Styles.labelHeight,
+	color			:	Alloy.Globals.Styles.labelColor,
+	left			:	Alloy.Globals.Styles.labelLeft,
+	right			:	Alloy.Globals.Styles.labelRight,
+	textAlign		:	Alloy.Globals.Styles.labelTextAlign,
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'}
+}
+".formLongLabelForSwitch":{
+	width			:	"230dp",
+	height			:	Alloy.Globals.Styles.labelHeight,
+	color			:	Alloy.Globals.Styles.labelColor,
+	left			:	Alloy.Globals.Styles.labelLongLeft,
+	right           :   Alloy.Globals.Styles.labelLongRight,
+	textAlign		:	Alloy.Globals.Styles.labelTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+	
+}
+".formProperty":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Ti.UI.SIZE,
+	top				: 	"-28dp",
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	right			:	Alloy.Globals.Styles.inputRight,
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'},
+	color			:	'#555'
+}
+".formTextbox":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+".formLongTextbox":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.textboxLeft,
+	right 			:	Alloy.Globals.Styles.textboxRight,
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+".formTextarea":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+".formSwitch":{
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+}
+".formSwitchWithLongLabel":{
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	width			:	"20dp",
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	right			:	Alloy.Globals.Styles.rightSwitchLong,
+	left			:	Alloy.Globals.Styles.leftSwitchLong,
+}
+".formSwitchFloat": {
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	width			:	"20dp",
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	right			:	Alloy.Globals.Styles.formSwitchFloat_right,
+	left			:	Alloy.Globals.Styles.formSwitchFloat_left,
+}
+".formSelect":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	textAlign		:	"left",
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+".titleSelect":{
+	width			: 	Ti.UI.SIZE,
+	left			:	'5dp',
+	textAlign		:	Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+}
+".selected_category":{
+	height     		: 	"20dp",
+	left			:	'52dp',
+	right			:	'15dp',
+	top				:	"7dp",
+	color			:	"#aaa",
+	textAlign		:	Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font			:	{fontSize: '12dp', fontFamily: 'Arial'},
+}
+".iconSelect":{
+	width			:	'20dp',
+	height			:	'20dp',
+	right			:	"5dp",
+	top				:	'5dp',
+	backgroundImage	:	'images/icon_listItem.png',
+	backgroundRepeat:	false
+}
+".adressWrap":{
+	layout			:   'absolute',
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	top				: 	Alloy.Globals.Styles.inputUp,
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+".addressTextarea":{
+	width			:	'160dp',
+	height			: 	Alloy.Globals.Styles.inputAreaHeight,
+	top				:	'0dp',
+	left			:	'2dp',
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	color			:	Alloy.Globals.Styles.inputColor,
+	paddingLeft 	:	'5dp'
+}
+".getLocation":{
+	width			: 	'30dp',
+	height			: 	'30dp',
+	bottom			:	'0dp',
+	right			:	"0dp",
+	//right			:	Alloy.Globals.Styles.locationIconRight,
+	//left			:	Alloy.Globals.Styles.locationIconLeft,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg,
+	backgroundImage	: 	'images/icon_location.png',
+	backgroundRepeat: 	false
+}
+	//image select
+".imageSelectWrap":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Ti.UI.SIZE,
+	top				:	Alloy.Globals.Styles.inputUp,
+	left			:	Alloy.Globals.Styles.inputLeft,
+	borderColor		: 	'#ccc',
+	borderStyle		:	1,
+	borderWidth		: 	'1dp',
+	backgroundColor	: 	'#fff'
+}
+".imageSelect":{
+	height			: 	Ti.UI.SIZE,
+	top				:	'5dp',
+	left			:	'5dp'
+}
+".addPhoto":{
+	width			:	'56dp',
+	height			:	'56dp',
+	right			:	'5dp',
+	bottom			:	'5dp',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg,
+	backgroundImage	: 	"images/icon_gallery.png"
+}
+".tipForRemoveImage":{
+	width			: 	Ti.UI.FILL,
+	height			: 	'20dp',
+	bottom			:	'10dp',
+	textAlign		:	Alloy.Globals.Styles.imageSelectTipTextAlign,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '12dp'},
+	color			: 	'#555',
+}
+	// distance picker
+".distancePiker": {
+	layout			:	'horizontal',
+	width			:	'280dp',
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	top				: 	'-10dp',
+	bottom			:	'20dp',
+	left			:	'0dp',
+	borderColor		: 	'#ccc',
+	borderStyle		: 	1,
+	borderWidth		: 	'1dp',
+	backgroundColor	: 	'#fff',
+	backgroundImage	: 	"images/icon_horizontalPicker.png"
+}
+".distancePikerItem": {
+	width			: 	'65dp',
+	height			:	'30dp'
+}
+".distancePikerLabel": {
+	height			:	Alloy.Globals.Styles.inputHeight,
+	textAlign		:	'center',
+	color			:	'#000',
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+}
+".formImage":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	bottom			:	"40dp",
+	top				: 	Alloy.Globals.Styles.inputUp,
+	left			:	Alloy.Globals.Styles.inputLeft,
+}
+".formChangeImage":{
+	width			: 	'100dp',
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	left			:	Alloy.Globals.Styles.inputLeft,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '17dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".formChangeImage_company":{
+	width			: 	'100dp',
+	height			: 	Alloy.Globals.Styles.inputHeight,
+	left			:	Alloy.Globals.Styles.row_statusLbl_right,
+	right			:	Alloy.Globals.Styles.row_statusLbl_left,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '17dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+	
+}
+".formDeleteImage":{
+	width			: 	'30dp',
+	height			: 	'30dp',
+	bottom			:	'10dp',
+	top				: 	Alloy.Globals.Styles.inputUp,
+	left			:	Alloy.Globals.Styles.inputLeft,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg,
+	backgroundImage	: 	'images/icon_delete.png',
+	backgroundRepeat: 	false
+}
+".formDeleteImage_company": {
+	width			: 	'30dp',
+	height			: 	'30dp',
+	bottom			:	'10dp',
+	top				: 	Alloy.Globals.Styles.inputUp,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg,
+	backgroundImage	: 	'images/icon_delete.png',
+	backgroundRepeat: 	false,
+	left			:	Alloy.Globals.Styles.deleteLeft,
+	right			:	Alloy.Globals.Styles.deleteRight,
+}
+".formButton":{
+	width			: 	'120dp',
+	height			: 	'40dp',
+	bottom			:	'20dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".formButtonOfLabel":{
+	width			: 	'100dp',
+	height			: 	'40dp',
+	bottom			:	'20dp',
+	top				: 	Alloy.Globals.Styles.inputUp,
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".linkButton":{
+	width			: 	'180dp',
+	height			: 	'40dp',
+	bottom			:	'20dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".hor2SmallButtonsWrap":{
+	layout			:	"horizontal",
+	width			:	"280dp",
+	height			:	Ti.UI.SIZE,
+	textAlign		:	"center"
+}
+".smallHorButton":{
+	width			: 	'135dp',
+	height			: 	'30dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '16dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+".smallHorButton_align": {
+	left			: 	Alloy.Globals.Styles.smallHorButton_Left,
+	right			: 	Alloy.Globals.Styles.smallHorButton_Left
+}
+// PICKER
+".modalPickerBlock":{
+	 layout			:	"vertical",
+	 width			:	Ti.UI.FILL,
+	 height			:	Ti.UI.SIZE,
+	 bottom			:	"0"
+}
+".pickerWrap":{
+	 layout			:	"vertical", 
+	 width			:	Ti.UI.FILL,
+	 height			:	Ti.UI.SIZE
+}
+".picker":{
+	width			: 	Ti.UI.FILL
+}
+".pickerControls":{
+	width			:	Ti.UI.FILL,
+	height			:	'30dp',
+	layout			:	'horizontal'	
+}
+".pickerButton":{
+	width			:	Ti.UI.FILL,
+	height			:	'30dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '15dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+	
+}
+
+// CAMPAIGNS
+".imageSlider":{
+	width			: 	"280dp",
+	height			: 	"180dp",
+	left			: 	"0dp",
+	bottom			:	"10dp",
+	contenWidth		: 	"180dp",
+	borderColor		: 	'#ccc',
+	borderWidth		: 	'1dp',
+	backgroundColor	: 	"#fff"
+}
+
+".icon_sms":{
+	width			: 	"38dp",
+	height			: 	"38dp",
+	left			: 	"111dp",
+	top				:	"-60dp",
+	bottom			:	"20dp",
+	backgroundImage :	'images/icon_social_sms@2x.png',
+}
+
+".icon_email":{
+	width			: 	"38dp",
+	height			: 	"38dp",
+	left			: 	"106dp",
+	top				:	"-60dp",
+	bottom			:	"20dp",
+	backgroundImage : 	'images/icon_social_email@2x.png',
+}
+
+".icon_facebook":{
+	width			: 	"38dp",
+	height			: 	"38dp",
+	left			: 	"94dp",
+	top				:	"-60dp",
+	bottom			:	"20dp",
+	backgroundImage : 	'images/icon_social_facebook@2x.png',
+}
+
+".icon_twitter":{
+	width			: 	"38dp",
+	height			: 	"38dp",
+	left			: 	"103dp",
+	top				:	"-60dp",
+	bottom			:	"20dp",
+	backgroundImage : 	'images/icon_social_twitter@2x.png',
+}
+
+".icon_google":{
+	width			: 	"38dp",
+	height			: 	"38dp",
+	left			: 	"104dp",
+	top				:	"-60dp",
+	bottom			:	"20dp",
+	backgroundImage : 	'images/icon_social_google@2x.png',
+}
+".table_row": {
+	height: "1dp",
+	backgroundColor: "#d9d9d9",
+}
+".bottom_null": {
+	bottom: "0dp"
+}

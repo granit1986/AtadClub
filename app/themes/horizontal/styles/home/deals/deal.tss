@@ -1,0 +1,40 @@
+﻿"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+},
+"ScrollView": {
+	layout: 'vertical'
+}
+".pageTitle":{
+	top: '20dp',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+"#images":{
+	width: "180dp",
+	height: "180dp",
+	top: "20dp",
+	left: "70dp",
+	contenWidth: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+}
+
+".infoLbl":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+".dataLbl":{
+	top:"-25dp",
+	left: '110dp',
+	width: '180dp',
+	color: '#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}

@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="window" titleid="map">
+        <View id="mapview" ns="Alloy.Globals.Map" onComplete="setRegion"
+            animate="true" regionFit="true" userLocation="true"
+            mapType="Alloy.Globals.Map.STANDARD_TYPE" >
+     	</View>
+	</Window>
+</Alloy>

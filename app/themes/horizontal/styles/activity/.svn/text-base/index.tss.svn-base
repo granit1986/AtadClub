@@ -1,0 +1,8 @@
+"Window" : {
+	fullscreen:true,
+	backgroundColor:'#000',
+	opacity:0.2
+}
+"ActivityIndicator":{
+	style:Titanium.UI.iPhone.ActivityIndicatorStyle.BIG
+}

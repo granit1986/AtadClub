@@ -1,0 +1,37 @@
+".agreeVrap":{
+	height:"25dp",
+	bottom:"20dp",
+	top:"10dp",
+	layout:'absolute',
+}
+".agreeButton":{
+	left:  Alloy.Globals.Styles.row_statusLbl_left,
+	right:  Alloy.Globals.Styles.row_statusLbl_right,
+}
+".agreeLabel":{
+	left:  Alloy.Globals.Styles.agreeLabelLeft,
+	right:  Alloy.Globals.Styles.agreeLabelRight,
+	color			:	"#555",
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'}
+}
+".agreeSymbol":{
+	left:  Alloy.Globals.Styles.agreeSymbolLeft,
+	right:  Alloy.Globals.Styles.agreeSymbolRight,
+	color			:	"#555",
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'}
+}
+".agreeLink":{
+	left:   Alloy.Globals.Styles.agreeLinkLeft,
+	right:  Alloy.Globals.Styles.agreeLinkRight,
+	color			:	"#00accb",
+	font			:	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'}
+}
+".formDeleteImage": {
+	left:  Alloy.Globals.Styles.labelLeft,
+	right: Alloy.Globals.Styles.deleteRight,
+}
+".formDeleteImage[if=Alloy.Globals.isHebrew]":{
+	left:  Alloy.Globals.Styles.row_statusLbl_right,
+	right: Alloy.Globals.Styles.row_statusLbl_left,
+}
+

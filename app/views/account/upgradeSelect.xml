@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="window" titleid="upgrade_account" onClose="close">
+		<ScrollView id="scroll" layout="vertical">
+			<Button class="membership_gold_private" onClick="goldPrivateClick" />
+			<Button class="membership_silver_business" onClick="silverClick" />
+			<Button class="membership_gold_business" onClick="goldClick" />
+		</ScrollView>
+	</Window>
+</Alloy>

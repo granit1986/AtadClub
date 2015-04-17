@@ -1,0 +1,11 @@
+".article": {
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	width: "240dp",
+	left: Alloy.Globals.Styles.investors_alignLeft,
+	right: Alloy.Globals.Styles.investors_alignRight,
+}
+".investor_img": {
+	width: "280dp",
+	height: "280dp",
+	top: "30dp"
+}

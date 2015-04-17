@@ -1,0 +1,20 @@
+/*,"Window": {
+	backgroundColor: "#fff"
+}
+
+"#winHome":{
+	title: L('win_home')
+},
+
+"#winAccount":{
+	title: L('win_account')
+}
+*/
+"Window": {
+	backgroundImage: 'images/background.png'
+}
+"TableViewRow":{
+	top: '20dp',
+	bottom: '20dp',
+	backgroundColor: "#00ffffff"
+}

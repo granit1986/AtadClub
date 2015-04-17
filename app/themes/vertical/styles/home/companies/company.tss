@@ -1,0 +1,72 @@
+
+"ScrollView": {
+	layout: 'vertical'
+}
+".image":{
+	width: "80dp",
+	height: "80dp",
+	top: "20dp",
+	left: Alloy.Globals.Styles.account_imageLeft,
+	right: Alloy.Globals.Styles.account_imageRight,
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+}
+".pageTitle":{
+	height: '80dp',
+	top: '-80dp',
+	left: Alloy.Globals.Styles.titleLbl_left,
+	right: Alloy.Globals.Styles.titleLbl_right,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+"#priceBtn": {
+	top: '10dp',
+	left: '70dp',
+	height: '30dp',
+	width: '180dp',
+	color:'#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	backgroundColor: '#007aff'
+}
+".infoLbl": {
+	top: '20dp',
+	left: Alloy.Globals.Styles.account_imageLeft,
+	right: Alloy.Globals.Styles.account_imageRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	color:'#007aff',
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoVal": {
+	left: Alloy.Globals.Styles.account_imageLeft,
+	right: Alloy.Globals.Styles.account_imageRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	color:'#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoBtn": {
+	bottom: '20dp',
+	height: '30dp',
+	width: '110dp',
+	color:'#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	backgroundColor: '#007aff'
+}
+"#productsBtn": {
+	top: "20dp",
+	left: Alloy.Globals.Styles.account_imageLeft,
+	right: Alloy.Globals.Styles.account_imageRight,
+}
+"#dealsBtn": {
+	top: "-50dp",
+	left: "180dp"
+}
+
+

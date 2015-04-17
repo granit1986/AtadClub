@@ -1,0 +1,14 @@
+<Alloy>
+	<TableViewRow onClick="onClick" hasChild="true" layout="absolute" id="row">
+
+		<View id="advStatusWrap" height="0" top="0"></View>
+		<View id="advInfoWrap" layout="absolute" height="Ti.UI.SIZE" top="0">
+			<Widget id="advImg" src="nl.fokkezb.cachedImageView"/>
+			<Label id="titleLbl" ></Label>
+			<Label id="companyLbl" ></Label>
+			<Label id="distanceLbl" ></Label>
+			<Label id="priceLbl" ></Label>
+			<Label id="statusLbl"  visible="false"></Label>
+		</View>
+	</TableViewRow>
+</Alloy>

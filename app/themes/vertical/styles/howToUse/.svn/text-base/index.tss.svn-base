@@ -1,0 +1,21 @@
+/*"Window": {
+	backgroundImage: 'images/background.png'
+}
+"WebView": {
+	top: '10dp',
+	width: '95%',
+	backgroundColor: 'transparent',
+}
+*/
+"Window": {
+	backgroundImage: 'images/background.png',
+	layout : 'vertucal'
+}
+"Label":{
+	top: '10dp',
+	left: '10dp',
+	right: '10dp',
+	color: '#000',
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}	
+}

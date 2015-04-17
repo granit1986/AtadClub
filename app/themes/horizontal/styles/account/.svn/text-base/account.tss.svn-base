@@ -1,0 +1,16 @@
+"View": {
+	layout: 'vertical',
+	backgroundImage: "images/background.png"
+}
+"Button":{
+	width: '60%',
+	height: '40dp',
+	top: '20dp',
+	left: '20%',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}

@@ -1,0 +1,26 @@
+"TableViewRow": {
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY
+}
+"#toUser":{
+	width: "180dp",
+	height: "20dp",
+	top: "5dp",
+	bottom: "15dp",
+	left: Alloy.Globals.Styles.row_statusWrapLeft,
+	right: Alloy.Globals.Styles.row_statusWrapRight,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+".badge":{
+    left: Alloy.Globals.Styles.message_right,
+	right: Alloy.Globals.Styles.message_left,
+    top: 10,
+    color: "#FFFFFF",
+    textAlign: "center",
+    font:{fontSize:14},
+    backgroundColor:'#e83038',
+    borderRadius: 10,
+    height: 20,
+    width: 20
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="choose_deals" onClose="close">
+		<TableView id="deals" dataCollection="deals" separatorColor="transparent" dataTransform="transform" id="deals">
+			<Require src="account/reports/row" />
+       </TableView>
+	</Window>
+</Alloy>

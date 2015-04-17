@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" titleid="black_list" fullscreen="true" >
+		<TableView id="blackList" dataCollection="blackList" separatorColor="#ccc" editable="true" onDelete="removeSupplier">
+			<Require src="account/blackList/row" />
+		</TableView>
+	</Window>
+</Alloy>

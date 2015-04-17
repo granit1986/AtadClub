@@ -1,0 +1,8 @@
+"Label":{
+	top: '10dp',
+	left: '10dp',
+	right: '10dp',
+	color: '#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT	
+}

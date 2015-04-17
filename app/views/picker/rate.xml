@@ -1,0 +1,25 @@
+<Alloy>
+	<Window onClose="onClose" fullscreen="true" id="ratewin" titleid="deal_rating">
+		<ScrollView class="content">
+			<View class="space20"></View>
+			
+			<Label class="formLabel" height="30dp" id="ratingLbl" textid="rating"></Label>		
+			<View class="formProperty" id="rating">
+				<View class="ratingWrap">
+					<View class="rating" id="rating">
+						<Button class="rateBtn" id="rate1" onClick="onRate"></Button>
+						<Button class="rateBtn" id="rate2" onClick="onRate"></Button>
+						<Button class="rateBtn" id="rate3" onClick="onRate"></Button>
+						<Button class="rateBtn" id="rate4" onClick="onRate"></Button>
+						<Button class="rateBtn" id="rate5" onClick="onRate"></Button>
+					</View>
+				</View>
+			</View>
+			
+			<View class="space20"></View>
+			
+			<Button class="formButton"  id="goRate" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd" titleid="send"></Button>		
+			
+		</ScrollView>
+	</Window>
+</Alloy>

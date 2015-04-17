@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="window" titleid="upgrade_account" >
+		<View class="content" height="180dp" id="scroll" layout="vertical">
+		</View>
+		<View class="content" id="scrollDescription">
+		</View>
+	</Window>
+</Alloy>

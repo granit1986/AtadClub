@@ -1,0 +1,18 @@
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+".formProperty":{
+	width			:	Alloy.Globals.Styles.inputWidth,
+	height			: 	Ti.UI.SIZE,
+	top				: 	"-28dp",
+	bottom			:	'10dp',
+	left			:	Alloy.Globals.Styles.inputLeft,
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'},
+	color			:	'#555'
+}

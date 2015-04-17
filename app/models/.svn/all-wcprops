@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/atadclub/!svn/ver/442/branches/v0.2/app/models
+END
+report.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/report.js
+END
+priceOffer.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/priceOffer.js
+END
+reset.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/reset.js
+END
+deal.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/deal.js
+END
+banner.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/banner.js
+END
+notify.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/notify.js
+END
+companyDeal.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/companyDeal.js
+END
+message.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/message.js
+END
+companyWithDeals.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/companyWithDeals.js
+END
+signin.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/signin.js
+END
+contactUs.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/atadclub/!svn/ver/429/branches/v0.2/app/models/contactUs.js
+END
+subCategory.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/subCategory.js
+END
+company.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/392/branches/v0.2/app/models/company.js
+END
+blackList.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/blackList.js
+END
+offer.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/offer.js
+END
+signup.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/400/branches/v0.2/app/models/signup.js
+END
+chat.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/chat.js
+END
+similarDeal.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/similarDeal.js
+END
+tracking.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/415/branches/v0.2/app/models/tracking.js
+END
+maxDealRenews.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/maxDealRenews.js
+END
+publicDeal.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/publicDeal.js
+END
+publicCompany.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/publicCompany.js
+END
+advert.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/advert.js
+END
+signout.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/signout.js
+END
+supplierProducts.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/supplierProducts.js
+END
+product.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/396/branches/v0.2/app/models/product.js
+END
+homeDeal.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/homeDeal.js
+END
+profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/profile.js
+END
+complain.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/complain.js
+END
+payment.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/payment.js
+END
+_deal_._js_
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/_deal_._js_
+END
+counts.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/counts.js
+END
+log.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/atadclub/!svn/ver/442/branches/v0.2/app/models/log.js
+END
+facebooklogin.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/facebooklogin.js
+END
+category.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/category.js
+END
+publicAdvert.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/publicAdvert.js
+END
+dealRaiting.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/dealRaiting.js
+END
+getVoucher.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/atadclub/!svn/ver/384/branches/v0.2/app/models/getVoucher.js
+END

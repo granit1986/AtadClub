@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="my_answers" >
+		<TableView separatorColor="transparent" dataCollection="chats" dataTransform="transform" editable="true" onDelete="removeChat" id="chats">
+			<Require src="account/answers/row"></Require>
+		</TableView>
+	</Window>
+</Alloy>

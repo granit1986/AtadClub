@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="index" fullscreen="true" titleid="all_companies_in_location" onOpen="open" >
+    	<View>
+			<TableView id="companies" separatorColor="transparent" dataCollection="companiesWithDeals" dataTransform="transform">
+				<Require src="home/companies/row" />
+	       </TableView>
+	    </View>
+    </Window>
+</Alloy>

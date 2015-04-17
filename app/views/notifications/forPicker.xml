@@ -1,0 +1,18 @@
+<Alloy>
+	<!--<Window fullscreen="true" onClose="onClose">
+		<Picker id="picker" selectionIndicator="true" onChange="onChange" >
+			<PickerRow value="1" text="L('new_deals')"><Label textid="new_deals"></Label></PickerRow>	
+			<PickerRow value="2" text="L('all_deals')" ><Label textid="all_deals"></Label></PickerRow>	
+		</Picker>
+</Window>-->
+	<View id="pickerContent" class="pickerWrap">
+		<View class="pickerControls">
+			<Button class="pickerButton" onClick="onClose" titleid="done"></Button>
+		</View>
+		<Picker class="picker" id="picker" selectionIndicator="true" onChange="onChange" >
+			<PickerRow value="1" text="L('new_deals')"><Label textid="new_deals"></Label></PickerRow>	
+			<PickerRow value="2" text="L('all_deals')" ><Label textid="all_deals"></Label></PickerRow>	
+		</Picker>
+	</View>
+</Alloy>
+ 

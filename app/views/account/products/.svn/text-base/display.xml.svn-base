@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="window" fullscreen="true" onOpen="open">
+		<ScrollView class="content">
+			
+			<View class="space20"></View>
+			
+			<ScrollableView class="imageSlider" id="images" showPagingControl="true"></ScrollableView>
+		
+			<View class="space20"></View>
+			
+			<Label class="formLabel bottom_null" height="20dp" id="titleLbl" textid="title"></Label>
+			<Label id="title" class="formProperty bottom_null"></Label>
+			<View class="table_row"></View>
+			
+			<Label class="formLabel bottom_null" id="priceLbl" textid="price"></Label>
+			<Label id="price" class="formProperty bottom_null"></Label>
+			<View class="table_row"></View>
+			
+			<Label class="formLabel bottom_null" id="descriptionLbl" textid="description"></Label>
+			<Label id="description" class="formProperty bottom_null"></Label>
+			
+		</ScrollView>
+	</Window>
+</Alloy>

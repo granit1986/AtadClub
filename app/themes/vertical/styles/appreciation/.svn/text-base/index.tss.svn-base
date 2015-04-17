@@ -1,0 +1,34 @@
+".donationsWrap":{
+	layout:'absolute',
+	top:'20dp',
+	height:Ti.UI.SIZE
+}
+".donation":{
+	layout:'vertical',
+	top:0,
+	textAlign: Alloy.Globals.Styles.titleLbl_textAlign,
+	height:Ti.UI.SIZE
+}
+"#donateS":{
+	width:"60dp",
+	left:"10dp"
+}
+"#donateM":{
+	width:"60dp",
+	left:"110dp"
+}
+"#donateL":{
+	width:"80dp",
+	left:"220dp"
+}
+".donation_title":{
+	width:Ti.UI.FILL,
+	heigth:'20dp',
+	top:'0dp',
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font			: 	{fontSize: '19dp', fontFamily: 'Avenir Next Condensed'},
+	color			:	'#000'
+}
+"imageView":{
+	top:"10dp"
+}

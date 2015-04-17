@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="window" layout="absolute" titleid="best_deals">
+		<ScrollView class="content" >
+			<View class="space20"></View>
+			
+			<Label class="formLabel" textid="deals"></Label>
+			<Button  class="formSelect" id="deals" onClick="openDeals" >
+					<Label class="titleSelect" textid="select_category"></Label>
+					<Label class="selected_category" id="selectedCategories"></Label>
+					<Label class="iconSelect"></Label>
+			</Button>
+			<!-- <Button class="linkButton" height="30" bottom="10" left="90" width="190" top="-30"id="deals" titleid="choose_deals" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button> -->
+			
+			<Label class="formLabel" textid="start_date"></Label>
+			<TextField class="formTextbox" id="startDate" onClick="setStartDate" enabled="false"></TextField>
+			
+			<Label class="formLabel"  textid="finish_date"></Label>
+			<TextField class="formTextbox" id="endDate" onClick="setEndDate" enabled="false"></TextField>
+			
+			<View class="space20"></View>
+			
+			<Button class="linkButton" id="send" titleid="send_to_email" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

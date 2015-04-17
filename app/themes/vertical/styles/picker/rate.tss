@@ -1,0 +1,17 @@
+".ratingWrap":{
+	width: Ti.UI.FILL,
+	height: "30dp"
+}
+".rating":{
+	layout: 'horizontal',
+	width: "190dp",
+	height: "30dp",
+	left: "0",
+	top: "0",
+	backgroundRepear: false
+}
+".rateBtn":{
+	width: "38dp",
+	height: "30dp",
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+}

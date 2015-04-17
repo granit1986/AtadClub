@@ -1,0 +1,94 @@
+".passwordError":{
+	width			: 	Ti.UI.FILL,
+	height			: 	'15dp',
+	textAlign		:	Alloy.Globals.Styles.imageSelectTipTextAlign,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '16dp'},
+	color			: 	'#555',
+}
+".resetPassword":{
+	width			: 	Ti.UI.FILL,
+	height			: 	'15dp',
+	textAlign		:	Alloy.Globals.Styles.imageSelectTipTextAlign,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '16dp'},
+	color			: 	'#00accb',
+}
+/*"ScrollView": {
+	backgroundImage: 'images/background.png'
+}
+
+"#pageTitle":{
+	top: '20dp',
+	height: '50dp',
+	textid: 'shouldSignin',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"#loginLbl": {
+	top: '30dp',
+	textid: 'email'
+}
+"#passwordLbl": {
+	top: '70dp',
+	textid: 'password'
+}
+
+"TextField":{
+	width: '180dp',
+	height: '30dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+}
+"#login": {
+	top: '30dp',
+	hintText: L('email'),
+	keyboardType: Ti.UI.KEYBOARD_EMAIL
+}
+"#password": {
+	top: '70dp',
+	hintText: L('password')
+}
+
+"Button":{
+	width: '100dp',
+	height: '40dp',
+	left: '110dp',
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font: {fontFamily: 'Avenir Next Condensed', fontSize: '20dp'},
+	color: '#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	backgroundColor: '#007aff'
+}
+"#signIn": {
+	top: '110dp',
+	titleid: 'signin'
+}
+"#signUp": {
+	top: '190dp',
+	titleid: 'signup'
+}
+
+"#orSignup": {
+	top: '160dp',
+	height: '20dp',
+	textid:'orSignup',
+	font: {fontSize: '10dp'},
+	color: '#555',
+	verticalAlign: 'center'
+}
+*/

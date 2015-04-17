@@ -1,0 +1,20 @@
+"Window": {
+	layout: 'horizontal',
+	backgroundImage: 'images/background.png'
+}
+"TableView": {
+	layout: 'vertical',
+	backgroundColor: '#00ffffff',
+	top: "40dp",
+	bottom:'5dp'
+}
+"#sortsLbl": {top : '10dp' }
+"#sorts": {top : '10dp', left: '110dp' }
+
+".formLabel":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}

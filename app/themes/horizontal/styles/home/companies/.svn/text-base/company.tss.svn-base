@@ -1,0 +1,70 @@
+"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+},
+"ScrollView": {
+	layout: 'vertical'
+}
+"#image":{
+	width: "80dp",
+	height: "80dp",
+	top: "20dp",
+	left: "30dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+}
+".pageTitle":{
+	height: '80dp',
+	top: '-80dp',
+	left: '130dp',
+	right: '30dp',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+"#priceBtn": {
+	top: '10dp',
+	left: '70dp',
+	height: '30dp',
+	width: '180dp',
+	color:'#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	backgroundColor: '#007aff'
+}
+".infoLbl": {
+	top: '20dp',
+	right: '30dp',
+	left: '30dp',
+	color:'#007aff',
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoVal": {
+	right: '30dp',
+	left: '30dp',
+	color:'#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoBtn": {
+	bottom: '20dp',
+	height: '30dp',
+	width: '110dp',
+	color:'#fff',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	backgroundColor: '#007aff'
+}
+"#productsBtn": {
+	top: "20dp",
+	left: "30dp"
+}
+"#dealsBtn": {
+	top: "-50dp",
+	left: "180dp"
+}
+
+

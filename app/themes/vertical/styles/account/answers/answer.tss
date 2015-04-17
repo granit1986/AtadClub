@@ -1,0 +1,68 @@
+"#window":{
+	layout: "absolute",
+	height: Ti.UI.FILL
+}
+
+'#messages':{
+	width: Ti.UI.FILL,
+	top:'3dp',
+	bottom:"50dp"
+}
+".messageForm":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	bottom: 0,
+	backgroundColor: '#eee'
+}
+"#answer":{
+	height: Ti.UI.SIZE,
+	width: '200dp',
+	left:'10dp',
+	top:'10dp',
+	bottom:'10dp',
+	textAlign		:	Alloy.Globals.Styles.inputTextAlign,
+	font			: 	{fontSize: '15dp', fontFamily: 'Arial'},
+	backgroundColor	:	'#fff',
+	color			:	Alloy.Globals.Styles.inputColor
+}
+"#send":{
+	width:'90dp',
+	height:'32dp',
+	right:'10dp',
+	bottom:'10dp',
+	style			: 	Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '18dp'},
+	color			: 	'#fff',
+	textAlign		: 	'center',
+	verticalAlign	: 	'center',
+	backgroundColor	: 	Alloy.Globals.Styles.buttonBg
+}
+/*
+".infoLbl":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+".infoVal":{
+	top:'-30dp',
+	left: '110dp',
+	width: '180dp',
+	height: '30dp',
+	color: '#555',
+	verticalAlign: 'top',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+"TextArea":{
+	top: '-30dp',
+	width: '180dp',
+	height: '70dp',
+	right: '30dp',
+	borderColor: '#ccc',
+	borderStyle: 1,
+	borderWidth: '1dp',
+	font: {fontSize: '13dp', fontFamily: 'Arial'},
+	backgroundColor: '#fff'
+	
+}*/

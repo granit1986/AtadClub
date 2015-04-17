@@ -1,0 +1,44 @@
+"TableViewRow":{
+	backgroundColor: "#00ffffff",
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+".account_label":{
+	width: "180dp",
+	height: "20dp",
+	top: "15dp",
+	left: Alloy.Globals.Styles.account_labelLeft,
+	right: Alloy.Globals.Styles.account_labelRight,
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#007aff'
+}
+"#dealImg":{
+	width: "60dp",
+	height: "60dp",
+	left: "30dp",
+	top: "15dp",
+	bottom: "15dp",
+	borderRadius: "30dp",
+	backgroundColor: "#fff"
+}
+"#companyLbl":{
+	width: "180dp",
+	height: "20dp",
+	top: "35dp",
+	left: "110dp",
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#distanceLbl":{
+	height: "20dp",
+	top: "55dp",
+	left: "110dp",
+	font: {fontSize: '12dp', fontFamily: 'Avenir Next Condensed'},
+	color: '#555'
+}
+"#priceLbl":{
+	height: "20dp",
+	top: "50dp",
+	left: "110dp",
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062"
+}

@@ -1,0 +1,58 @@
+<Alloy>
+	<Window id="window" fullscreen="true" onClose="onClose" onOpen="open"  titleid="add_new_advert" layout="absolute" onClick="blur">
+		<ScrollView class="form" top="0">
+			
+			<View class="space20"></View>
+			
+			
+			<Label class="formLabel" id="categoriesLbl" textid="categories" ></Label>
+			<View  class="formSelect" id="categories" onClick="categories" >
+				<Label class="titleSelect" textid="select_category"></Label>
+				<Label class="selected_category" id="selectedCategories"></Label>
+				<Label class="iconSelect"></Label>
+			</View>
+	
+			<Label class="formLabel" id="titleLbl" textid="title"></Label>
+			<TextField class="formTextbox" id="title" onFocus="focus"></TextField>
+	
+			<Label class="formLabel" id="priceLbl" textid="price"></Label>
+			<TextField class="formTextbox" id="price" keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD" onFocus="focus"></TextField>
+	
+			<Label class="formLabel" id="descriptionLbl" textid="description"></Label>
+			<TextArea class="formTextarea" id="description" suppressReturn="false" returnKeyType="Ti.UI.RETURNKEY_NEXT" onFocus="focus"></TextArea>
+	
+			<Label class="formLabel" id="adressLbl" textid="address"></Label>
+			<View class="adressWrap">
+				<TextField class="addressTextarea" id="address" onReturn="search" returnKeyType="Ti.UI.RETURNKEY_SEARCH" onFocus="focus">
+				</TextField>
+				<Button class="getLocation" id="customLocation" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			</View>
+			
+			<!--<SearchBar id="address" hintText="Enter Adress" class="formTextbox" onReturn="search">
+				<Button class="getLocation" id="customLocation" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</SearchBar>-->
+	
+			<Label class="formLabel" id="imageLbl" textid="images"></Label>
+			<View class="imageSelectWrap">
+				<View class="imageSelect" id="images" layout="horizontal" onClick="onClickImages" >
+					<Button class="addPhoto" id="addPhoto" onClick="addPhoto"></Button>
+				</View>	
+			</View>
+			<Label class="tipForRemoveImage" id="howToDeleteImageLbl" textid="tap_to_delete_image" visible="false"></Label>
+			
+			
+			<Label class="formLabel" id="switchLbl" textid="active"></Label>
+			<Switch class="formSwitch" id="switch_" value="true"></Switch>
+			
+			
+			<Label class="formLabel" id="itemIsLoad" textid="itemIsLoad" visible="false"></Label> 
+			
+				    
+			<Button class="formButton" titleid="add_advert_button" id="button" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formButton" titleid="cancel" id="cancel_button" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formButton" titleid="delete_advert_button" id="delete_button" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+
+</Alloy>

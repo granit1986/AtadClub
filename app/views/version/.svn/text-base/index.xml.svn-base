@@ -1,0 +1,7 @@
+<Alloy>
+	<Window fullscreen="true">
+		<View class="space20"></View>
+		<Label class="formLabel" id="categoryLbl" textid="version"></Label>
+		<Label class="formProperty" id="version"></Label>
+	</Window>
+</Alloy>

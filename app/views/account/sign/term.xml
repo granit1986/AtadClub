@@ -1,0 +1,7 @@
+<Alloy>
+	<Window fullscreen="true" titleid="terms" id="window">
+		<ScrollView>
+			<Label textid="terms_text"></Label>			
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,31 @@
+<Alloy>
+	<Window id="window" fullscreen="true" titleid="buy_advertisement" layout="absolute" onClick="blur">
+		<ScrollView class="form" top="0">
+			
+			<Label class="mainTitle" textid="buyBanner_title"></Label>
+			
+			<Label class="formLabel" id='countryLbl' textid="country"></Label>
+			<TextField class="formTextbox" id='country' onFocus="focus"></TextField>
+
+			<Label class="formLabel" id='cityLbl' textid="city"></Label>
+			<TextField class="formTextbox" id='city' onFocus="focus"></TextField>		
+
+			<Label class="formLabel" id='streetLbl' textid="street"></Label>
+			<TextField class="formTextbox" id='street' onFocus="focus"></TextField>		
+
+			<Label class="formLabel" id='houseLbl' textid="house"></Label>
+			<TextField class="formTextbox" id='house' onFocus="focus"></TextField>
+			
+			<Label class="formLabel" id="imageLbl" textid="image"></Label>
+			<ImageView class="formImage" id="imageView" height="0" bottom="0" visible="false"></ImageView>
+			<Button class="formChangeImage" id="changeImage" titleid="add" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			<Button class="formDeleteImage" id="deleteImage" visible="false" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>		
+			
+			<Button class="formButton" id="sendBtn" titleid="send" onTouchstart="buttonTouchStart" onTouchend="buttonTouchEnd"></Button>
+			
+			<Label  class="article" left="0" right="0" top="0" textid="buy_banner_text"></Label>
+			<View class="space20"></View>
+		</ScrollView>
+		<View class="modalPickerBlock" id="pickerWrap"></View>
+	</Window>
+</Alloy>

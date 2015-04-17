@@ -1,0 +1,182 @@
+﻿".hor2SmallButtonsWrap": {
+	bottom: "5dp"
+}
+".smallHorButton": {
+	left: Alloy.Globals.Styles.smallHorButton_Left,
+	right: Alloy.Globals.Styles.smallHorButton_Right,
+}
+// ".campaignRatingWrap":{
+	// width: Ti.UI.FILL,
+	// height: "30dp",
+	// layout: "absolute"
+// }
+".campaignRating":{
+	width: "125dp",
+	height: "23dp",
+	left: Alloy.Globals.Styles.campaingRating_left,
+	right: Alloy.Globals.Styles.campaingRating_right,
+	top: "2dp",
+	backgroundRepeat: false
+}
+".campaignRatingVoted":{
+	top: "7dp",
+	left:	Alloy.Globals.Styles.campaingRatingVoted_left,
+	right:	Alloy.Globals.Styles.campaingRatingVoted_right,
+	font			: 	{fontFamily: 'Avenir Next Condensed', fontSize: '13dp'},
+	color			: 	'#555',
+}
+"#mapImage":{
+	//top:"20dp",
+	bottom: "10dp",
+	width: "280dp"
+}
+
+".lightgray":{
+	color: "#a1a1a1"
+}
+
+".formProperty_category":{
+	width			:	'280dp',
+	height			: 	Ti.UI.SIZE,
+	bottom			:	'10dp',
+	left			:	'0dp',
+	textAlign		:	'center',
+	font			: 	{fontSize: '17dp', fontFamily: 'Avenir Next Condensed'},
+}
+
+".priceLabel":{
+	height: "20dp",
+	left: "0dp",
+	width:	"65dp",
+	top: "20dp",
+	layout: 'horisontal',
+	right: "0dp",
+}
+".dealtypeLabelMargin": {
+	height: Ti.UI.SIZE,
+	left: Alloy.Globals.Styles.priceLeft,
+	right: Alloy.Globals.Styles.priceRight,
+}
+".price":{
+	height: Ti.UI.SIZE,
+	left: Alloy.Globals.Styles.priceLeft,
+	right: Alloy.Globals.Styles.priceRight,
+	font: {fontSize: '20dp', fontFamily: 'Avenir Next Condensed'},
+	color: "#a80062",
+	width:	"100dp",
+	layout: 'horisontal',
+	bottom: "0dp",
+}
+".formLabel": {
+	bottom: "0dp",
+}
+".formProperty": {
+	bottom: "0dp",
+}
+".dealtypeLabel":{
+	height: "20dp",
+	left: Alloy.Globals.Styles.dealtypeLabelLeft,
+	width:	"60dp",
+	right: Alloy.Globals.Styles.dealtypeLabelRight,
+	layout: 'horisontal',
+	top: "-27dp",
+}
+
+".dealtype":{
+	height: "20dp",
+	left: 	Alloy.Globals.Styles.dealtypeLeft,
+	right: 	Alloy.Globals.Styles.dealtypeRight,
+	width:	"50dp",
+	layout: 'horisontal',
+	top: "-20dp",
+}
+
+".complainLabelCount": {
+	height: "30dp",
+	width: "20dp",
+	left: Alloy.Globals.Styles.complainCountLeft,
+	right: Alloy.Globals.Styles.complainCountRight,
+	top: Alloy.Globals.Styles.complainLabelTop
+}
+
+".complainLabel": {
+	height: "30dp",
+	width: Ti.UI.SIZE,
+	textAlign: "left",
+	left: Alloy.Globals.Styles.complainLabelLeft,
+	right: Alloy.Globals.Styles.complainLabelRight,
+}
+
+".ratingCenter": {
+	left: Alloy.Globals.Styles.ratingCenter,
+}
+".ratingVotedCenter": {	
+	left: Alloy.Globals.Styles.ratingVotedCenter,
+}
+".table_row": {
+	height: "1dp",
+	backgroundColor: "#d9d9d9",
+}
+
+// ".complainsCountCenter": {
+	// left: Alloy.Globals.Styles.complainsCountCenter_left,
+	// right: Alloy.Globals.Styles.complainsCountCenter_right
+// }
+// 
+// ".complainsLabelCenter": {
+	// left: Alloy.Globals.Styles.complainsLabelCenter_left,
+	// right: Alloy.Globals.Styles.complainsLabelCenter_right
+// }
+
+/*"Window": {
+	layout: 'vertical',
+	backgroundImage: 'images/background.png'
+},
+"ScrollView": {
+	layout: 'vertical'
+}
+".pageTitle":{
+	top: '20dp',
+	color:'#a80062',
+	textAlign: 'center',
+	verticalAlign: 'center',
+	font: {fontSize: '20dp', fontFamily: 'Georgia'}
+}
+
+
+"#mapImage":{
+	width: "180dp",
+	height: "180dp",
+	top: "100dp",
+	left: "70dp",
+	contenWidth: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+}
+
+"#images":{
+	width: "180dp",
+	height: "180dp",
+	top: "20dp",
+	left: "70dp",
+	contenWidth: "180dp",
+	borderColor: '#ccc',
+	borderWidth: '1dp',
+	backgroundColor: "#fff"
+}
+
+".infoLbl":{
+	left: '30dp',
+	width: '80dp',
+	height: '30dp',
+	color: '#007aff',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}
+
+".dataLbl":{
+	top:"-25dp",
+	left: '110dp',
+	width: '180dp',
+	color: '#555',
+	font: {fontSize: '15dp', fontFamily: 'Avenir Next Condensed'}
+}*/
